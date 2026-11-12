@@ -1,0 +1,10 @@
+{
+  "repository": "nvidia/mit-b0",
+  "revision": "80983a413c30d36a39c20203974ae7807835e2b4",
+  "sha256": {
+    "config.json": "e2378ac7c7a6981d6bdd1d9ccf29b611264c382afce89c561f39c9291164ff91",
+    "preprocessor_config.json": "d96ab2cb112985c19d5ea32f1d1f2369104fc78b1379f5ce26e33ca8646202a7",
+    "pytorch_model.bin": "4af8348c2a802bf76115d34797ff5ce1d9f110bb8593c22d9b66d8bd7fa227fc",
+    "README.md": "70dd05617d227fea8bab2dba202dbccd2a250fbb8279798b9005eb231c87556e"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "reason": "Replace in-memory batch548 with bounded directory loader batch8, same setting for every model",
+  "reruns": [
+    {
+      "name": "baseline-common",
+      "returncode": 0,
+      "seconds": 53.44177031517029
+    },
+    {
+      "name": "trained-common",
+      "returncode": 0,
+      "seconds": 57.077112674713135
+    },
+    {
+      "name": "trained-full",
+      "returncode": 0,
+      "seconds": 43.112751483917236
+    }
+  ]
+}

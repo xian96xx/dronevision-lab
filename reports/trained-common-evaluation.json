@@ -1,0 +1,163 @@
+{
+  "weights": "runs/det-full-50/weights/best.pt",
+  "weights_sha256": "de5a0c292106041f44e88664aab625fefbe2e91eb9a1d3cecb5c26eca2af5f06",
+  "ontology": "common",
+  "end_to_end_head": true,
+  "prediction_batch_size": 8,
+  "images": 548,
+  "classes": [
+    "human",
+    "bicycle",
+    "car",
+    "truck",
+    "bus",
+    "motorcycle"
+  ],
+  "prediction_class_mapping": {
+    "0": 0,
+    "1": 0,
+    "2": 1,
+    "3": 2,
+    "5": 3,
+    "8": 4,
+    "9": 5
+  },
+  "gt_class_mapping": {
+    "0": 0,
+    "1": 0,
+    "2": 1,
+    "3": 2,
+    "5": 3,
+    "8": 4,
+    "9": 5
+  },
+  "mAP50": 0.3764474024958227,
+  "mAP50_95": 0.20473487012155359,
+  "AP_small_native_area_lt1024": 0.10150693058902205,
+  "micro_precision_conf025_iou050": 0.7770281299308994,
+  "micro_recall_conf025_iou050": 0.4056295623029511,
+  "per_class": [
+    {
+      "class": "human",
+      "AP50": 0.37993683457933364,
+      "AP50_95": 0.14390715230909182,
+      "precision_conf025_iou050": 0.7382154882154882,
+      "recall_conf025_iou050": 0.2511274965996134,
+      "tp": 3508,
+      "fp": 1244,
+      "fn": 10461
+    },
+    {
+      "class": "bicycle",
+      "AP50": 0.08183899712863292,
+      "AP50_95": 0.030189669561876107,
+      "precision_conf025_iou050": 0.39,
+      "recall_conf025_iou050": 0.06060606060606061,
+      "tp": 78,
+      "fp": 122,
+      "fn": 1209
+    },
+    {
+      "class": "car",
+      "AP50": 0.7442992904376935,
+      "AP50_95": 0.4777408539547924,
+      "precision_conf025_iou050": 0.8112227225493592,
+      "recall_conf025_iou050": 0.6660978384527872,
+      "tp": 9368,
+      "fp": 2180,
+      "fn": 4696
+    },
+    {
+      "class": "truck",
+      "AP50": 0.28449250354413985,
+      "AP50_95": 0.1782768443747986,
+      "precision_conf025_iou050": 0.654320987654321,
+      "recall_conf025_iou050": 0.212,
+      "tp": 159,
+      "fp": 84,
+      "fn": 591
+    },
+    {
+      "class": "bus",
+      "AP50": 0.39777717840179905,
+      "AP50_95": 0.2570661756687086,
+      "precision_conf025_iou050": 0.6064516129032258,
+      "recall_conf025_iou050": 0.3745019920318725,
+      "tp": 94,
+      "fp": 61,
+      "fn": 157
+    },
+    {
+      "class": "motorcycle",
+      "AP50": 0.3703396108833372,
+      "AP50_95": 0.1412285248600538,
+      "precision_conf025_iou050": 0.725185685347738,
+      "recall_conf025_iou050": 0.21981170691772411,
+      "tp": 1074,
+      "fp": 407,
+      "fn": 3812
+    }
+  ],
+  "protocol": "local COCO-style 101-point AP; IoU .50:.95; maxDet=500; img=640; conf=.001; NMS iou=.7; ignored/unsupported GT represented as per-category crowd boxes; P/R greedy conf=.25 IoU=.5 with ignored-region IoA=.5; NOT official VisDrone score",
+  "limitations": [
+    "COCO human merges pedestrian/people; shared ontology only, not a 10-class ranking",
+    "Excluded GT categories serve as crowd ignore boxes in common evaluation",
+    "AP crowd matching follows COCO IoA thresholds, unlike official VisDrone region logic"
+  ],
+  "error_cases": [
+    {
+      "image_id": 372,
+      "image": "0000295_01800_d_0000030.jpg",
+      "FP": 35,
+      "FN": 216,
+      "TP": 78,
+      "small_FN_native_area_lt1024": 207,
+      "localization_near_misses": 21,
+      "selection_reason": "FN",
+      "visualization": "error-FN-0000295_01800_d_0000030.jpg"
+    },
+    {
+      "image_id": 375,
+      "image": "0000295_02400_d_0000033.jpg",
+      "FP": 72,
+      "FN": 207,
+      "TP": 106,
+      "small_FN_native_area_lt1024": 195,
+      "localization_near_misses": 27,
+      "selection_reason": "FP",
+      "visualization": "error-FP-0000295_02400_d_0000033.jpg"
+    },
+    {
+      "image_id": 373,
+      "image": "0000295_02000_d_0000031.jpg",
+      "FP": 30,
+      "FN": 208,
+      "TP": 98,
+      "small_FN_native_area_lt1024": 202,
+      "localization_near_misses": 22,
+      "selection_reason": "localization_near_misses",
+      "visualization": "error-localization_near_misses-0000295_02000_d_0000031.jpg"
+    },
+    {
+      "image_id": 368,
+      "image": "0000295_01000_d_0000026.jpg",
+      "FP": 13,
+      "FN": 191,
+      "TP": 56,
+      "small_FN_native_area_lt1024": 190,
+      "localization_near_misses": 7,
+      "selection_reason": "small_FN_native_area_lt1024",
+      "visualization": "error-small_FN_native_area_lt1024-0000295_01000_d_0000026.jpg"
+    }
+  ],
+  "evaluation_seconds": 54.388058999998975,
+  "peak_cuda_allocated_bytes": 268930048,
+  "peak_cuda_reserved_bytes": 538968064,
+  "evaluation_source": {
+    "git_source_snapshot": "60819d7f36e13ce7f3d48ad68d25094ab7f9218b",
+    "evaluator_sha256": "103e8cf802a59ab06e58aad6d9c0018531404d446e9f23726fd1be13742bc36b",
+    "case_analysis_sha256": "db22c85d004216e59ca3f396d0ea6b15b1b5eb0ff4be561283d123d5f305f674",
+    "loader": "directory source, batch8; same for all compared models",
+    "note": "Source snapshot captured during bounded reruns; no evaluator source edits between invocation and snapshot."
+  }
+}

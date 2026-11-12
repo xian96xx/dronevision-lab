@@ -1,0 +1,134 @@
+{
+  "command": {
+    "action": "train",
+    "name": "seg-noise-boundary",
+    "variant": "boundary",
+    "epochs": 10,
+    "batch": 8,
+    "seed": 42,
+    "subset": 40,
+    "resume": false
+  },
+  "git": "af329f04f96299ccc9c2184d8c462141a6154e6f",
+  "initial_state_sha256": "d9bdcef8680833a62ef27be4ac3de477432596b2dfecf700ab501c9b019b53d3",
+  "source": {
+    "repository": "nvidia/mit-b0",
+    "revision": "80983a413c30d36a39c20203974ae7807835e2b4",
+    "sha256": {
+      "config.json": "e2378ac7c7a6981d6bdd1d9ccf29b611264c382afce89c561f39c9291164ff91",
+      "preprocessor_config.json": "d96ab2cb112985c19d5ea32f1d1f2369104fc78b1379f5ce26e33ca8646202a7",
+      "pytorch_model.bin": "4af8348c2a802bf76115d34797ff5ce1d9f110bb8593c22d9b66d8bd7fa227fc",
+      "README.md": "70dd05617d227fea8bab2dba202dbccd2a250fbb8279798b9005eb231c87556e"
+    }
+  },
+  "seed": 42,
+  "training_patches": 160,
+  "validation_images": 70,
+  "optimizer": "AdamW lr=6e-5 wd=.01, constant LR",
+  "crop_policy": "native1024 random fixed crops resized512",
+  "validation_schedule": "final epoch only; identical across all three noise conditions",
+  "evaluation": "all70 val images; max1024 RGB input maintaining aspect ratio; logits bilinear upsample to native mask; 8 valid classes incl clutter",
+  "status": "completed",
+  "seconds": 236.41374019999967,
+  "peak_allocated_bytes": 2941662208,
+  "best_mIoU": 0.3720066570786391,
+  "encoder_max_abs_delta": 0.0017003612592816353,
+  "best_validation": {
+    "mIoU": 0.3720066570786391,
+    "pixel_accuracy": 0.736498090746635,
+    "per_class_IoU": {
+      "clutter": 0.3919036005857569,
+      "building": 0.80113340871875,
+      "road": 0.5033984311186249,
+      "tree": 0.5666112547451204,
+      "low-vegetation": 0.5441418301983022,
+      "moving-car": 0.00536975066961323,
+      "static-car": 0.1634949805929453,
+      "human": 0.0
+    },
+    "confusion_matrix": [
+      [
+        62964233,
+        13828507,
+        6333742,
+        4333010,
+        8899617,
+        553,
+        172450,
+        0
+      ],
+      [
+        14763640,
+        183310128,
+        163508,
+        3196993,
+        1454525,
+        0,
+        15035,
+        0
+      ],
+      [
+        18820711,
+        1779773,
+        37079301,
+        2042259,
+        945081,
+        288,
+        42169,
+        0
+      ],
+      [
+        17914263,
+        6752405,
+        985780,
+        89127658,
+        25849650,
+        0,
+        4252,
+        0
+      ],
+      [
+        8883280,
+        2332488,
+        880235,
+        6105828,
+        66302141,
+        221,
+        25996,
+        0
+      ],
+      [
+        623256,
+        408801,
+        3311178,
+        343117,
+        64245,
+        26337,
+        118725,
+        0
+      ],
+      [
+        2554163,
+        668894,
+        978028,
+        568009,
+        82174,
+        7976,
+        1024505,
+        0
+      ],
+      [
+        571128,
+        138789,
+        295906,
+        76260,
+        21687,
+        0,
+        3902,
+        0
+      ]
+    ]
+  },
+  "best_weights_sha256": "3275cd62f3bf695573e4ed31be1ce8328dd68d4a8b12bcb9d2bcf9af34fa3e3d",
+  "checkpoint_sha256": "8ab7c8b08a6ee739ace9c0e1bfc3e2ba2ec35e1d98ad7aed8afcfa7c747f9a18"
+}

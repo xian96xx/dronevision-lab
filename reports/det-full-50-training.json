@@ -1,0 +1,118 @@
+{
+  "command": [
+    "scripts\\train_det.py",
+    "--data",
+    "det-full",
+    "--name",
+    "det-full-50",
+    "--epochs",
+    "50",
+    "--batch",
+    "16"
+  ],
+  "git": "13afddc1f67849ba26b00749d0806cd61b314d6c",
+  "initial_weight_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "data_config_sha256": "0588fec9a3ed6b4464dd7bc1ec93dae11d8f12292a499af5412d8fadedf00ec4",
+  "torch": "2.9.1+cu128",
+  "ultralytics": "8.4.14",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "seed": 42,
+  "status": "completed",
+  "seconds": 4353.538388799999,
+  "peak_allocated_bytes": 6221738496,
+  "peak_reserved_bytes": 10479468544,
+  "backbone_parameter_max_abs_delta": 0.122467041015625,
+  "checkpoints": {
+    "best.pt": "de5a0c292106041f44e88664aab625fefbe2e91eb9a1d3cecb5c26eca2af5f06",
+    "epoch0.pt": "fb637c20838a1215a008698a350b99d3d13ba58424a392ed8e8f5d207bb3e0bb",
+    "epoch10.pt": "4dc487da3a1dc4fbb34c009636994c6cb01e338e4f41cf1870dd0f0e59ecf995",
+    "epoch15.pt": "ac4cebb2b24bf3b83b8cee01457bc2ba57b35062a6c1210bce6e0c4d4450f19f",
+    "epoch20.pt": "3f45f5d0b8ddc60adc283d3922ef8b6631d3829358a26046a28c630c75e14b75",
+    "epoch25.pt": "68b1174c7c28472c7e10304bb20aa19aca81fa13415ea727d78b65f949fb7489",
+    "epoch30.pt": "42fced3945f9f09913a6e155e2cba9083f3f1280143df7d17f8176447bbf258d",
+    "epoch35.pt": "407d63377347340c2af85aa1c899858c942ba2cade1bb905b3e0ca43b13b9028",
+    "epoch40.pt": "821fbe4d62bbb678eef5ef2f04847182afc43cd40b6efd141b5417d5cc316f4b",
+    "epoch45.pt": "3ef5b0089382fcd0f3117e50feb599836a441857cc629f48675fbb7af96c8529",
+    "epoch5.pt": "1595bd4b92394b190a878367245fe93b6058f93a26daeab908dd31883f0b5fbf",
+    "last.pt": "7c63817d3b7087b4aa627aa9bd3116478e1aa7baf0d9666142e440b09c273620"
+  },
+  "validation_metrics": {
+    "metrics/precision(B)": 0.41803127825619846,
+    "metrics/recall(B)": 0.3123704627845961,
+    "metrics/mAP50(B)": 0.3063626620198936,
+    "metrics/mAP50-95(B)": 0.1699229052359317,
+    "fitness": 0.1699229052359317
+  },
+  "per_class": [
+    {
+      "class": "pedestrian",
+      "precision": 0.41928295745036187,
+      "recall": 0.3617141564902759,
+      "ap50": 0.345537035016117,
+      "ap50_95": 0.14399139036743602
+    },
+    {
+      "class": "people",
+      "precision": 0.43402275418184594,
+      "recall": 0.26614634146341465,
+      "ap50": 0.27015067099274087,
+      "ap50_95": 0.09460615099457717
+    },
+    {
+      "class": "bicycle",
+      "precision": 0.227336387969357,
+      "recall": 0.09712509712509712,
+      "ap50": 0.07864820708889034,
+      "ap50_95": 0.027954183539098537
+    },
+    {
+      "class": "car",
+      "precision": 0.583404996178818,
+      "recall": 0.7309442548350398,
+      "ap50": 0.7223159418468188,
+      "ap50_95": 0.4802811245896053
+    },
+    {
+      "class": "van",
+      "precision": 0.44839229752956783,
+      "recall": 0.3362025316455696,
+      "ap50": 0.3367091693012104,
+      "ap50_95": 0.22617997228227482
+    },
+    {
+      "class": "truck",
+      "precision": 0.44604481336395846,
+      "recall": 0.25733333333333336,
+      "ap50": 0.26327275384868265,
+      "ap50_95": 0.16670884621195464
+    },
+    {
+      "class": "tricycle",
+      "precision": 0.40020420453642436,
+      "recall": 0.20176671887198203,
+      "ap50": 0.1901640929588557,
+      "ap50_95": 0.0984090110231
+    },
+    {
+      "class": "awning-tricycle",
+      "precision": 0.2574262497282898,
+      "recall": 0.11654135338345864,
+      "ap50": 0.10193117525185189,
+      "ap50_95": 0.0603187829703389
+    },
+    {
+      "class": "bus",
+      "precision": 0.4761425264232017,
+      "recall": 0.41434262948207173,
+      "ap50": 0.4059111989276115,
+      "ap50_95": 0.26397777982932114
+    },
+    {
+      "class": "motor",
+      "precision": 0.4880555952001597,
+      "recall": 0.34158821121571836,
+      "ap50": 0.3489863749661569,
+      "ap50_95": 0.1368018105516107
+    }
+  ]
+}

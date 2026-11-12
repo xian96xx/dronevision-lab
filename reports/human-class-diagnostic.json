@@ -1,0 +1,71 @@
+{
+  "selection": "Top 3 official val images by human GT pixel count, ties by sequence/frame; zoom at largest GT human component.",
+  "inference": "CPU float32; max1024 input; logits upsampled to native mask. Diagnostic only, not a new 70-image GPU score.",
+  "weights": {
+    "baseline": "2face15ff32c58498abd81a1e32c4365fe483c6d039019ca7047383139a0ae2e",
+    "weighted": "c082405300dda6e30adc9ef473a823f54beb0e354f853b76d97853020d341ad0"
+  },
+  "cases": [
+    {
+      "image": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000100.png",
+      "source_sha256": "74af45779cad1067fe0cefb02d553a994b5a9b414b634b2472588e05155a8c42",
+      "human_GT_pixels": 161032,
+      "crop_xyxy": [
+        1373,
+        1563,
+        1697,
+        1887
+      ],
+      "diagnostic_image": "runs\\refinement-human-cases\\human-seq18-000100.jpg",
+      "baseline": {
+        "human_IoU_on_selected_full_image": 0.0,
+        "human_predicted_pixels": 0
+      },
+      "weighted": {
+        "human_IoU_on_selected_full_image": 0.2809450129373675,
+        "human_predicted_pixels": 331549
+      }
+    },
+    {
+      "image": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000000.png",
+      "source_sha256": "8f840894b53480810c311c206f33e61e008de9bb0e018bc48c8ae180bb9c6d14",
+      "human_GT_pixels": 106384,
+      "crop_xyxy": [
+        1970,
+        985,
+        2324,
+        1339
+      ],
+      "diagnostic_image": "runs\\refinement-human-cases\\human-seq18-000000.jpg",
+      "baseline": {
+        "human_IoU_on_selected_full_image": 0.0,
+        "human_predicted_pixels": 0
+      },
+      "weighted": {
+        "human_IoU_on_selected_full_image": 0.1944519256665769,
+        "human_predicted_pixels": 306071
+      }
+    },
+    {
+      "image": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000800.png",
+      "source_sha256": "c23467fd009a0b9b700a5fa5ac4b140ce7c4efd7fa8c6f36b56bdd561229290c",
+      "human_GT_pixels": 84098,
+      "crop_xyxy": [
+        1098,
+        1352,
+        1833,
+        2087
+      ],
+      "diagnostic_image": "runs\\refinement-human-cases\\human-seq18-000800.jpg",
+      "baseline": {
+        "human_IoU_on_selected_full_image": 0.0,
+        "human_predicted_pixels": 0
+      },
+      "weighted": {
+        "human_IoU_on_selected_full_image": 0.20881393624907338,
+        "human_predicted_pixels": 242040
+      }
+    }
+  ],
+  "limitations": "Deliberately selected class-specific cases; not representative random images or an independent test set."
+}

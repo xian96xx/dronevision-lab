@@ -1,0 +1,213 @@
+{
+  "weights": "runs/det-full-50/weights/best.pt",
+  "weights_sha256": "de5a0c292106041f44e88664aab625fefbe2e91eb9a1d3cecb5c26eca2af5f06",
+  "ontology": "visdrone",
+  "end_to_end_head": true,
+  "prediction_batch_size": 8,
+  "images": 548,
+  "classes": [
+    "pedestrian",
+    "people",
+    "bicycle",
+    "car",
+    "van",
+    "truck",
+    "tricycle",
+    "awning-tricycle",
+    "bus",
+    "motor"
+  ],
+  "prediction_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "gt_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "mAP50": 0.30045625711797924,
+  "mAP50_95": 0.16396370059201268,
+  "AP_small_native_area_lt1024": 0.08165684158497095,
+  "micro_precision_conf025_iou050": 0.6991273494438052,
+  "micro_recall_conf025_iou050": 0.3761964962976341,
+  "per_class": [
+    {
+      "class": "pedestrian",
+      "AP50": 0.34348811614942903,
+      "AP50_95": 0.14028744218707156,
+      "precision_conf025_iou050": 0.6509781684150836,
+      "recall_conf025_iou050": 0.2596110357304387,
+      "tp": 2296,
+      "fp": 1231,
+      "fn": 6548
+    },
+    {
+      "class": "people",
+      "AP50": 0.26624115824941946,
+      "AP50_95": 0.08916075163249405,
+      "precision_conf025_iou050": 0.6352941176470588,
+      "recall_conf025_iou050": 0.15804878048780488,
+      "tp": 810,
+      "fp": 465,
+      "fn": 4315
+    },
+    {
+      "class": "bicycle",
+      "AP50": 0.08100165518095341,
+      "AP50_95": 0.029945241912751195,
+      "precision_conf025_iou050": 0.3880597014925373,
+      "recall_conf025_iou050": 0.06060606060606061,
+      "tp": 78,
+      "fp": 123,
+      "fn": 1209
+    },
+    {
+      "class": "car",
+      "AP50": 0.7113004331826154,
+      "AP50_95": 0.4607185788551684,
+      "precision_conf025_iou050": 0.7439053442388629,
+      "recall_conf025_iou050": 0.6660978384527872,
+      "tp": 9368,
+      "fp": 3225,
+      "fn": 4696
+    },
+    {
+      "class": "van",
+      "AP50": 0.32640727097790245,
+      "AP50_95": 0.21795493497449375,
+      "precision_conf025_iou050": 0.5762162162162162,
+      "recall_conf025_iou050": 0.26987341772151896,
+      "tp": 533,
+      "fp": 392,
+      "fn": 1442
+    },
+    {
+      "class": "truck",
+      "AP50": 0.2650576998531839,
+      "AP50_95": 0.16813729451550152,
+      "precision_conf025_iou050": 0.6,
+      "recall_conf025_iou050": 0.212,
+      "tp": 159,
+      "fp": 106,
+      "fn": 591
+    },
+    {
+      "class": "tricycle",
+      "AP50": 0.17641859200808405,
+      "AP50_95": 0.09079423591160947,
+      "precision_conf025_iou050": 0.522633744855967,
+      "recall_conf025_iou050": 0.1215311004784689,
+      "tp": 127,
+      "fp": 116,
+      "fn": 918
+    },
+    {
+      "class": "awning-tricycle",
+      "AP50": 0.09385242959965026,
+      "AP50_95": 0.0548261230637624,
+      "precision_conf025_iou050": 0.3853211009174312,
+      "recall_conf025_iou050": 0.07894736842105263,
+      "tp": 42,
+      "fp": 67,
+      "fn": 490
+    },
+    {
+      "class": "bus",
+      "AP50": 0.38939838863835013,
+      "AP50_95": 0.25303175306865605,
+      "precision_conf025_iou050": 0.5802469135802469,
+      "recall_conf025_iou050": 0.3745019920318725,
+      "tp": 94,
+      "fp": 68,
+      "fn": 157
+    },
+    {
+      "class": "motor",
+      "AP50": 0.35139682734020417,
+      "AP50_95": 0.1347806497986182,
+      "precision_conf025_iou050": 0.6902313624678663,
+      "recall_conf025_iou050": 0.21981170691772411,
+      "tp": 1074,
+      "fp": 482,
+      "fn": 3812
+    }
+  ],
+  "protocol": "local COCO-style 101-point AP; IoU .50:.95; maxDet=500; img=640; conf=.001; NMS iou=.7; ignored/unsupported GT represented as per-category crowd boxes; P/R greedy conf=.25 IoU=.5 with ignored-region IoA=.5; NOT official VisDrone score",
+  "limitations": [
+    "COCO human merges pedestrian/people; shared ontology only, not a 10-class ranking",
+    "Excluded GT categories serve as crowd ignore boxes in common evaluation",
+    "AP crowd matching follows COCO IoA thresholds, unlike official VisDrone region logic"
+  ],
+  "error_cases": [
+    {
+      "image_id": 372,
+      "image": "0000295_01800_d_0000030.jpg",
+      "FP": 44,
+      "FN": 231,
+      "TP": 75,
+      "small_FN_native_area_lt1024": 220,
+      "localization_near_misses": 23,
+      "selection_reason": "FN",
+      "visualization": "error-FN-0000295_01800_d_0000030.jpg"
+    },
+    {
+      "image_id": 375,
+      "image": "0000295_02400_d_0000033.jpg",
+      "FP": 75,
+      "FN": 211,
+      "TP": 106,
+      "small_FN_native_area_lt1024": 199,
+      "localization_near_misses": 26,
+      "selection_reason": "FP",
+      "visualization": "error-FP-0000295_02400_d_0000033.jpg"
+    },
+    {
+      "image_id": 373,
+      "image": "0000295_02000_d_0000031.jpg",
+      "FP": 33,
+      "FN": 214,
+      "TP": 97,
+      "small_FN_native_area_lt1024": 204,
+      "localization_near_misses": 21,
+      "selection_reason": "localization_near_misses",
+      "visualization": "error-localization_near_misses-0000295_02000_d_0000031.jpg"
+    },
+    {
+      "image_id": 368,
+      "image": "0000295_01000_d_0000026.jpg",
+      "FP": 15,
+      "FN": 197,
+      "TP": 54,
+      "small_FN_native_area_lt1024": 194,
+      "localization_near_misses": 7,
+      "selection_reason": "small_FN_native_area_lt1024",
+      "visualization": "error-small_FN_native_area_lt1024-0000295_01000_d_0000026.jpg"
+    }
+  ],
+  "evaluation_seconds": 40.45982129999902,
+  "peak_cuda_allocated_bytes": 268930048,
+  "peak_cuda_reserved_bytes": 538968064,
+  "evaluation_source": {
+    "git_source_snapshot": "60819d7f36e13ce7f3d48ad68d25094ab7f9218b",
+    "evaluator_sha256": "103e8cf802a59ab06e58aad6d9c0018531404d446e9f23726fd1be13742bc36b",
+    "case_analysis_sha256": "db22c85d004216e59ca3f396d0ea6b15b1b5eb0ff4be561283d123d5f305f674",
+    "loader": "directory source, batch8; same for all compared models",
+    "note": "Source snapshot captured during bounded reruns; no evaluator source edits between invocation and snapshot."
+  }
+}

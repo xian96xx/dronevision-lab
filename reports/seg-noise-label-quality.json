@@ -1,0 +1,218 @@
+{
+  "seed": 42,
+  "source_image_count": 40,
+  "patch_count": 160,
+  "selected_sources": [
+    [
+      "seq1",
+      "000100"
+    ],
+    [
+      "seq1",
+      "000600"
+    ],
+    [
+      "seq1",
+      "000700"
+    ],
+    [
+      "seq1",
+      "000800"
+    ],
+    [
+      "seq11",
+      "000200"
+    ],
+    [
+      "seq11",
+      "000300"
+    ],
+    [
+      "seq11",
+      "000600"
+    ],
+    [
+      "seq11",
+      "000800"
+    ],
+    [
+      "seq12",
+      "000500"
+    ],
+    [
+      "seq12",
+      "000900"
+    ],
+    [
+      "seq13",
+      "000000"
+    ],
+    [
+      "seq14",
+      "000000"
+    ],
+    [
+      "seq14",
+      "000500"
+    ],
+    [
+      "seq14",
+      "000600"
+    ],
+    [
+      "seq14",
+      "000700"
+    ],
+    [
+      "seq14",
+      "000900"
+    ],
+    [
+      "seq15",
+      "000200"
+    ],
+    [
+      "seq2",
+      "000000"
+    ],
+    [
+      "seq2",
+      "000100"
+    ],
+    [
+      "seq3",
+      "000600"
+    ],
+    [
+      "seq3",
+      "000700"
+    ],
+    [
+      "seq32",
+      "000700"
+    ],
+    [
+      "seq32",
+      "000800"
+    ],
+    [
+      "seq33",
+      "000400"
+    ],
+    [
+      "seq34",
+      "000900"
+    ],
+    [
+      "seq35",
+      "000900"
+    ],
+    [
+      "seq4",
+      "000300"
+    ],
+    [
+      "seq5",
+      "000000"
+    ],
+    [
+      "seq5",
+      "000100"
+    ],
+    [
+      "seq5",
+      "000400"
+    ],
+    [
+      "seq6",
+      "000300"
+    ],
+    [
+      "seq6",
+      "000600"
+    ],
+    [
+      "seq6",
+      "000800"
+    ],
+    [
+      "seq7",
+      "000300"
+    ],
+    [
+      "seq8",
+      "000100"
+    ],
+    [
+      "seq8",
+      "000500"
+    ],
+    [
+      "seq8",
+      "000800"
+    ],
+    [
+      "seq8",
+      "000900"
+    ],
+    [
+      "seq9",
+      "000100"
+    ],
+    [
+      "seq9",
+      "000700"
+    ]
+  ],
+  "variants": {
+    "clean": {
+      "patches": 160,
+      "changed_pixels": 0,
+      "total_pixels": 41943040,
+      "changed_fraction": 0.0,
+      "changed_fraction_by_original_class": {
+        "clutter": 0.0,
+        "building": 0.0,
+        "road": 0.0,
+        "tree": 0.0,
+        "low-vegetation": 0.0,
+        "moving-car": 0.0,
+        "static-car": 0.0,
+        "human": 0.0
+      }
+    },
+    "boundary": {
+      "patches": 160,
+      "changed_pixels": 1445409,
+      "total_pixels": 41943040,
+      "changed_fraction": 0.034461236000061034,
+      "changed_fraction_by_original_class": {
+        "clutter": 0.05763495474754882,
+        "building": 0.011034708093908331,
+        "road": 0.03364329960620958,
+        "tree": 0.029045245344871698,
+        "low-vegetation": 0.04991617321598843,
+        "moving-car": 0.12494074278800836,
+        "static-car": 0.10016814304461942,
+        "human": 0.30330662385070967
+      }
+    },
+    "wrong": {
+      "patches": 160,
+      "changed_pixels": 2189236,
+      "total_pixels": 41943040,
+      "changed_fraction": 0.05219545364379883,
+      "changed_fraction_by_original_class": {
+        "clutter": 0.0,
+        "building": 0.06372435665648701,
+        "road": 0.058975977515773916,
+        "tree": 0.06075681622868303,
+        "low-vegetation": 0.07458379466405676,
+        "moving-car": 0.041784799770109474,
+        "static-car": 0.04987023106486689,
+        "human": 0.08530877474666385
+      }
+    }
+  },
+  "visualization": "runs/seg-label-audit; source / clean / boundary / wrong. These are label variants, not model predictions."
+}

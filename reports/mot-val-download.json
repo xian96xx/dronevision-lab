@@ -1,0 +1,9 @@
+{
+  "split": "val",
+  "source": "https://github.com/VisDrone/VisDrone-Dataset",
+  "official_google_drive_id": "1rqnKe9IgU_crMaxRoel9_nuUsMEBBVQu",
+  "archive_bytes": 1602397759,
+  "sha256": "e53571990dfc79229e0a8ae10264bc4fa604a027c44b06e3a097417e4fa55705",
+  "zip_crc": "all members passed during video extraction; marker retained",
+  "usage": "Fixed public evaluation clips only; never mixed into DET training"
+}

@@ -1,0 +1,149 @@
+{
+  "source": "Official DANS DOI:10.17026/dans-x9f-w9sa; UAVid2020 20/7 sequence split",
+  "splits": {
+    "train": {
+      "images": 200,
+      "pixel_counts": {
+        "clutter": 300318857,
+        "building": 481526664,
+        "road": 213651686,
+        "tree": 431720708,
+        "low-vegetation": 232979961,
+        "moving-car": 15901421,
+        "static-car": 19625654,
+        "human": 1862249
+      },
+      "pixel_ratio": {
+        "clutter": 0.17690923741649325,
+        "building": 0.2836535666621426,
+        "road": 0.12585608915995597,
+        "tree": 0.2543143044433888,
+        "low-vegetation": 0.1372418223935713,
+        "moving-car": 0.009367071688570696,
+        "static-car": 0.01156091068547171,
+        "human": 0.001096997550405658
+      },
+      "image_shapes": [
+        [
+          2160,
+          3840
+        ],
+        [
+          2160,
+          4096
+        ]
+      ],
+      "unknown_pixels": 0
+    },
+    "val": {
+      "images": 70,
+      "pixel_counts": {
+        "clutter": 96532112,
+        "building": 202903829,
+        "road": 60709582,
+        "tree": 140634008,
+        "low-vegetation": 84530189,
+        "moving-car": 4895659,
+        "static-car": 5883749,
+        "human": 1107672
+      },
+      "pixel_ratio": {
+        "clutter": 0.16164204496742113,
+        "building": 0.3397604089640132,
+        "road": 0.10165758088455933,
+        "tree": 0.23549022365826475,
+        "low-vegetation": 0.1415449463225523,
+        "moving-car": 0.008197731468085563,
+        "static-car": 0.009852278176976165,
+        "human": 0.001854785558127572
+      },
+      "image_shapes": [
+        [
+          2160,
+          3840
+        ],
+        [
+          2160,
+          4096
+        ]
+      ],
+      "unknown_pixels": 0
+    }
+  },
+  "class_zero_is_valid": true,
+  "palette": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      128,
+      0,
+      0
+    ],
+    [
+      128,
+      64,
+      128
+    ],
+    [
+      0,
+      128,
+      0
+    ],
+    [
+      128,
+      128,
+      0
+    ],
+    [
+      64,
+      0,
+      128
+    ],
+    [
+      192,
+      0,
+      192
+    ],
+    [
+      64,
+      64,
+      0
+    ]
+  ],
+  "train_sequences": [
+    "seq1",
+    "seq10",
+    "seq11",
+    "seq12",
+    "seq13",
+    "seq14",
+    "seq15",
+    "seq2",
+    "seq3",
+    "seq31",
+    "seq32",
+    "seq33",
+    "seq34",
+    "seq35",
+    "seq4",
+    "seq5",
+    "seq6",
+    "seq7",
+    "seq8",
+    "seq9"
+  ],
+  "val_sequences": [
+    "seq16",
+    "seq17",
+    "seq18",
+    "seq19",
+    "seq20",
+    "seq36",
+    "seq37"
+  ],
+  "training_crop_policy": "4 fixed seed42 random native1024 crops per training image, resized to512; no val/test crops in train",
+  "train_patches": 800
+}

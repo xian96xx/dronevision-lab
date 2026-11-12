@@ -1,0 +1,18 @@
+{
+  "Pi-Seg": {
+    "url": "https://github.com/LiBingyu01/Pi-Seg",
+    "commit": "0c836ba2dfa939b409b046ce6988a5ef8c1f3e34"
+  },
+  "RSKT-Seg": {
+    "url": "https://github.com/LiBingyu01/RSKT-Seg",
+    "commit": "9a4d99768fb3eb2b1c520625f9b7702c5df9d47c"
+  },
+  "MTRefSeg": {
+    "url": "https://github.com/LiBingyu01/MTRefSeg",
+    "commit": "83a3ee569be91b87a24db95bd4b4c36648a937d2"
+  },
+  "MARIS": {
+    "url": "https://github.com/LiBingyu01/MARIS",
+    "commit": "fdeb48c85b49b194d7bce977d612e24d4ac948a8"
+  }
+}

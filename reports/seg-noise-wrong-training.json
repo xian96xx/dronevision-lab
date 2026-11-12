@@ -1,0 +1,134 @@
+{
+  "command": {
+    "action": "train",
+    "name": "seg-noise-wrong",
+    "variant": "wrong",
+    "epochs": 10,
+    "batch": 8,
+    "seed": 42,
+    "subset": 40,
+    "resume": false
+  },
+  "git": "af329f04f96299ccc9c2184d8c462141a6154e6f",
+  "initial_state_sha256": "d9bdcef8680833a62ef27be4ac3de477432596b2dfecf700ab501c9b019b53d3",
+  "source": {
+    "repository": "nvidia/mit-b0",
+    "revision": "80983a413c30d36a39c20203974ae7807835e2b4",
+    "sha256": {
+      "config.json": "e2378ac7c7a6981d6bdd1d9ccf29b611264c382afce89c561f39c9291164ff91",
+      "preprocessor_config.json": "d96ab2cb112985c19d5ea32f1d1f2369104fc78b1379f5ce26e33ca8646202a7",
+      "pytorch_model.bin": "4af8348c2a802bf76115d34797ff5ce1d9f110bb8593c22d9b66d8bd7fa227fc",
+      "README.md": "70dd05617d227fea8bab2dba202dbccd2a250fbb8279798b9005eb231c87556e"
+    }
+  },
+  "seed": 42,
+  "training_patches": 160,
+  "validation_images": 70,
+  "optimizer": "AdamW lr=6e-5 wd=.01, constant LR",
+  "crop_policy": "native1024 random fixed crops resized512",
+  "validation_schedule": "final epoch only; identical across all three noise conditions",
+  "evaluation": "all70 val images; max1024 RGB input maintaining aspect ratio; logits bilinear upsample to native mask; 8 valid classes incl clutter",
+  "status": "completed",
+  "seconds": 235.9418072999979,
+  "peak_allocated_bytes": 2941662208,
+  "best_mIoU": 0.37948843058375065,
+  "encoder_max_abs_delta": 0.0013837041333317757,
+  "best_validation": {
+    "mIoU": 0.37948843058375065,
+    "pixel_accuracy": 0.7440590204100223,
+    "per_class_IoU": {
+      "clutter": 0.3945601471398494,
+      "building": 0.8027992528782544,
+      "road": 0.49136872375904944,
+      "tree": 0.602682283480627,
+      "low-vegetation": 0.5563356208109541,
+      "moving-car": 0.01974722833095661,
+      "static-car": 0.16841418827031399,
+      "human": 0.0
+    },
+    "confusion_matrix": [
+      [
+        65699668,
+        15198287,
+        4482404,
+        4670170,
+        6286441,
+        927,
+        194215,
+        0
+      ],
+      [
+        13186139,
+        185480235,
+        99400,
+        3379670,
+        739057,
+        0,
+        19328,
+        0
+      ],
+      [
+        21480748,
+        1811317,
+        34925543,
+        1892026,
+        533330,
+        3149,
+        63469,
+        0
+      ],
+      [
+        19215053,
+        7228434,
+        875122,
+        96358173,
+        16951576,
+        7,
+        5643,
+        0
+      ],
+      [
+        11697630,
+        2755812,
+        866919,
+        8463717,
+        60718557,
+        1056,
+        26498,
+        0
+      ],
+      [
+        917683,
+        278268,
+        3088613,
+        300839,
+        54365,
+        97266,
+        158625,
+        0
+      ],
+      [
+        2842950,
+        728517,
+        700578,
+        485368,
+        31358,
+        24754,
+        1070224,
+        0
+      ],
+      [
+        641380,
+        137399,
+        255457,
+        56408,
+        13841,
+        0,
+        3187,
+        0
+      ]
+    ]
+  },
+  "best_weights_sha256": "ae5260146b13908b74bc51e3fc20fd8536f39cdf7eb98a8f9bc10d7b704b1f95",
+  "checkpoint_sha256": "d603e405d3b08ddd114c3f9c7744f324cd1fe6b2ec439d2f72ed962b9ea70cad"
+}

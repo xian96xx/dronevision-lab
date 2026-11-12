@@ -1,0 +1,29 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "ram": {
+    "total": 34178678784,
+    "available": 17851072512,
+    "percent": 47.8,
+    "used": 16327606272,
+    "free": 17851072512
+  },
+  "disks": {
+    "C:/": {
+      "total": 214750457856,
+      "used": 117099319296,
+      "free": 97651138560
+    },
+    "D:/": {
+      "total": 785120956416,
+      "used": 289468878848,
+      "free": 495652077568
+    }
+  },
+  "git": "git version 2.56.0.windows.4",
+  "existing_environment_changes": "none; isolated project venv only",
+  "comfyui": "No running ComfyUI process found at initial check; no existing project regression test performed",
+  "ollama_api_status": 200,
+  "ollama_models": [
+    "qwen3:4b-instruct-2507-q4_K_M"
+  ]
+}

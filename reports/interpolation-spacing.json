@@ -1,0 +1,37 @@
+{
+  "protocol": "Same12 public MOT trajectories; piecewise linear xyxy interpolation. Fixed common evaluation frames exclude the union of ALL spacing conditions prompt frames. Raw acceleration is smoothness, not correctness. Input annotation budget differs between rows.",
+  "results": [
+    {
+      "gap_frames": 10,
+      "provided_GT_boxes": 156,
+      "evaluated_unprompted_boxes": 1284,
+      "mean_IoU": 0.8047387178989348,
+      "center_error_pixels": 6.74319910343022,
+      "raw_predicted_center_acceleration_pixels": 0.36271897164280686
+    },
+    {
+      "gap_frames": 30,
+      "provided_GT_boxes": 60,
+      "evaluated_unprompted_boxes": 1284,
+      "mean_IoU": 0.6134848737518633,
+      "center_error_pixels": 21.88017217957609,
+      "raw_predicted_center_acceleration_pixels": 0.07389404866912756
+    },
+    {
+      "gap_frames": 60,
+      "provided_GT_boxes": 36,
+      "evaluated_unprompted_boxes": 1284,
+      "mean_IoU": 0.4374508791900918,
+      "center_error_pixels": 41.524192133368445,
+      "raw_predicted_center_acceleration_pixels": 0.031539476732379675
+    },
+    {
+      "gap_frames": 119,
+      "provided_GT_boxes": 24,
+      "evaluated_unprompted_boxes": 1284,
+      "mean_IoU": 0.15852204090643846,
+      "center_error_pixels": 85.8181830188608,
+      "raw_predicted_center_acceleration_pixels": 1.6809820015006995e-13
+    }
+  ]
+}

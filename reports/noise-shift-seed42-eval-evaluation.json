@@ -1,0 +1,213 @@
+{
+  "weights": "runs/noise-shift-seed42/weights/best.pt",
+  "weights_sha256": "a49cb6895b77a04d8162d500cce9c423aa6d40490631ad0223eaf7caf66e8870",
+  "ontology": "visdrone",
+  "end_to_end_head": true,
+  "prediction_batch_size": 8,
+  "images": 548,
+  "classes": [
+    "pedestrian",
+    "people",
+    "bicycle",
+    "car",
+    "van",
+    "truck",
+    "tricycle",
+    "awning-tricycle",
+    "bus",
+    "motor"
+  ],
+  "prediction_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "gt_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "mAP50": 0.0648005802269445,
+  "mAP50_95": 0.02407104913584152,
+  "AP_small_native_area_lt1024": 0.01558741869132582,
+  "micro_precision_conf025_iou050": 0.5520192564856914,
+  "micro_recall_conf025_iou050": 0.05325214788823241,
+  "per_class": [
+    {
+      "class": "pedestrian",
+      "AP50": 0.10237476681058136,
+      "AP50_95": 0.03196561500769538,
+      "precision_conf025_iou050": 0.43946188340807174,
+      "recall_conf025_iou050": 0.022161917684305744,
+      "tp": 196,
+      "fp": 250,
+      "fn": 8648
+    },
+    {
+      "class": "people",
+      "AP50": 0.08029554306536746,
+      "AP50_95": 0.023436492409530628,
+      "precision_conf025_iou050": 0.46153846153846156,
+      "recall_conf025_iou050": 0.0011707317073170731,
+      "tp": 6,
+      "fp": 7,
+      "fn": 5119
+    },
+    {
+      "class": "bicycle",
+      "AP50": 0.010932420048617428,
+      "AP50_95": 0.0014843388931254004,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1287
+    },
+    {
+      "class": "car",
+      "AP50": 0.3022528394477409,
+      "AP50_95": 0.12655180143520772,
+      "precision_conf025_iou050": 0.5680220116172424,
+      "recall_conf025_iou050": 0.1321103526734926,
+      "tp": 1858,
+      "fp": 1413,
+      "fn": 12206
+    },
+    {
+      "class": "van",
+      "AP50": 0.02613256743676664,
+      "AP50_95": 0.010071969109683842,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1975
+    },
+    {
+      "class": "truck",
+      "AP50": 0.026897981775283172,
+      "AP50_95": 0.013724449242169251,
+      "precision_conf025_iou050": 0.5,
+      "recall_conf025_iou050": 0.004,
+      "tp": 3,
+      "fp": 3,
+      "fn": 747
+    },
+    {
+      "class": "tricycle",
+      "AP50": 0.004652828641557322,
+      "AP50_95": 0.001639314156099512,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1045
+    },
+    {
+      "class": "awning-tricycle",
+      "AP50": 0.0017270731598046684,
+      "AP50_95": 0.0009517942744500695,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 532
+    },
+    {
+      "class": "bus",
+      "AP50": 0.014208410626146048,
+      "AP50_95": 0.008509629963032764,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 251
+    },
+    {
+      "class": "motor",
+      "AP50": 0.07853137125757992,
+      "AP50_95": 0.022375086867420593,
+      "precision_conf025_iou050": 1.0,
+      "recall_conf025_iou050": 0.00020466639377814163,
+      "tp": 1,
+      "fp": 0,
+      "fn": 4885
+    }
+  ],
+  "protocol": "local COCO-style 101-point AP; IoU .50:.95; maxDet=500; img=640; conf=.001; NMS iou=.7; ignored/unsupported GT represented as per-category crowd boxes; P/R greedy conf=.25 IoU=.5 with ignored-region IoA=.5; NOT official VisDrone score",
+  "limitations": [
+    "COCO human merges pedestrian/people; shared ontology only, not a 10-class ranking",
+    "Excluded GT categories serve as crowd ignore boxes in common evaluation",
+    "AP crowd matching follows COCO IoA thresholds, unlike official VisDrone region logic"
+  ],
+  "error_cases": [
+    {
+      "image_id": 375,
+      "image": "0000295_02400_d_0000033.jpg",
+      "FP": 10,
+      "FN": 305,
+      "TP": 12,
+      "small_FN_native_area_lt1024": 270,
+      "localization_near_misses": 7,
+      "selection_reason": "FN",
+      "visualization": "error-FN-0000295_02400_d_0000033.jpg"
+    },
+    {
+      "image_id": 362,
+      "image": "0000291_05201_d_0000893.jpg",
+      "FP": 43,
+      "FN": 189,
+      "TP": 18,
+      "small_FN_native_area_lt1024": 132,
+      "localization_near_misses": 21,
+      "selection_reason": "FP",
+      "visualization": "error-FP-0000291_05201_d_0000893.jpg"
+    },
+    {
+      "image_id": 120,
+      "image": "0000213_02500_d_0000240.jpg",
+      "FP": 21,
+      "FN": 89,
+      "TP": 5,
+      "small_FN_native_area_lt1024": 80,
+      "localization_near_misses": 16,
+      "selection_reason": "localization_near_misses",
+      "visualization": "error-localization_near_misses-0000213_02500_d_0000240.jpg"
+    },
+    {
+      "image_id": 373,
+      "image": "0000295_02000_d_0000031.jpg",
+      "FP": 9,
+      "FN": 304,
+      "TP": 7,
+      "small_FN_native_area_lt1024": 254,
+      "localization_near_misses": 7,
+      "selection_reason": "small_FN_native_area_lt1024",
+      "visualization": "error-small_FN_native_area_lt1024-0000295_02000_d_0000031.jpg"
+    }
+  ],
+  "evaluation_seconds": 47.50361399999929,
+  "peak_cuda_allocated_bytes": 268955648,
+  "peak_cuda_reserved_bytes": 538968064,
+  "evaluation_source": {
+    "git_source_snapshot": "60819d7f36e13ce7f3d48ad68d25094ab7f9218b",
+    "evaluator_sha256": "103e8cf802a59ab06e58aad6d9c0018531404d446e9f23726fd1be13742bc36b",
+    "case_analysis_sha256": "db22c85d004216e59ca3f396d0ea6b15b1b5eb0ff4be561283d123d5f305f674",
+    "loader": "directory source, batch8; same for all compared models",
+    "note": "Source snapshot captured during bounded reruns; no evaluator source edits between invocation and snapshot."
+  }
+}

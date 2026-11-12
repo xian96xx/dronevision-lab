@@ -1,0 +1,213 @@
+{
+  "weights": "runs/noise-drop-seed43/weights/best.pt",
+  "weights_sha256": "8564220068ff2bc8865b9770864ce78185e7472d4a40656ed365950eeb883b1e",
+  "ontology": "visdrone",
+  "end_to_end_head": true,
+  "prediction_batch_size": 8,
+  "images": 548,
+  "classes": [
+    "pedestrian",
+    "people",
+    "bicycle",
+    "car",
+    "van",
+    "truck",
+    "tricycle",
+    "awning-tricycle",
+    "bus",
+    "motor"
+  ],
+  "prediction_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "gt_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "mAP50": 0.08151665553571492,
+  "mAP50_95": 0.04079505248383457,
+  "AP_small_native_area_lt1024": 0.017881536646360708,
+  "micro_precision_conf025_iou050": 0.7123670956911025,
+  "micro_recall_conf025_iou050": 0.09853195386877886,
+  "per_class": [
+    {
+      "class": "pedestrian",
+      "AP50": 0.10704847981107381,
+      "AP50_95": 0.035339255272950156,
+      "precision_conf025_iou050": 0.5198237885462555,
+      "recall_conf025_iou050": 0.013342379014020805,
+      "tp": 118,
+      "fp": 109,
+      "fn": 8726
+    },
+    {
+      "class": "people",
+      "AP50": 0.06823900407955324,
+      "AP50_95": 0.019457148064672206,
+      "precision_conf025_iou050": 0.5,
+      "recall_conf025_iou050": 0.0001951219512195122,
+      "tp": 1,
+      "fp": 1,
+      "fn": 5124
+    },
+    {
+      "class": "bicycle",
+      "AP50": 0.0015401819249681137,
+      "AP50_95": 0.000307472775749475,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1287
+    },
+    {
+      "class": "car",
+      "AP50": 0.43107820332526803,
+      "AP50_95": 0.2452321584359732,
+      "precision_conf025_iou050": 0.7249655715128861,
+      "recall_conf025_iou050": 0.2620164960182025,
+      "tp": 3685,
+      "fp": 1398,
+      "fn": 10379
+    },
+    {
+      "class": "van",
+      "AP50": 0.046721988589162565,
+      "AP50_95": 0.029312601289696774,
+      "precision_conf025_iou050": 0.34615384615384615,
+      "recall_conf025_iou050": 0.004556962025316456,
+      "tp": 9,
+      "fp": 17,
+      "fn": 1966
+    },
+    {
+      "class": "truck",
+      "AP50": 0.03999119601063294,
+      "AP50_95": 0.02857227113087153,
+      "precision_conf025_iou050": 0.36363636363636365,
+      "recall_conf025_iou050": 0.005333333333333333,
+      "tp": 4,
+      "fp": 7,
+      "fn": 746
+    },
+    {
+      "class": "tricycle",
+      "AP50": 0.0030997849474456306,
+      "AP50_95": 0.001472798385401654,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1045
+    },
+    {
+      "class": "awning-tricycle",
+      "AP50": 0.00036552076462940866,
+      "AP50_95": 0.00022225991639697207,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 532
+    },
+    {
+      "class": "bus",
+      "AP50": 0.03150238018321492,
+      "AP50_95": 0.023499775506408287,
+      "precision_conf025_iou050": 0.0,
+      "recall_conf025_iou050": 0.0,
+      "tp": 0,
+      "fp": 9,
+      "fn": 251
+    },
+    {
+      "class": "motor",
+      "AP50": 0.08557981572120034,
+      "AP50_95": 0.024534784060225506,
+      "precision_conf025_iou050": 0.6666666666666666,
+      "recall_conf025_iou050": 0.00040933278755628325,
+      "tp": 2,
+      "fp": 1,
+      "fn": 4884
+    }
+  ],
+  "protocol": "local COCO-style 101-point AP; IoU .50:.95; maxDet=500; img=640; conf=.001; NMS iou=.7; ignored/unsupported GT represented as per-category crowd boxes; P/R greedy conf=.25 IoU=.5 with ignored-region IoA=.5; NOT official VisDrone score",
+  "limitations": [
+    "COCO human merges pedestrian/people; shared ontology only, not a 10-class ranking",
+    "Excluded GT categories serve as crowd ignore boxes in common evaluation",
+    "AP crowd matching follows COCO IoA thresholds, unlike official VisDrone region logic"
+  ],
+  "error_cases": [
+    {
+      "image_id": 375,
+      "image": "0000295_02400_d_0000033.jpg",
+      "FP": 7,
+      "FN": 312,
+      "TP": 5,
+      "small_FN_native_area_lt1024": 280,
+      "localization_near_misses": 6,
+      "selection_reason": "FN",
+      "visualization": "error-FN-0000295_02400_d_0000033.jpg"
+    },
+    {
+      "image_id": 129,
+      "image": "0000215_00447_d_0000257.jpg",
+      "FP": 16,
+      "FN": 31,
+      "TP": 22,
+      "small_FN_native_area_lt1024": 13,
+      "localization_near_misses": 7,
+      "selection_reason": "FP",
+      "visualization": "error-FP-0000215_00447_d_0000257.jpg"
+    },
+    {
+      "image_id": 211,
+      "image": "0000271_06201_d_0000403.jpg",
+      "FP": 8,
+      "FN": 113,
+      "TP": 29,
+      "small_FN_native_area_lt1024": 76,
+      "localization_near_misses": 6,
+      "selection_reason": "localization_near_misses",
+      "visualization": "error-localization_near_misses-0000271_06201_d_0000403.jpg"
+    },
+    {
+      "image_id": 372,
+      "image": "0000295_01800_d_0000030.jpg",
+      "FP": 6,
+      "FN": 286,
+      "TP": 20,
+      "small_FN_native_area_lt1024": 262,
+      "localization_near_misses": 2,
+      "selection_reason": "small_FN_native_area_lt1024",
+      "visualization": "error-small_FN_native_area_lt1024-0000295_01800_d_0000030.jpg"
+    }
+  ],
+  "evaluation_seconds": 43.50824020000073,
+  "peak_cuda_allocated_bytes": 268953600,
+  "peak_cuda_reserved_bytes": 538968064,
+  "evaluation_source": {
+    "git_source_snapshot": "60819d7f36e13ce7f3d48ad68d25094ab7f9218b",
+    "evaluator_sha256": "103e8cf802a59ab06e58aad6d9c0018531404d446e9f23726fd1be13742bc36b",
+    "case_analysis_sha256": "db22c85d004216e59ca3f396d0ea6b15b1b5eb0ff4be561283d123d5f305f674",
+    "loader": "directory source, batch8; same for all compared models",
+    "note": "Source snapshot captured during bounded reruns; no evaluator source edits between invocation and snapshot."
+  }
+}

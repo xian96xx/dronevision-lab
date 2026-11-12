@@ -1,0 +1,2707 @@
+{
+  "source": "doi:10.17026/dans-x9f-w9sa",
+  "downloaded_files": 540,
+  "files": [
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000000.png",
+      "id": 78422,
+      "sha256": "c03c80717bf3cd695a8e2dd7d6ac2e22094c7ac95af9ce59eb965ec1a9ce6f9f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000000.png",
+      "id": 78289,
+      "sha256": "5e09b63772f2fa877edbdf0119b5f669a72ec4d8414902ac10d4a7e48ca14066"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000000.png",
+      "id": 78675,
+      "sha256": "52d2bfc3e23f3bd31ff43bc3b8a43a057ca352bb48f395b85bb78a167b148141"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000000.png",
+      "id": 78479,
+      "sha256": "79677c9afc744b2d9a94b811b8f452b802027d2c11ed5269984ea03622d9ab57"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000000.png",
+      "id": 78645,
+      "sha256": "a2132d8cc6a7cb6485dea0f32cd5bd84dabd7c592ab8647041f3427b29047baa"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000000.png",
+      "id": 77883,
+      "sha256": "4857194b8c6ef828ed85a99e297741e0e607b7c64b7270f861d5ba10d880d763"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000000.png",
+      "id": 78392,
+      "sha256": "ed00f78a9c27f6a9427a70dfa9c2c5aaeee6c0a8fabb80960ee9b6ecadaaf4b2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000000.png",
+      "id": 77886,
+      "sha256": "bbccf3ed4831e456d53fcb5b5c37e4ca9d390307a1ca783ca8fded637f42cd74"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000000.png",
+      "id": 77962,
+      "sha256": "05b4c94b28efa2bc80ed4491a18192ddbe5fdc74b49fe20c33255b34ab28b39f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000000.png",
+      "id": 77893,
+      "sha256": "ddf0d1739aad7a7904acedead3440b06e724907c622172d50362d59639536abf"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000000.png",
+      "id": 78546,
+      "sha256": "a71085c2ae8e180c82e47dc37082d8763da44639ac49354300758a85338ea957"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000000.png",
+      "id": 78554,
+      "sha256": "589821c59cbd7d2c2982b5bfa73f874c344e834bde086a9f21b92be437777596"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000000.png",
+      "id": 78030,
+      "sha256": "46cd46c3a640c7dd2ff6d7820c78981bb1b232d9e28255967415f06bc292ae65"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000000.png",
+      "id": 78365,
+      "sha256": "5800a40ed5fad902a61d6b23208c78edf1b89febedfdd81ebecde22ca3f0f203"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000000.png",
+      "id": 77932,
+      "sha256": "928a1716844be2b73ff0b134db4b8a07c58783c2e6a3797af0d76dec41c188f2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000000.png",
+      "id": 78429,
+      "sha256": "eaa93bb1bb55b278ffbf82ec139d14f008c5606dfa28424faeb8caa17b225100"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000000.png",
+      "id": 78812,
+      "sha256": "fb0563f25e5d6cd85be2ac262c585e6321319acbd8feb5ac2e194f337545b431"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000000.png",
+      "id": 78312,
+      "sha256": "42a9475e63463f52558bc0a1802a814dde7ff7a50ca73d22ca1ee3dbc85d8075"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000000.png",
+      "id": 78028,
+      "sha256": "2a3186193394f9120a152fc9932f1d9902f39d484f4ee4a0e3812b50fa291ccf"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000000.png",
+      "id": 77944,
+      "sha256": "6ca08069c865c6d0afd4bf22ca84f52acfd1fe899f7a780cef50b6060184d492"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000000.png",
+      "id": 78333,
+      "sha256": "b32b45a7df06cfb6ee18cd30f257eca4aa6670092e207754b0fcf57bc2ab9f2d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000000.png",
+      "id": 77906,
+      "sha256": "203dc4d9da2af9aaca174d0c278e9d49983227918988fd1f8075ca8915957bc3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000000.png",
+      "id": 78655,
+      "sha256": "e63e8ba4a1e08565f099699863e4dee199440c231a70d1572159366d04d9b827"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000000.png",
+      "id": 78805,
+      "sha256": "33806936cbd9fe94b2198ead25cd93b16f1f173627a7db3dce29d5a60cf496b9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000000.png",
+      "id": 78185,
+      "sha256": "6bc59b311c03a7b4df15dfad985af18427fc3ed49c64df98555f469e8d50e2d4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000000.png",
+      "id": 78245,
+      "sha256": "89923f54deef771dbcad6f20a13d33f2d46ce04474e45d4b72c87075538afa19"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000000.png",
+      "id": 78345,
+      "sha256": "e081bea2b102624989c3bf0c6f1a18c2e76d1d90f84d03f18d3d9995fb86d7eb"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000000.png",
+      "id": 78303,
+      "sha256": "ba90cd208c6d4a14488e1c9b9273f09ebc2bb2e30abf956d028b79ebc68e4fde"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000000.png",
+      "id": 78662,
+      "sha256": "ff3a2e2089796f2654738668df1286dd52541eb708c9c13876fbfdddb396ee1d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000000.png",
+      "id": 78828,
+      "sha256": "943ddf73b4e87e4372b7689864b7c27911d8d343fe5f7ce190d2dac8d790114f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000000.png",
+      "id": 78559,
+      "sha256": "6d2098408e966ba350c9cb07e15c2b446d654171fea6a13fed7df2fc84032756"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000000.png",
+      "id": 78196,
+      "sha256": "caa96aea2665c6b05841bb1d2a5fca8aa6d691737108971ac7d25d67b31d6e39"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000000.png",
+      "id": 78323,
+      "sha256": "7299a32b191aa87cca46cc4c5f2abb2cd1924777922baa0d3b1396b0fb7db64b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000000.png",
+      "id": 78781,
+      "sha256": "214baf83b5a300a63c0f8160a49b1c7bf73fb0f6aa8aac070c8b8cf01265d581"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000000.png",
+      "id": 78012,
+      "sha256": "08fed35098bcb87bb1f83743ee8bc622926e2a8b2810e424124db997443bf042"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000000.png",
+      "id": 78310,
+      "sha256": "a7ab78021600fd64c4b6a3286cdd88e8a48fb28bcdd8273ec741eb5d156dbb43"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000000.png",
+      "id": 78735,
+      "sha256": "8f840894b53480810c311c206f33e61e008de9bb0e018bc48c8ae180bb9c6d14"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000000.png",
+      "id": 78011,
+      "sha256": "23865e1ad3cecc7e53e463b72e86a3d92bd92cd8ec0c41bd271ccd6b6beae406"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000000.png",
+      "id": 78497,
+      "sha256": "2ad07778402631b046da6145442fdb351e504b02fc2c3c483dea02ff886d5c21"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000000.png",
+      "id": 78140,
+      "sha256": "6909de5c13b965fc339d5c9bbe8d27184fafd6c3df0fbe53fc9fef2a377ca989"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000000.png",
+      "id": 78822,
+      "sha256": "569fc001dfe3952e31d3da6ed3299e4c006eb221784ab69dba9406bb8d6df5b8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000000.png",
+      "id": 78611,
+      "sha256": "40a58fa0eb9fd5ec7893da65d5cdc4619938a4a6b95ae7710cd6a9a52d59e669"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000000.png",
+      "id": 78428,
+      "sha256": "5ec324007dec33ed5f5466b34bac33ad1bd862b388da3a1db05865af25536497"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000000.png",
+      "id": 78301,
+      "sha256": "b4092fc8dde788acbd937a7085dee242feab620f8ac9ab15d7ba130bc1a053c3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000000.png",
+      "id": 78089,
+      "sha256": "8e30064e8a0f58c36103ab94f64997b322162ced67baddc04c93e05bf5ce2ac5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000000.png",
+      "id": 78192,
+      "sha256": "7a023c14ba4420a78e2014b79e5752ccb2fdd98fe9f8492c8c940b1006389039"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000000.png",
+      "id": 77971,
+      "sha256": "c7a3c7a71bd0872488039e385745663048e664fe211907446ecf028ee2acb586"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000000.png",
+      "id": 77885,
+      "sha256": "2d53614ee1a7f948a29215a2eebce41d00a80d68f9923392e82d18f29cee334f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000000.png",
+      "id": 78156,
+      "sha256": "1015ae4be675d26abf1a9e111036815631accbb6490a756959b86d71f0d798a6"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000000.png",
+      "id": 78402,
+      "sha256": "dd90748b2ac4ae0104284c10e52b27bcd050727799d087c42ca9a9d25e358633"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000000.png",
+      "id": 77993,
+      "sha256": "e70bbf2987bbd181817e229ebcf54f60f0cce1fb2408948ca84040b8cb953d13"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000000.png",
+      "id": 78666,
+      "sha256": "51b568cececb991149b39c544b416194b198b18834ac16a4ca62a3c3d8a0ccf9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000000.png",
+      "id": 78677,
+      "sha256": "c790dcf6d2898aae15d9685d1de35d1d287ffaa5703a83bb5d678c29047b58ca"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000000.png",
+      "id": 78405,
+      "sha256": "637b9b841bd85a9bb81406906a6729c9300e323e8677c91957de26b8d32c3a2c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000100.png",
+      "id": 78734,
+      "sha256": "6dd82530c67776668aebe67bca4a184312f372e27ca275fb66759e6adc53c146"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000100.png",
+      "id": 78265,
+      "sha256": "8e9e1e314e82d2f52cfd447395c5d8352e66909abcacac46babac13f6c53275f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000100.png",
+      "id": 77986,
+      "sha256": "1b7acda5363d1661144c033c092684ac0325bc3c2d265e20f54a7430038c4e69"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000100.png",
+      "id": 77984,
+      "sha256": "b8099263dcf3c0aedd71afedeb9e6e814fa0819acc1ba6c62ce985114de06699"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000100.png",
+      "id": 77978,
+      "sha256": "32ac73dd6af0a5efcc0278f54631ebe4c19c197562aa093a442c50d1c8c5fade"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000100.png",
+      "id": 78373,
+      "sha256": "e6a8f3902b5f414847240a1372887462aa579bc93fcd9816e77e021354e6774b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000100.png",
+      "id": 77933,
+      "sha256": "a56cc5f03dc838e68a5c1d11fd9245f97a31edb648c604c67fbe54b42321dae3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000100.png",
+      "id": 78850,
+      "sha256": "217152ede606d964430eb3a2e1a934506eb436e4abcc9cb472d1d693a5d64e80"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000100.png",
+      "id": 78860,
+      "sha256": "4856b067dd2b4ed6e46a60f2f39060eee56474460ff31db078d89d10f9e95afd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000100.png",
+      "id": 78861,
+      "sha256": "8b4867146112773b2e31df5b78a2fe7c6b04324561085bb0683ffc777d058bd5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000100.png",
+      "id": 78072,
+      "sha256": "ac90a948b05ece96da22ab21a434e5877afeb5bafc35ee9485082007d0786684"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000100.png",
+      "id": 78406,
+      "sha256": "4822bb8e30d16dc665df4bef6e38c73f6388a236ac91dc8391dfa0e87d3405c1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000100.png",
+      "id": 78877,
+      "sha256": "49c365e3ddfe8d44367c684231d51a44994ecf0efbdbc79a1bf313851a140adc"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000100.png",
+      "id": 77895,
+      "sha256": "3bd9dce6396c50f1c339c1bb3d289b98381f8d6c50e6d2b2d47cfb0df69bccfa"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000100.png",
+      "id": 78853,
+      "sha256": "302416e0ff0899904d84034d32b8a41fc0b9cefe8a4ba02b8ab65d18a80c0425"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000100.png",
+      "id": 78876,
+      "sha256": "638b21906775fe3c8eaee786039b8dcc7eb7b257f544a5ac07709b9aea40452a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000100.png",
+      "id": 77855,
+      "sha256": "0bedbdcb06bc4296824b9f54e90db1a0f4da0943acdd1bd996a7141a3060e554"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000100.png",
+      "id": 78484,
+      "sha256": "14827ca8622a1eaa42e86d296e617ec5f1d4adb2d4dd5286420c7e94b1f7fb27"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000100.png",
+      "id": 78536,
+      "sha256": "25047f81fc067d5d3a1955c8b40d9214142fb502e01b2938a222df0664e4d813"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000100.png",
+      "id": 78523,
+      "sha256": "45989f299293f5ebec24c3e64e0959747100a90d46230d9e14fc6807081d000e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000100.png",
+      "id": 77903,
+      "sha256": "e4ed16bfd1e9755a339a7f0caf2acfddfb42c09caa0e656bdcca6d8402a3cf40"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000100.png",
+      "id": 78049,
+      "sha256": "dd5ec0e8282ba8eacca193514c94485397c64d00b4ab03d8de8145013c4a093e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000100.png",
+      "id": 78235,
+      "sha256": "95f0da69d7451352d5fef1f84d4ee2694e09cea6c9862b554ed80aa2c3cd93e3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000100.png",
+      "id": 78473,
+      "sha256": "5ba5f2c945fea2b04cff277bbbaf468813b536a060d1351b39d26030b0460ff5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000100.png",
+      "id": 78209,
+      "sha256": "d6b8244d0260de925ef79126c988ccd21c20c2a82619decd3d349b50cb829f62"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000100.png",
+      "id": 78211,
+      "sha256": "dcbeeadcd048468b41cdbf8aeb7a0ef6ac478e6668ffda0efb9ce15132c711c0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000100.png",
+      "id": 78776,
+      "sha256": "b5b42871bcdc8235c1931d30ecfb8b4344e999e8288416d48b2af9456daf43ea"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000100.png",
+      "id": 78775,
+      "sha256": "bdd53b5fb2c91f39274e5f454c49f9b1ab291b029913dca04e5cabc99db3a0d7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000100.png",
+      "id": 78699,
+      "sha256": "c6051b03f9ee0db0dfeaa83cb4486456e09657f6938745d6e453311fce30b162"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000100.png",
+      "id": 78060,
+      "sha256": "9830f14fb542c301cda58bf4505a9d536a61a3a2fe25ece294c3080252f3b773"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000100.png",
+      "id": 78053,
+      "sha256": "1c8291983e3ec7f85e303fff80a61d6f459a31a5224275aeed282e4bddc67534"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000100.png",
+      "id": 78638,
+      "sha256": "7686009b8041f75ae7508823664bac062c9c4dac616687c69e4e538d89c5ae9d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000100.png",
+      "id": 77929,
+      "sha256": "e2fb412d76e9cbbc9b661785449b489585f867e20b48a2ea4536d69282d3d56e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000100.png",
+      "id": 78160,
+      "sha256": "a8594e507049be58b8768dfcda7be212b281736271b44d031ed38bf770d3925b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000100.png",
+      "id": 78866,
+      "sha256": "1ecaa3f19db3a202b1aa471344c3cdfd9486ad83f809784ae9767aecad0a7a5c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000100.png",
+      "id": 78818,
+      "sha256": "74af45779cad1067fe0cefb02d553a994b5a9b414b634b2472588e05155a8c42"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000100.png",
+      "id": 77881,
+      "sha256": "5b158e0bb6523114e73e748cf486180487b955f02977da90b7ea87a0d6f65bed"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000100.png",
+      "id": 78026,
+      "sha256": "9bdff2db572acabee822a0732daaf911648c6f1845fc711a3b4b22aa1e874001"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000100.png",
+      "id": 77951,
+      "sha256": "794f93495f1c3300f39fc272ed1a91860e33988e30e8c6bdeebfb9d1fc9dce4b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000100.png",
+      "id": 78757,
+      "sha256": "222adcce7efc58a419ce5ee66453fed9ea46b886ea11072c20ca37fc76c3f9ff"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000100.png",
+      "id": 78857,
+      "sha256": "5337ffb17c1b8f11bc322ee6e65fef54132f70f56da67baaef8e8baa7fa1c95b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000100.png",
+      "id": 78024,
+      "sha256": "7d180ff59c0b133c503f06880329f0e807e931b0391346a59bc67ec2017be46d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000100.png",
+      "id": 78019,
+      "sha256": "4bacafe2b862a0062ad7d542d403bbc5a95fa54e17bd25fa64a7aa3ad8ba4c88"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000100.png",
+      "id": 78018,
+      "sha256": "d6f2395f2d3cfe8b41a83c541284fbec20c4780c7279fb6b1f71f2634339fedd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000100.png",
+      "id": 78016,
+      "sha256": "e75c9f7e48f22de828ed8cd52760cc60aca6536d248693431842537f5f4fc649"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000100.png",
+      "id": 78070,
+      "sha256": "f591dcec46ca0e625e8e3e87aec07f586a5759a38698f2725e516d8cb74cf7b7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000100.png",
+      "id": 78081,
+      "sha256": "d4d3ae283c7db2ac9e2a202bfe8776f6dbedfb2404a9f2ba41a8ccd0f981161d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000100.png",
+      "id": 78709,
+      "sha256": "37288dcc5e7c9f9319c209428294f9ba180abb33c66ab11fd807159cd219ac76"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000100.png",
+      "id": 77912,
+      "sha256": "715a21f895d181908383d16b864eca4e9d383be99ab9a9122eab898c199e6395"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000100.png",
+      "id": 78695,
+      "sha256": "14b7ee5d25a9b657b941cf42029d080ce261e66140db700be4055527481b770e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000100.png",
+      "id": 77995,
+      "sha256": "26c25007c5ee087e163618e73ce80ced1a29b1658a697c8ab313bfc55ee639de"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000100.png",
+      "id": 78247,
+      "sha256": "8c52ab3b05b9180abe63bceec7f7b80216852c5fecdec90f4a291ab3d363cec4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000100.png",
+      "id": 78258,
+      "sha256": "cb61e6aa262c0a216870fde232928da69998bf1f4d0f5979ada6403e41bdafc8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000100.png",
+      "id": 78260,
+      "sha256": "36e365d90c82f63f42b7534eff720b2a24558150347f472ec3c63ec0e6bb4666"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000200.png",
+      "id": 78043,
+      "sha256": "33912c4db51d355f5b15d6940c0c5f73e94772ac2a6464b1ea080a64013a7f43"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000200.png",
+      "id": 78044,
+      "sha256": "765e27a0857dbd0a28752c0a770b6bcf3be59e8f7c8c4ab783f4661c956cd2f3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000200.png",
+      "id": 77879,
+      "sha256": "26ac0a8786bd9247734f4c88710bcb2da5e70b7fb89280b29c8650125f6e21e1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000200.png",
+      "id": 78444,
+      "sha256": "12a77d05601a7113706d7aef1c97670770dec984164b0d0d89a2772a84317f63"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000200.png",
+      "id": 78134,
+      "sha256": "3a3bd64101388ead73eb636650ceda6afcec20f82093b22df80a3692dd5c36f4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000200.png",
+      "id": 78162,
+      "sha256": "6025b656730b99f558cfa2287df241d1d16515dae377e62db5c8acd14439294f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000200.png",
+      "id": 78269,
+      "sha256": "6eb3c4b70013d5c1ae60d2a807af5cfca92d0c05f6bac5600e41bd10cb89d3f1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000200.png",
+      "id": 78231,
+      "sha256": "1092fb6696356bde834ea337164612a9f823129eed80963e46ff9bfbf6eda83b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000200.png",
+      "id": 77918,
+      "sha256": "2c521dac1ca14211e2fbc4f6cf46cc2763ea431902d25ef44b418f8131ef79f9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000200.png",
+      "id": 78874,
+      "sha256": "bbd8f28effe4073a56cc67761c7dbbb39f3fa99c82558a609db3fdeb350b169d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000200.png",
+      "id": 77862,
+      "sha256": "302df53a328e398c12dfd1599891e614814a84274136adbf0d0bb9b63a0ec6ff"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000200.png",
+      "id": 78772,
+      "sha256": "7533b3075457c71f874ba1282fdca4bc8257d5b0a67e0cdb6d8bf70c5acee923"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000200.png",
+      "id": 78644,
+      "sha256": "a095ca8c9ee53a0aa7e27553237c2dddbc208c677fb47a60311ac882fc428a30"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000200.png",
+      "id": 78804,
+      "sha256": "090cefb6a7963ae5567095e36b08d71ca76a3d6ac761c675417f1411f25b392a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000200.png",
+      "id": 78768,
+      "sha256": "f22e5a54eca0dc3c493d506f2556c42228ddbf2b7a14e8c9c37cf5fbd4d27e6a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000200.png",
+      "id": 78767,
+      "sha256": "65650a7af9117d276407d62202392f84913351b59b5f8ecd36b2ff0dba49ed85"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000200.png",
+      "id": 78723,
+      "sha256": "e00e1d66975294231bb70175799172d9fda4b69b073456fd8aaa36507d3c5468"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000200.png",
+      "id": 78711,
+      "sha256": "26b136a1a32a86e9f9bcf02c3133a78ff2c71e8a643ff168a95341ea6253cb96"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000200.png",
+      "id": 78597,
+      "sha256": "3a674ce15da5d45401a4ead7c1f50e94a5bcaad1f424af3abad72cb830b08b3a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000200.png",
+      "id": 78848,
+      "sha256": "1998839d5ee5941f73c0a2433e57a461d9c4af4a9f71f06afdb2da54985e236d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000200.png",
+      "id": 78845,
+      "sha256": "94771c28baa86c88fa541bb30ac63cd6f56f7a380ad58bbe401e34d04c0a8213"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000200.png",
+      "id": 78328,
+      "sha256": "669fe33a40850219d83dfad9445869f1ea8d22e48214387d71e1e2ec52c19191"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000200.png",
+      "id": 77923,
+      "sha256": "9110b3d8d73b644f03e8dafca5f49ec5851ddaef2d93428a717d3f946e097991"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000200.png",
+      "id": 78844,
+      "sha256": "738d10f7da122e4b348c37366e21e5d13f632cfa674a28120e0c1f78f37b8d08"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000200.png",
+      "id": 78835,
+      "sha256": "768a6d2ac7e55b09b4c23dc481f1e170a6777dfac3b3baa856b443a81e538fde"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000200.png",
+      "id": 78770,
+      "sha256": "bb0880660c8ed9769d5ea347884cec5c7bd2f006b18c702d048922f960280bac"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000200.png",
+      "id": 77994,
+      "sha256": "204ee49377b87890fd3e616c25a109cdab50b914642a556717fd60f8f0ac0c42"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000200.png",
+      "id": 77999,
+      "sha256": "1ce27a451144b84a2ecac665117eeb2b212eab1d97bf641a2963432df1fdcb2d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000200.png",
+      "id": 78000,
+      "sha256": "100df5a49648c1e7fbd86be5ef89ed7af40d0c9948c1d20d54cd521bb3a0ef89"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000200.png",
+      "id": 78006,
+      "sha256": "b4ced0f906044212fb395999531424974d7588c7bc1471cb22f47ae58c5bda1a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000200.png",
+      "id": 78498,
+      "sha256": "eafac6f580c88271699eb63fc77d468e8b8f17542073ef2f2bb8727bd8a4b607"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000200.png",
+      "id": 78453,
+      "sha256": "bfe005476776a9cf6c7f510ee2e1303e5b74318f703ae5ec08ddd142cbe71cc0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000200.png",
+      "id": 78556,
+      "sha256": "db86daf768517ecbcd9f8936db14878a07aadb397306e4ae93effb87d41686d9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000200.png",
+      "id": 78512,
+      "sha256": "4c6122c3686c6c2f6c4640e388075526314fe392c43ff58f9e24f3cf8c6583ed"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000200.png",
+      "id": 78511,
+      "sha256": "9dc20292521b9a6399e0df329caa81431d3b2725b50a08471a2a9a8eadfeec60"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000200.png",
+      "id": 78051,
+      "sha256": "b007a30429d3ec7bdde9a556566b9bd28485b6daac07410ef328a60a6124f7e5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000200.png",
+      "id": 78504,
+      "sha256": "c97526c70919f4c94b422ece0efcd55367e8b6e3e0b5e752990302ba92ed6bc2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000200.png",
+      "id": 78080,
+      "sha256": "e15cdbbb14320748c33874169687d4c664fb44823a9c5fd1e8046b594420562c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000200.png",
+      "id": 78095,
+      "sha256": "9767d981cf76cd362460ba01d1b64727c58c395428bbfbfc00e7dd053d248ba2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000200.png",
+      "id": 78339,
+      "sha256": "17b2a7292de29902a4d9ab38136d9088663a4dc24806fbce9bd2f1d9161adeeb"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000200.png",
+      "id": 78338,
+      "sha256": "73001600915408121ad0d518c7faed7aeb4340124cce4861fc616be772857121"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000200.png",
+      "id": 78797,
+      "sha256": "b7855747bfd9a1204732ecee3420fb98d4e338e874897dd6d753c9ea9d043c4b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000200.png",
+      "id": 78491,
+      "sha256": "33bc50bf72198367673e7f2ac05553f0999d7df4dd10bb179d0ae5799dab4768"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000200.png",
+      "id": 78102,
+      "sha256": "5a852ec1d80e71d6980eeb12f017282b7ebff9864a2442d675b41de3438a9f8b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000200.png",
+      "id": 78425,
+      "sha256": "e9ca211e91117343d279b01aa8cc9e227b15f7f80e45c3335242778d9bf5c3e5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000200.png",
+      "id": 78419,
+      "sha256": "6097c89628ab75b525777c89fe39fad4c7343234e0594d4c6834d8d931e18d91"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000200.png",
+      "id": 78408,
+      "sha256": "b0a5403bbd37aadc6b5d0e79a9ae8ec6c054108e183416e8cdc7dd09dcb7e318"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000200.png",
+      "id": 78401,
+      "sha256": "64d58edfb3e5bc2bde10671f92b0df7b339e99b980f85396b2ba5a14daedbe6a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000200.png",
+      "id": 77853,
+      "sha256": "ee9bd09c268e4665d9c050ee185286010241f3f53728a1f071aae66067ff54d4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000200.png",
+      "id": 78356,
+      "sha256": "39caefd32fa0db4237426b140f5bc9f494b06a9ab36be43b124a7ae788f61032"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000200.png",
+      "id": 78346,
+      "sha256": "2b3d0ce13c7af29aa5c04c891e3c17616a3426c97242c9cf483dc2a6f0b981cb"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000200.png",
+      "id": 78250,
+      "sha256": "77c5017844a3adff110c57ad82c4feb802f87307bbb24bb52f33f0c0e74a63e3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000200.png",
+      "id": 78561,
+      "sha256": "935312baf99ef69704e625eaec54d55288c0d5939fbe8604abaec3816f554e2b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000200.png",
+      "id": 78042,
+      "sha256": "d90436cc0fcfd53d1f890c134f4ce48cd906e2ea47d4db5a9fb21091dbb7de3d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000300.png",
+      "id": 77854,
+      "sha256": "53238d67c84a3f1a96838d851bba184d2bd833dd6541b00579b215b610457f01"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000300.png",
+      "id": 78508,
+      "sha256": "d4f7bc825cbfea4505c1fc8ca30c67369520c5e6cd21a9b4d33f37d72d9fda97"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000300.png",
+      "id": 78430,
+      "sha256": "740dee7d7c0dfed8fd178c9e77d093b80d7f2f6f2c5ca5a749a044e034583064"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000300.png",
+      "id": 78275,
+      "sha256": "458f2634973e7460fd6a573f49d1f84229c4826cc60d5aa6a694eab7fa21e9e8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000300.png",
+      "id": 77910,
+      "sha256": "38374b3af31ced8bbc5c2857c4348c20cc09d05cadb1c2a1270f732c71a29ce9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000300.png",
+      "id": 78014,
+      "sha256": "c00aa7b7323f2f7e1018ce7a3354a18a9bcfba93dd00532193de09c8eb8d8e9e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000300.png",
+      "id": 78326,
+      "sha256": "c1dc51d24c055b66162b0fec04a8dcc89adacc4ebf4f04affb43eea03b4137f7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000300.png",
+      "id": 78580,
+      "sha256": "b69cf781819a653cb59b33467c6a86871c0fc29c80894123c7f1fed0595eef76"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000300.png",
+      "id": 77970,
+      "sha256": "193ef95b4a770ec9d6503efa9ef7a0ee8c6291a45d5c735fb999e1da945d8fa4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000300.png",
+      "id": 78149,
+      "sha256": "cb7fe296460f76151802c45d6a20f1d56d33f88c4b1cf2c483558ba83fa6c17f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000300.png",
+      "id": 78598,
+      "sha256": "56d136376a502da4042414aaea5e67b47031ddae3bd0084f23d85c4050209219"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000300.png",
+      "id": 77959,
+      "sha256": "dff74ce3fea332ebf3e77c10e138acc7d074bc1d3902c858aee742a9c8c52bbd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000300.png",
+      "id": 77904,
+      "sha256": "8210ce8419492d1e40ab90b24a91a129df6aa572568947e126bf30efab357824"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000300.png",
+      "id": 78809,
+      "sha256": "50f1784a7616d3487313fd4c944f9ade53b9cd112e241766d4588914f5bb18aa"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000300.png",
+      "id": 78816,
+      "sha256": "2dce5d007076fbf70da5af4acd2dcdfbc00eb9278f648d8b043de0cad2af3fed"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000300.png",
+      "id": 78506,
+      "sha256": "e1bc2f6c7ba4ff26e09951c2d3cf8326703bd7669be3a8df553d6d2c9f9f2709"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000300.png",
+      "id": 78280,
+      "sha256": "c9d812a71e0a71483137ac36fe6e141c5f166140be037199ffdff844c75dc0d8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000300.png",
+      "id": 78643,
+      "sha256": "e68cbafd4d3b5bdeeedc5cf8e02a48af756901d059bb83c7c9636a06667ac2a8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000300.png",
+      "id": 78462,
+      "sha256": "afcc558193a113522cc06f455363d9e9cbea0397a2433e9593fe38893343aca6"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000300.png",
+      "id": 78415,
+      "sha256": "c4782be8276b003efa6eb964f7e41ca88c31fc537e4bae5b906dc75a596790b2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000300.png",
+      "id": 78368,
+      "sha256": "e0bb4f40e49722391f32919dd84c16a6ee0d452b79ba937a3ee149acb9b94ab5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000300.png",
+      "id": 77865,
+      "sha256": "99180358a800b514f03147515f1da584e17804270f5654cc37ddd6aa969a2c8e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000300.png",
+      "id": 78108,
+      "sha256": "b519355d5b899127e25154c1e794b4b99e52bacef7ff5ae01330f142618b2456"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000300.png",
+      "id": 78379,
+      "sha256": "1858774b4edbaec91c415670cb452df7809518c6d7a725a4702603789f0df867"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000300.png",
+      "id": 78792,
+      "sha256": "e7f0f41f5588c02e2561e8271c7b932a0060518628f94ecec79d36c934372ff1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000300.png",
+      "id": 77911,
+      "sha256": "10d6386dbda78461e75f31dd3bb00be2339860cec84638a1089cb8c0695dd356"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000300.png",
+      "id": 77875,
+      "sha256": "37c999f571c2bde20fe6db45097d80034404e68bee6f977c6868aed55e668e70"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000300.png",
+      "id": 78261,
+      "sha256": "ada11017f656145b2cca43cc472517376c92802883eefd11e16674ba9ce83131"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000300.png",
+      "id": 78431,
+      "sha256": "a3fb48aaf5ab91ac35a964f2b1e38622e7f95bd17485d5736b7a550990f5f2d5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000300.png",
+      "id": 78100,
+      "sha256": "2e8c0119a09c105a29247d7ac0c7f3ec231a6094c69f7aa56ef17989f153bb0b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000300.png",
+      "id": 78158,
+      "sha256": "1554591722e321e4aea691b54cf64f0ed52ba73a231092e23ef4c6f36b1f2bcf"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000300.png",
+      "id": 77897,
+      "sha256": "326778db4edc95e7abde3135272916f7703aa433bbf6470e16828f3a2cb7a385"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000300.png",
+      "id": 78296,
+      "sha256": "c2589ac1d9750ffefab3cf84a46359a97b43e30e5896820aa959f57d22d8fff9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000300.png",
+      "id": 78397,
+      "sha256": "f669f8d8f4f58a193cf9d6bd0ee5a2fa4063b1423ec03f503357c20a0c0ea4e9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000300.png",
+      "id": 77924,
+      "sha256": "590f60bb338bc7e1a8554f771eb5f7e80bf9b64cc8ad1043dfba0e703c13f3ec"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000300.png",
+      "id": 78387,
+      "sha256": "b113ef7f445f9f8c7e6642a4db8394786602a820680f5a87ad4475d8184a0e17"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000300.png",
+      "id": 78330,
+      "sha256": "a6052ba60be27dcc8ec76e6ced7ab7edc2cc798f1c92101b5260e50044ab4cb1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000300.png",
+      "id": 77966,
+      "sha256": "ea45749f4166ecf7f1d99da677788ae3e2e7f39ac53f74a4fb804c3da0e65197"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000300.png",
+      "id": 78281,
+      "sha256": "6e93066c01d405ded0d44bb92648a1a65decb94e79977355873211de2216300e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000300.png",
+      "id": 78821,
+      "sha256": "f03f2541961892cdf8d10279d212af7cf746cf642f91101eeb8815fdd65a8013"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000300.png",
+      "id": 78596,
+      "sha256": "d11d23ce15096dd6d0489a20959243bbd70a6929f949e3850fce3f5524b9be4a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000300.png",
+      "id": 77922,
+      "sha256": "a0a87fb585303b2940ac5574a100c91e51b7b6284f1bdf35133bbbdab75dcfe6"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000300.png",
+      "id": 78815,
+      "sha256": "ff826131e46965e06166956af61a3c5bc2d91823abfc10e61144397b2f3e550a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000300.png",
+      "id": 78842,
+      "sha256": "5aa691ffc5c6f5d81bde096822d383a6fe9a21c3d5058197033a2b8b2d82f250"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000300.png",
+      "id": 78290,
+      "sha256": "a543086b291932b9dea993db264f9c292a4a3ea5bfd1d24e03670c6eaefd4cd2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000300.png",
+      "id": 78313,
+      "sha256": "e1132ecb15112029b265643d1adb402d44f634c3fcb32aeaeeae36cc62308d2a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000300.png",
+      "id": 78288,
+      "sha256": "7927b07bd22dffa3d58128c80bdbe696ffe92aaf6db42d09c1b7df7af3a8fc51"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000300.png",
+      "id": 78617,
+      "sha256": "c7a08728e5305289c9422a3a0966e2766b83bb353ab0a04c255cb117d436b49b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000300.png",
+      "id": 77916,
+      "sha256": "4bb8839712d42e5c7d8b9b380a201ba39be8188ad299bf60c84acac65e1205ff"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000300.png",
+      "id": 78657,
+      "sha256": "d8b4a5bfe385c0d1ef79cafc3428ad5100f7f27b84d9992d74f08166c60d488b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000300.png",
+      "id": 78612,
+      "sha256": "2b660a05c0ee0573c01f14278cfb04f49fc9c2d1a29468e43420010d100b361a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000300.png",
+      "id": 78679,
+      "sha256": "f78d20aa9b2a76469f0ef0e2907b14d0c7b6684556052141e99c25350ef23920"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000300.png",
+      "id": 78169,
+      "sha256": "e68c134b98df67caa7a54860c473e91a0212bb5c35dbf3126ef7babd499c1caf"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000300.png",
+      "id": 78530,
+      "sha256": "e75428c658adcfe61816cd3731855fcce8158e42f21b7db96426428e9beb635b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000400.png",
+      "id": 78319,
+      "sha256": "2fcfcc3304b1d6df443387b4b6af1436b3b3a937f3b3c8a932d23b26663bac52"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000400.png",
+      "id": 78320,
+      "sha256": "122ed8d3fdc17d966ba3b44c956f8ef4197be4ba98434bcd87e7919757a38be7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000400.png",
+      "id": 78698,
+      "sha256": "27b764c658443805fc282b1787bf707abd4c5dce84283beab467287df575dd2f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000400.png",
+      "id": 78522,
+      "sha256": "f4656a61c0c3a7d3e2c8c9840e65c5afdb9b52521900ee66549ac96707d77546"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000400.png",
+      "id": 78003,
+      "sha256": "88fc8eb54e88ff8993a3b7b45667704db343109edcbf1fce3c0d20ba94001e8a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000400.png",
+      "id": 77907,
+      "sha256": "e9f3f7c93fd161d062877639b9977fcf2b05be5791c48187deef4d867acf2010"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000400.png",
+      "id": 78146,
+      "sha256": "d453dad229522428fca39aed2a57be0860aedacb81fc0385bcbb410c789503da"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000400.png",
+      "id": 77996,
+      "sha256": "ff3bfe7168e668bb2729f43b9df8e3db724bf34d17e1beb776aee132a96826fd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000400.png",
+      "id": 77987,
+      "sha256": "4696d2c5423652067bce96850bf84345666b076dd97f5c388d19a1238f5b04fb"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000400.png",
+      "id": 78335,
+      "sha256": "adf573d3376015f26cd8111a7c06341372707f09edaba525af772b13c478fddd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000400.png",
+      "id": 78068,
+      "sha256": "2bb538e7fe3a39d216202952bfad37840a3e72912c9658dc8771554244063485"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000400.png",
+      "id": 78502,
+      "sha256": "a0e9fb5e3d72860b79777c26fd2f51cacc4a1a9c803a4dd7f7177e9d905f32e7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000400.png",
+      "id": 78015,
+      "sha256": "6b6976fea3e104405ee67022c9e4cf886b2758fe5ad6e4b2193fbdc762ea221a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000400.png",
+      "id": 77989,
+      "sha256": "d20d5edf36f22f31f44779b979da35c3e421f197cb1eda7131c3b492b9a5d382"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000400.png",
+      "id": 78829,
+      "sha256": "5808cff9bd8a1f8613b01c8aaf1413a40f1dc73e5f2166548f8f37c03209cd67"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000400.png",
+      "id": 78830,
+      "sha256": "8a37de14cf893302161d3fc7553f24ab40a6ead9894cd183b497e52c52994421"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000400.png",
+      "id": 77968,
+      "sha256": "64bf4f759d824a902876faf685e71e718b47b173b6bd0d7f21028330730a2453"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000400.png",
+      "id": 78841,
+      "sha256": "be2e955052dbdd69132156398e9044131c9193c8aabb7c70b5f18c9ba3433e32"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000400.png",
+      "id": 78023,
+      "sha256": "83b877829d7b38ccf6ffbd9c7a85201596c5ca6225e056d4f7bad82c55db4108"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000400.png",
+      "id": 78834,
+      "sha256": "a74c76eca511c4fe99704c8b8ad773523c727a3d0fca3c642cc212959d525ea7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000400.png",
+      "id": 78563,
+      "sha256": "9396f8891fa86dd128564742f7b41e076fd9df840633380e4d6e160ff03dc07d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000400.png",
+      "id": 78458,
+      "sha256": "517a00b58c1cc55d877557c7ee71eb205e88d465060b353f2d136f7c07e43fa8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000400.png",
+      "id": 78467,
+      "sha256": "4c3f98bec674a5a596f2082a6d00cd636e408da3a920612cc6a98a2f71dccdab"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000400.png",
+      "id": 78427,
+      "sha256": "b8f71bb81d757589ed1f34dfc293088b0fdc658de53fb3896a487700b0897f1d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000400.png",
+      "id": 78426,
+      "sha256": "c17b3e52241af1c019fab7c873d56dd7f7e7204a7fea8b6451563296045386e0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000400.png",
+      "id": 77877,
+      "sha256": "2f0aa4bbe81bf968da4ed334a8d6867cc40e0d37f458063dc501c84410656e32"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000400.png",
+      "id": 78325,
+      "sha256": "84cd4b2e929c2a876d4615f6291ac527cc385c970fd908645ce9ef42eefbf768"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000400.png",
+      "id": 78334,
+      "sha256": "385dc0d894586c7f5600d6177e0c8552ad90da148e2c227f307e2f4ce0cecb7c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000400.png",
+      "id": 78363,
+      "sha256": "23092f1481ae655d767279fe021e27f18dff7809c649d17e5bac7881a5f1a51b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000400.png",
+      "id": 78417,
+      "sha256": "70ad43d6055ccc8baec4d20c6bb50c1dcc31af2e50c8dbfce4955b8d43c8ee61"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000400.png",
+      "id": 78056,
+      "sha256": "95d15271b1ea5831f9ab4c8a9e5803c570d7965e7dabc59062d5d0e907181a90"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000400.png",
+      "id": 78411,
+      "sha256": "582679fe48821f7e6086622a8481f8b3535173728c1bfc38ab554d00bff6e821"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000400.png",
+      "id": 78304,
+      "sha256": "f74b11c972d9c5ac995830533660d43605a64b8f4263369261867763952af08e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000400.png",
+      "id": 78476,
+      "sha256": "5ae24d591e8776b8ecd0e3c6e5dcfce7359eb052e9149f39a4fc2866f301892e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000400.png",
+      "id": 77889,
+      "sha256": "dca32502af37c3a74ad09ddaa63b02e246eef3856ff38463b5ba79582ab7498e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000400.png",
+      "id": 78292,
+      "sha256": "16b24f1e6a5309dcbb574dbaee95f3dfb582cecc248d1e7615a8e519c957180a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000400.png",
+      "id": 77872,
+      "sha256": "dac1022dc2f4193c32c36822338798bce22f21e820f475c54da6a104870c19ea"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000400.png",
+      "id": 78754,
+      "sha256": "0b35149d29ab261119cbd4e84d72c548d77298fc45292cc02dfab338ba397307"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000400.png",
+      "id": 78086,
+      "sha256": "e02c349f7af561c9a3b51376334c89face53297ed16c5cc3130fc294e600e6fd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000400.png",
+      "id": 77869,
+      "sha256": "5aba4ffecb3a61a25a8712b4d5195d1e95e24480d39f53943062ff9cc5d75d10"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000400.png",
+      "id": 77868,
+      "sha256": "de41621de89246de52d085c97d9cc4f6c21ec487f96f9c867292d05b1ff86677"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000400.png",
+      "id": 78370,
+      "sha256": "1e918c49774f46344a9a8b77944240a0c471b0a0c35ec7ed48d965a68675c78a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000400.png",
+      "id": 78819,
+      "sha256": "420794aa82d60ab1a81845968c742a1c6dc83fe292ae4338432435a23df351a5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000400.png",
+      "id": 77874,
+      "sha256": "e3579834dff8cc8108fd76977164a48dc3d3fcd30930c80ed6b5e93344a0cf13"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000400.png",
+      "id": 78399,
+      "sha256": "c80857a0694bee252688152b2b30f35db63381f264c437defbd7dbe7bbd8a071"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000400.png",
+      "id": 78251,
+      "sha256": "6d9261ceebfdaa478959699f42ae4c862633b1752502dd0481e192ddf71d7c34"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000400.png",
+      "id": 78207,
+      "sha256": "2bc814564b5e9e1138a1baf41d68c23820001d3a26774c474aef89070b121805"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000400.png",
+      "id": 77949,
+      "sha256": "2cef2d16493510aaa2cf4c0d013c9cc68582b12c12fd3a37ebc1af279fb32876"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000400.png",
+      "id": 77939,
+      "sha256": "38503658958bf98dd68abe393226e8742120858511d91ed40e1bca0267d62173"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000400.png",
+      "id": 78736,
+      "sha256": "2ff19c9c94380b0d69bc61578be2b0a720b02cb99dc12cdf260e5f257c78decc"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000400.png",
+      "id": 78377,
+      "sha256": "02902c3abc186e8e812b510a08da69a027baeb0cb0ee9a24e907c98a9121f32c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000400.png",
+      "id": 78739,
+      "sha256": "8bdc7108ac9609dea35c9f4d304afba724bbd97b0fd695b9384d40beb9380453"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000400.png",
+      "id": 77920,
+      "sha256": "6c61b186de99afebf2a7918ade483d1b1413b5d8e280b4129122f5de105cdbe3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000400.png",
+      "id": 78799,
+      "sha256": "51685e8118a6c0329286a4dd8f8cab9924cdb7d02c1cd5cf05e63af0cc34390f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000500.png",
+      "id": 78730,
+      "sha256": "dcf1987fb31b80d8820d97ebb79e11b498d74f139576d631d449350cef72f135"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000500.png",
+      "id": 77851,
+      "sha256": "2e6aaa6f4aecc9cd2695bc9b63656fd64d6ed24f02c7fe51232b2b756ce21991"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000500.png",
+      "id": 77887,
+      "sha256": "a4941faae6300277516cc99620660341a326943119c1614ba61196a35ee7fb59"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000500.png",
+      "id": 77898,
+      "sha256": "bd32abe76462787c8cc853ca5b9f9466b252be6a08b987078b4594d7161215ce"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000500.png",
+      "id": 77921,
+      "sha256": "5f7e65d181523a1dcc6f231d80e7c354d032aee91fd80b33fa7609653682d282"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000500.png",
+      "id": 77892,
+      "sha256": "1358a7831b219bb8849c7602f4292a2468ad404178c72f0789044306fadb177d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000500.png",
+      "id": 77938,
+      "sha256": "670f806c80532ce154127777353321093d43bdd606fcba26e0d8f3f510a6ff18"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000500.png",
+      "id": 77942,
+      "sha256": "f87028240f8163230565b76a53d227887d917299fcd43be80b814ad2fd202509"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000500.png",
+      "id": 78067,
+      "sha256": "8a28ee1b2f00f1ceb729d66eb368a43a3d0db860743e167db8a1121e78d579a2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000500.png",
+      "id": 78172,
+      "sha256": "4bf340956d5d9ef09fe74d424faf0320e716e2b2a8dc8742a96439f666199827"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000500.png",
+      "id": 78248,
+      "sha256": "763d385faab03b60e14f38418b9a4b57e49517848a18f401c3043878504dfb21"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000500.png",
+      "id": 78259,
+      "sha256": "8d900535e42c7b20491e369571574291e94a7565b0d478e8e1678ff6dda21fd1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000500.png",
+      "id": 78315,
+      "sha256": "392ea26ddfde8e47f8a1181f911db3c43931d4b49557fa572a20ee7a85753ddd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000500.png",
+      "id": 77974,
+      "sha256": "0752fb29caa878fe452e935e39c03deb1485d632db28c2bbe018bde82022de07"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000500.png",
+      "id": 78020,
+      "sha256": "21fb146decbfe2dfb70af547eaebef42b9560d81944dc84cab2205e2b0d2c280"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000500.png",
+      "id": 78022,
+      "sha256": "2911bcf1eabbf4c317cd18b9166d192143c79f1ae1bf297837770df3fec793c0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000500.png",
+      "id": 78027,
+      "sha256": "78a110383e60bf3075fb8ab09b79f89da1e9fb865cb44b934cd2ad6fce66ddb0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000500.png",
+      "id": 78063,
+      "sha256": "da8496ca831fb6e950c6c150e10dd3e0928e36a14983a2b3b36bd66659c717f2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000500.png",
+      "id": 78213,
+      "sha256": "0093e1d329653058051fc13a9363b36ddcb35299057493471f001c43b3ef1baa"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000500.png",
+      "id": 78215,
+      "sha256": "aef4b1ad64d730da990a43859b717d94f1b0d0155501ed0a57da9c2dcb6bb4f1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000500.png",
+      "id": 78048,
+      "sha256": "a8ad87a102b6860866e319805fb8155595d1b9eee422a4948355beff948aafdc"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000500.png",
+      "id": 78262,
+      "sha256": "1efd1f225fa9531843dba79576739c9277be0d1bc2f54c40af944f16d0711f0c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000500.png",
+      "id": 78359,
+      "sha256": "69ebc2c65b9566c7e8572fa94999e8a4ed5998feeedb392826dcb95c0bed6974"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000500.png",
+      "id": 78371,
+      "sha256": "0eebe7b5b5e9235b7bb3e27c16aeb03e50a63deae81f1bd38950710baee501c5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000500.png",
+      "id": 78372,
+      "sha256": "9f5626d02b70f6a47b0d93b1d6f9c3562a67199442f58feae4812592dd85dfad"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000500.png",
+      "id": 78391,
+      "sha256": "0b09c055a8d1c019ed19556a0c611341ea04b710e2b4765b6a72900697590ead"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000500.png",
+      "id": 78037,
+      "sha256": "5fe501543ba06dce945644a29edf78b3cb561ca4dc3117ace4a54d445677b422"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000500.png",
+      "id": 78078,
+      "sha256": "affdaca733fb669b612ac6434e0d5ad7b680555683d6184f58409cdceaa6ad18"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000500.png",
+      "id": 78180,
+      "sha256": "cbecc6ed8d78eedaf876effddf6c882a1d4bd5d9cec66b4a4cd7ff42f7e76724"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000500.png",
+      "id": 78237,
+      "sha256": "a045aa127e61158bd6131eda6cb9ff57794c013524b9c448a1cffd86eca16fe4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000500.png",
+      "id": 78341,
+      "sha256": "df2147ad58c20715acf41dc868c3c839792be2a1392136c9142a3de78992d64d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000500.png",
+      "id": 78349,
+      "sha256": "90f4ec0e41714551b7abca1d9d93338f38beb223381db774307ba4074a5b028f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000500.png",
+      "id": 78409,
+      "sha256": "680ce2dbc097bb9ab18aef8e10bb8479bfe68a8fbd05f792f3399ddef3afdacd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000500.png",
+      "id": 78414,
+      "sha256": "a188c9341c933c8ecb0f191e9c252b3b94fbd87d93947eaeb538539e33458e64"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000500.png",
+      "id": 78477,
+      "sha256": "81fd1a77e7c66e33a6a286b1ee163b50781fa0777e1d211d74a6d11a31f3113b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000500.png",
+      "id": 78385,
+      "sha256": "64ef9358fb9bcfe10b0dfa225b73e5d2bf02f07367e9a6b2df0fe3c8d0227f65"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000500.png",
+      "id": 78404,
+      "sha256": "290cd2d9b4e26c9f4c2e295aad678b487c098201ec58b7a9588f256d7b4435ff"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000500.png",
+      "id": 78501,
+      "sha256": "0b7055b2e9e363434175901fe682de6f5a6595c262c68a43be6c13d6a00be8e7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000500.png",
+      "id": 78510,
+      "sha256": "6039e20245bc0697db580fee7fe4dba40c22c982b9445bf206a8deadce352b5d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000500.png",
+      "id": 78555,
+      "sha256": "b989f7e87edab94b3edd06a29fdf2a62998a3ee598bb67d45aa362d87af4c0cf"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000500.png",
+      "id": 78494,
+      "sha256": "8af44adeec49636d99983e43cd0190a3fc78664def5220158d3ef84cd7f7149a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000500.png",
+      "id": 78574,
+      "sha256": "e220f77dd2d68a7688e2f370a4004382e6debeefee40f4e520fd6f5112961b75"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000500.png",
+      "id": 78583,
+      "sha256": "4eb679dff6af11046e6808d6464588234924b09590e0ceed412ccaff182f492f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000500.png",
+      "id": 78862,
+      "sha256": "7ec7a0d79a5862498edf4e44411f2d8f6f0d2cc1ab58e9fdcfbb4a3e4c5cd048"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000500.png",
+      "id": 78873,
+      "sha256": "43376abb3a56173c6c0bdf290b60771b52ec7ccad207ed60951f26b725624cf9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000500.png",
+      "id": 78591,
+      "sha256": "db74ff1595133946e0b47cee44f6bf20c507c6dbd1207ae7e178165f65ee88f5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000500.png",
+      "id": 78664,
+      "sha256": "69fdd85e6a12e919767f8178542272a728095c93354617743bf0e11514ee909f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000500.png",
+      "id": 78660,
+      "sha256": "696df04aacd69cdf95d33f311f27536e841bfe843125565b845e10ff518269c4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000500.png",
+      "id": 78748,
+      "sha256": "36ffdd601d6cb891128780f76733cfd8cbc04471b76eebb06be85359ef930f50"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000500.png",
+      "id": 78771,
+      "sha256": "2afaf7315f62e6c5686b5b25321d181d30d8a70177a76906abfb78ce0949a26c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000500.png",
+      "id": 78858,
+      "sha256": "94c133c7699b6b24b3ef79063b877768241a25ceb74cad60855279d8b72b3e44"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000500.png",
+      "id": 78833,
+      "sha256": "51dd2a29984fb0bae48ce6dae014519826b1e77d2e0d4b83ed98490a5594eddb"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000500.png",
+      "id": 78855,
+      "sha256": "1310b00d1c6dc6478311b868e83e1ccc344ec29426bd0d6b3504de7651844d11"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000500.png",
+      "id": 78865,
+      "sha256": "862038788bf3ce91bc09f6257a5597790996cb6a435840680b1549f558fcf567"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000600.png",
+      "id": 78570,
+      "sha256": "8f2a148f583729c38d4d54687653c26d8353d21ebe62cbc01f56ba392ee1f11d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000600.png",
+      "id": 78569,
+      "sha256": "45fa272bb6d912a02ed01c74b120d4542a7c1d2726804df30960b02615bc14ff"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000600.png",
+      "id": 77988,
+      "sha256": "95f91c21fb3cbc0d4ff816123df3567bcd64c350734318a2470f2dae00c16e52"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000600.png",
+      "id": 77990,
+      "sha256": "7ad11b29a507148cc0a08e7c0588a015ba8d2a1587778a3475f51c2aac92c722"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000600.png",
+      "id": 77896,
+      "sha256": "58307eb748f9cb58a97787add705b314416d03e645c4aca25b7310b0bcbe2885"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000600.png",
+      "id": 78613,
+      "sha256": "4d9f1746da02c5c81dbcd78e00880afd98f216809f9aedb902ed2e1d1d6a1e52"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000600.png",
+      "id": 78380,
+      "sha256": "80592e8c6d0924e7285afedfe9ad1139c112ffa2f9f791c907b96ebe83d44d6e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000600.png",
+      "id": 77997,
+      "sha256": "8c35285e651c3396ab5507cab00b72f3226207c139ddb8e0534ca75eed7e7195"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000600.png",
+      "id": 78002,
+      "sha256": "e5b16606d60e98645cc61028a85da84376ec41c390cd6f35725aa40a553c32d1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000600.png",
+      "id": 78009,
+      "sha256": "102a96a77b3c63b0dd6cbb423a0ee18be8637598b7ee071e55974543b4bf0e12"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000600.png",
+      "id": 77880,
+      "sha256": "01d27aefd323351dcf751566a30d7c1eee4a620bbeb581d91a7d074e64a759b3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000600.png",
+      "id": 78010,
+      "sha256": "128e620fda19aae0362c642232b6884048320c25f0b01ab0b28eaec97cd82bd0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000600.png",
+      "id": 78076,
+      "sha256": "745e7a82919f0b3b8329bce07ee2dfd0911d53a4971d1c8787c4c17aeeaec753"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000600.png",
+      "id": 78029,
+      "sha256": "379837f1db3165beb9cace81ed3df6adc2035db88f4b3880b7c00e6bf6c0715c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000600.png",
+      "id": 78074,
+      "sha256": "97928f07769f9f920c84873bffd303b2d1763b22a9bed078171abebda6874930"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000600.png",
+      "id": 78073,
+      "sha256": "6527ff7ee1e3eec4ff05de87713f4e1e8d88c331ec2b05cdc05ab1afaa144067"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000600.png",
+      "id": 78806,
+      "sha256": "ab48c00efe838dd1114585810bf17f4d15ad63a54d87209f2647e8aef3007401"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000600.png",
+      "id": 77935,
+      "sha256": "e816367c5d76a9a691e40c47105d7c8073069085c03cca1163329b16f4673a5c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000600.png",
+      "id": 78719,
+      "sha256": "8fba27b0660b2521b74bccec66e2b05a83e77e62fcf337f7616df689c98daea4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000600.png",
+      "id": 78264,
+      "sha256": "1f4fac4b9ef3a15882c298fd433cacf271498be8348dc27f7a2ce69fa87838e7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000600.png",
+      "id": 77901,
+      "sha256": "adfaff5d620051c963b2e669eb02cf6770ab80701f9d64c8e8f741c79982051f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000600.png",
+      "id": 78351,
+      "sha256": "15624aa49b3ccdec7bdd0cb5f3ef343bf53c55075e893cc89911323cc26eea34"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000600.png",
+      "id": 77852,
+      "sha256": "d1ffdfdda425509bbd03ca4f7d8a9c8b0caf26d7fa90dd1f47b649835cde6d45"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000600.png",
+      "id": 78782,
+      "sha256": "9c84937bfacffba14ca4b32714351c99bc4066eb5416be663c69df3d9acad0d8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000600.png",
+      "id": 78738,
+      "sha256": "718fc90ba3c96c8fdb898de0f3b079d0033a0c2f09a10a0f398d8fec6fc753d4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000600.png",
+      "id": 78756,
+      "sha256": "ea6118d4172e50263a617580cdc4660c224aec6732153c9b6b1c4c41cfee6d35"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000600.png",
+      "id": 78064,
+      "sha256": "db9048ba4f57dd0f6b0c1036bb39c24dfdf3b7f9316ef56fb1a33884b7fcdc40"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000600.png",
+      "id": 78246,
+      "sha256": "de8741a9f15bbcf62dd03abbe45c18edaec93269f6b85592158d9d70f3fface0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000600.png",
+      "id": 78673,
+      "sha256": "54bf4036a32e039aafc066cfc0e914f02e0cabb7982ec7f82c7ec556c25827c9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000600.png",
+      "id": 78255,
+      "sha256": "32ce288dcad2f05a915a8e3cb848f206940abfe8c26e0c0f93cfdd3b85b0bc52"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000600.png",
+      "id": 78126,
+      "sha256": "3afcba633b32c64046e3f0eb9811dba243ff0cbeac15d3b0e180f4da712256f3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000600.png",
+      "id": 78252,
+      "sha256": "47c97df007d33d382fad1921edd6eaf1b64f3ca1d1a5e9dbfa614a3c5d563dd9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000600.png",
+      "id": 78263,
+      "sha256": "4f013f233201b94f992fe60ce01636ecfbac552e537928d0c5bb26dd4893d1be"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000600.png",
+      "id": 78616,
+      "sha256": "35000f393ef2e2aa59cf2366d4b6f9a96c69a99af38e84372d4af275b25b67c5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000600.png",
+      "id": 78869,
+      "sha256": "ee79bdf0cff459ee1fd6dc4815848677c202faf486faf3cb654baf9eb55bac56"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000600.png",
+      "id": 78423,
+      "sha256": "680aa3a76e4027cdb1581ea112565b008d8eae2ff38e105c1063d55a0d03ded1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000600.png",
+      "id": 78322,
+      "sha256": "44cdf5c7d12ad4911859ba1b2fba22ecc041ebc576c827b642a19efd05612aae"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000600.png",
+      "id": 78224,
+      "sha256": "0be51fb661d336ac6a15c57a68398b722f8ce162d3814b4dcd3587dc4eb6b291"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000600.png",
+      "id": 78496,
+      "sha256": "0f919a18e1f8ae474400cc266b098cfc6920071e28ec8512910ee566ab0ffd29"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000600.png",
+      "id": 78217,
+      "sha256": "db771c4569d25ee5a54f04c294808dd57cfa26785ff2a3edf66fb167e5a6a683"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000600.png",
+      "id": 78118,
+      "sha256": "989b371113d29e238b15ed354778e4235c4569c0794c0b3fa64a47727ad61a94"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000600.png",
+      "id": 78475,
+      "sha256": "5ddac45c1f3f5cc00fe1bb3c21603506570d77ad3058d66a5c0ffb08b98d312f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000600.png",
+      "id": 77856,
+      "sha256": "0bc6b3f3d74e3516fe60561bbe3f6391b6332259d6f9c5593862cb1040b99765"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000600.png",
+      "id": 78480,
+      "sha256": "bf3d9d2c22bbc6445850360702bec46e5aa145efcbd68a12969a99df862f606e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000600.png",
+      "id": 77864,
+      "sha256": "c229a31cbe783ea3c377c665c7c4bfa53108ed51fd60f1104e26de810c5ed237"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000600.png",
+      "id": 77941,
+      "sha256": "f3665419262c27e60e6569c8f91a8e41cb7cd3bce202a31f1d14905039781c4b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000600.png",
+      "id": 78513,
+      "sha256": "3284196916fe5b1113d1bb4df769a0fbb81b5a2cbf527405e0b142af86a92578"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000600.png",
+      "id": 78859,
+      "sha256": "a80e3874ee2a75275006ceef36d0fd0cc61caccd943b3ed729a7ec1f99b62e1c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000600.png",
+      "id": 78759,
+      "sha256": "b67c3dc56fa69a1a3f611493b4646bbd3ee9e9e182640a49f37ec9f52a012c9e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000600.png",
+      "id": 77979,
+      "sha256": "5e4405cbf0f5b40b093d7ccd1756298b390f1033ee7cff2a98ff363a243de1dd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000600.png",
+      "id": 77876,
+      "sha256": "e7ab0236ae7fa345739a7d85f55975cedebda21c9045c8a76bb6ab8f2d794ef7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000600.png",
+      "id": 78774,
+      "sha256": "4473c5c4e24b815eebad26c6ab639b4533bbc15cbdfac000a15ebf50141a748e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000600.png",
+      "id": 78769,
+      "sha256": "15b3c5817be08bfb8115f23db2654b29e81808b905201faea86f2ce02d0b8b97"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000600.png",
+      "id": 78144,
+      "sha256": "f7cbc84a2b0cdaa6399b22fa4a729ba7d46abfebce62772e0de6604ed7fc509c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000700.png",
+      "id": 78472,
+      "sha256": "17a2dc5c52376c452d4b2c865822a0a7fb2f4669453a71501b925fbffd857490"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000700.png",
+      "id": 78041,
+      "sha256": "5ea35b8d38d1e5b0d6e7093646892639ac39636213383276ad7ac4ede2f8e5e1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000700.png",
+      "id": 78518,
+      "sha256": "6ac0b1c3479ed672572d7cb1d3e52dfe05c2151932bf5641ff13d54ee9d4faef"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000700.png",
+      "id": 78375,
+      "sha256": "1d51381a3fd31d904e8826ddccf897cb169a590a17f136c7920934ce779f162c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000700.png",
+      "id": 78374,
+      "sha256": "12ce208d8a173caa19d1558d1d89f2906fd2fb44fe82a4b8c61a5880bf72e6f8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000700.png",
+      "id": 78362,
+      "sha256": "0c2c42f0346ed07dab869d00de5d75ef52130717524a4d998ae5a9dcb16130b2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000700.png",
+      "id": 78798,
+      "sha256": "3eb2e7c5c3bb7c31701bfd527e1bb85564a697c5dcab00d150fee93535e97e09"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000700.png",
+      "id": 78318,
+      "sha256": "743a73d15289e17e4b3a3a0c7c617fded086cc9dc9cc2ee079e647e615f3b397"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000700.png",
+      "id": 78311,
+      "sha256": "5367f2961303aa8b42f4754acfc55acd2e374d8e9b89fc5f3cb86294c29f325a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000700.png",
+      "id": 78398,
+      "sha256": "bd1fdd2fb3d3b651fa04bc3e96cbbf4f402132dbe11f6f7df950e02170ed55b1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000700.png",
+      "id": 78243,
+      "sha256": "ce6ce06ab5069901115ee8021ea8fa432f476ff9bdbfef30865a41aa7fa76987"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000700.png",
+      "id": 78199,
+      "sha256": "9236066d52417a3f40d978185fe1e01b4d9ad00dba6031bc3dd7eaa99fcb733e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000700.png",
+      "id": 78420,
+      "sha256": "b186e9d84db24b4ef792dbb1ebdd5ed9baed8332ab32a5ba31fa815f85abe4f2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000700.png",
+      "id": 78811,
+      "sha256": "b25a4023453dbb2a5bd50f91cc1ca5413ac27a2369279e62afd823ca611a2a24"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000700.png",
+      "id": 78478,
+      "sha256": "bddd7774907d8fcaf7dc2de6ecbd38ae7496d267bea3cd89fdaa8cf6682b02f4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000700.png",
+      "id": 78093,
+      "sha256": "150dd0dddc22eadbf3e34709fbbbb3fccceb9afb413f48c1c4a602deed0cf15d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000700.png",
+      "id": 78515,
+      "sha256": "12ee611a2eb167d9ac116165df759bff6c54bc29bf3559ca2b7c8f1b7b32bc84"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000700.png",
+      "id": 78154,
+      "sha256": "44862b094f6af104dfc1519c65aff7a5321031fa1f0cbb77bc75ef7d18eb3aba"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000700.png",
+      "id": 78823,
+      "sha256": "1e7ffe068f468dab64f648e103aac36b5ed0c3549b75e4667de73ba64d11c537"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000700.png",
+      "id": 78486,
+      "sha256": "f16d790f342ad6b65ab70bd8f95bac6c00e725d281edd99dfed32b240bef6081"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000700.png",
+      "id": 78054,
+      "sha256": "d07a1e52c31cc12a7a7c7ed61145acd59a0e3476bca66210bcea8b259f7609cf"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000700.png",
+      "id": 78825,
+      "sha256": "b3b6d64644a39d8426967c72567d5a3936b2ae6a8d25e4e37a649d0a5e42bfce"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000700.png",
+      "id": 78439,
+      "sha256": "a2e44d584fa84e2538a2bd74e9ac1e9ab117068c4abcd7503b9942284b6b1527"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000700.png",
+      "id": 78004,
+      "sha256": "2bdeb714a2934fc9350ec512764cc7e8c661002f06edd6dd05a39cc468e5dc70"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000700.png",
+      "id": 77992,
+      "sha256": "4226ab7579d52ec2d7f710e6acf83e9642a333e22af6e04730fde89debe99966"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000700.png",
+      "id": 78606,
+      "sha256": "ac797b033dc7e4b8bb7117f662f0fe4bea3b9efc259c4141ab45a454d2140ce9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000700.png",
+      "id": 78826,
+      "sha256": "2679166e5b74513ec0cb80196f3b61ceffc995ee645d4e9d3a45507ea3d1ba37"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000700.png",
+      "id": 77969,
+      "sha256": "df34ce9498b686c4be6c5f08a5f2bc3ebea7de4dadc6ecd5f1657ca8e5b05710"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000700.png",
+      "id": 77967,
+      "sha256": "a568289e8a23c284c0b0daa79a588fc3ab18b73e499c5958c2a1b567c101562b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000700.png",
+      "id": 78590,
+      "sha256": "a1c1167ddd9609fcbeabd393cc44fbcc730f722c1c71ef6f6afa61f89560787f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000700.png",
+      "id": 78129,
+      "sha256": "a788f410b451a607d66a1997517a87a903097bf65518a8cfa34b1b6e59820c29"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000700.png",
+      "id": 78061,
+      "sha256": "c67966d03f92d280019bb87e08a40f2cc5c9c5dce99c8f871f42b8b76098fab9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000700.png",
+      "id": 78796,
+      "sha256": "08a78b9f098892d0752416264b3debeb471cf942d545dff54397ddd9514551a8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000700.png",
+      "id": 78582,
+      "sha256": "da5499c06a38722dbf74e1629fa2fb38a53fd6c97e62e389f4a912a17a9bc30b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000700.png",
+      "id": 78604,
+      "sha256": "33a82d00959652dfdb9e3d656818a76b59b84b7262ff05b1a026e3b955b05cf8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000700.png",
+      "id": 78610,
+      "sha256": "98dc4d3c3a7c97b0655a789c94d156402c7ee6765f5787c336a58679e47bfe15"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000700.png",
+      "id": 78534,
+      "sha256": "1715d7a63ccb3b480c32e7ad0b5d3b4930a5f654d0c007e11c331af25d7dfe78"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000700.png",
+      "id": 78791,
+      "sha256": "ef46d9d1d9ef958aee0eb9a2df10aec8c58f76bf0961eafc3c2f2134287443e2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000700.png",
+      "id": 77930,
+      "sha256": "0e734f1d102855267806c67577a26ded19f75173e7a2ba8c1a1e77df4c6e8aa1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000700.png",
+      "id": 78631,
+      "sha256": "0e4202231c314d6712b6f5670fa4aa12f583e52cd01cfcb5af4ae0c6f7274e94"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000700.png",
+      "id": 78647,
+      "sha256": "8771f9380851e83a64805a58f67ee8c03727dc01f6322410d8a2c60680f60d14"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000700.png",
+      "id": 78691,
+      "sha256": "05318ab07e1aea27bf029f2c84b15143925e52299c9f95156e5cef38ca6020ce"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000700.png",
+      "id": 78817,
+      "sha256": "7478b7214b83631ad42761a6215df5caff9a55384e9799aed4dc9d007ebb07e3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000700.png",
+      "id": 77899,
+      "sha256": "74ff328d6ab3cbe98ec0833686ea9b9c01031f4752a56198652c786118480bdd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000700.png",
+      "id": 78851,
+      "sha256": "a4f18ff8d40594cd3703e46fe5b322afa25a9f44434d07681fd0b5ed0f831199"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000700.png",
+      "id": 78294,
+      "sha256": "b1d0d5222db669a2e1299f02aa0d663d659116050b8049b4278990e408b3fff4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000700.png",
+      "id": 78287,
+      "sha256": "33377b3c9b03f28884006906198efe70e31076d218c59a06e4014e6c568f98c1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000700.png",
+      "id": 78274,
+      "sha256": "0a0277289c8065ee5e1f67beb9e05cb6a3985639200a156cf973913893deac69"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000700.png",
+      "id": 78278,
+      "sha256": "8907d7b952954ca65654a450cfa887c3a7e5aa6165bdca82ef2f88803a7d840e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000700.png",
+      "id": 78283,
+      "sha256": "a90d9d8ef6d6ee0c54699be9469a520787b8e5db49ac94569f6fb6c002eb3bfc"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000700.png",
+      "id": 78204,
+      "sha256": "96490275c468c9241f153a89b12e377a831e3a22d4a2567853719ccaf78ec411"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000700.png",
+      "id": 78388,
+      "sha256": "9f45fa51a375f0023b531dc5d9f246c5c1b1a468b7eddfccb1d1e509920e77cc"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000700.png",
+      "id": 78097,
+      "sha256": "6549409fe0afb47f03c072c2eba66c6c8f32fca9144aa4a66e7bbff88270a773"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000700.png",
+      "id": 78045,
+      "sha256": "9ee8cb4e53f48ad33ef5a74c295d70ec94da8ffa835091d815a1dccc26db27aa"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000800.png",
+      "id": 78340,
+      "sha256": "d82b60ac9de74c8660187de3aeba8680cfa27b0244e715f46be52df589f7b492"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000800.png",
+      "id": 78576,
+      "sha256": "6b77cf9c8ff5d1d6817d5f1893780f499a50147bf9bf9c3275c1932342cbd03b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000800.png",
+      "id": 78577,
+      "sha256": "76e3346f127e513294069749fd6d7baf4cfd527dd351b6c5e159ea711f3664ec"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000800.png",
+      "id": 77917,
+      "sha256": "d9a8fb4d688fcab5d5cd950574f9f505ca8c0a325400a08811d602513f5af01d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000800.png",
+      "id": 78541,
+      "sha256": "acd9d9612d9a35740021b0e541bb0848739cbce0743bb90268ed95b25068ecdd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000800.png",
+      "id": 77973,
+      "sha256": "b78073625fd2f23e4b14b16342ea5a9f0d43c7a0f63333e062e3068f24d37200"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000800.png",
+      "id": 77878,
+      "sha256": "975c3bc3f1c65bf344236b7de8d70a01dd596bbad0f6687b633c2434ffaeda7b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000800.png",
+      "id": 78838,
+      "sha256": "35c2766121ae94ffc4477dbe96f2b531b8ef4393895f44495715550303bfc1a2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000800.png",
+      "id": 78849,
+      "sha256": "5779a69ce55975c02161ec37fc07da0de519df09965ab8be107ae9f7fef16c2e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000800.png",
+      "id": 78360,
+      "sha256": "50f22cb1b2eeb950b202a6c7690fb2a214660df3c4817960c9cbf45ef8663ac3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000800.png",
+      "id": 78091,
+      "sha256": "9e25d2292f40e283521918991555533d09caf6177eaf64264807b404624e7a52"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000800.png",
+      "id": 78575,
+      "sha256": "611f2a43db2e71578e8818c2c4670d990f964aac7addf28a7528e48019d70346"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000800.png",
+      "id": 78327,
+      "sha256": "24dded0e1fc6eaf8c9f0f770060b561a8b3537888b1e20ec38fd18477d3d3f6e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000800.png",
+      "id": 78594,
+      "sha256": "8b852137392cfca6c14052a3027b388906c15c35eb10d920a01d38b8e4a05630"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000800.png",
+      "id": 78291,
+      "sha256": "4133f54097d46cc62cdaaf00f30504c44093fd16e9f51cc6fe46b82edc6ea92c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000800.png",
+      "id": 78233,
+      "sha256": "afefc4b9d4a588ea6d82d6a683f2e6bede76f3302cda8748666bb78107e77020"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000800.png",
+      "id": 78418,
+      "sha256": "fa42db8e0eaa97567ad423f28f4d39078af22e1cd929e8d363bae2b4ea9c4ed7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000800.png",
+      "id": 78239,
+      "sha256": "e2464b76c8792100520c5fe2ed65ea06321b3016ba044b8abb8375fa229b5a37"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000800.png",
+      "id": 78268,
+      "sha256": "acd7dfe470f15c3bcc97fe00a42d8feeb9c452b25f6b48b8751924ad1f897ff6"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000800.png",
+      "id": 78302,
+      "sha256": "fa3bb365c606d91070a53d0866b623a02591b856aa28e9dc7fea59d667d651f7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000800.png",
+      "id": 78581,
+      "sha256": "d08626f49c020590ceeb60b88b3357490cae1a67665975e7f41d054aeab91725"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000800.png",
+      "id": 78110,
+      "sha256": "6410d1b91a983bb4711f5158cf062ba7011d8e2a84cfa3880f414575c6008d54"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000800.png",
+      "id": 77860,
+      "sha256": "3029ee1c242208b37589d24c3f2775abdea3051de9e1baf441d20bda4909325e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000800.png",
+      "id": 77960,
+      "sha256": "cbc49c5a62b1546e5008c3826ab572e0aa17ad7ed24a0e192043d4d0196a12a7"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000800.png",
+      "id": 78712,
+      "sha256": "978a4872ff54901b36eb41ee37abfe3d26b769fbe6055635dbbe60e461f610c0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000800.png",
+      "id": 78746,
+      "sha256": "12fde0c5e8f3302b2e06c4a88598b9b6dd576a6f54a44424b5e37dd240670f76"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000800.png",
+      "id": 77953,
+      "sha256": "e4f2cdf10f63001b084e10cc46e455592e646869c7c863c013792b8abb99e97e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000800.png",
+      "id": 77952,
+      "sha256": "002c1a21d5c2c1a1b7afa373e18d40b69529d6dbe83013aad613e194af75dd5f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000800.png",
+      "id": 77945,
+      "sha256": "33b9d70eaced9917a14c165c436936bdd0bffae32b40d257c6fbd2d181c52402"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000800.png",
+      "id": 78077,
+      "sha256": "f0ca969fe97becda9153f19115ae463b351921655cf7d5320894d2a89302d04a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000800.png",
+      "id": 77891,
+      "sha256": "879e95f94a7a0891eea232bb0805916e897bcd456eef241c04b2b55b187f8dba"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000800.png",
+      "id": 78298,
+      "sha256": "97a9ec03821322c511894b07e387f06330ee1cb08f7073f1d4c6b56377ea756c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000800.png",
+      "id": 78104,
+      "sha256": "334132529e378a99239bc4ede739a2d141ce8dc97ef38d74982440f4f7222ca9"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000800.png",
+      "id": 78727,
+      "sha256": "4a3be30f41e4777fba6e9d8c3a7b254554f1faf41cf9f0f1d2a0bcf8d7965dd3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000800.png",
+      "id": 78728,
+      "sha256": "a0922a8a3eb542ae7809a0de069c1728fb71964148d9e8dc83138428ed152213"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000800.png",
+      "id": 78300,
+      "sha256": "a47191d36aceca90435c5c6cf49a67fb70342483d1d3c6f1665bc00b318456d0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000800.png",
+      "id": 77867,
+      "sha256": "c23467fd009a0b9b700a5fa5ac4b140ce7c4efd7fa8c6f36b56bdd561229290c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000800.png",
+      "id": 77866,
+      "sha256": "51351e825974f4d400838ad2a6e83cfb69daa8efbfbf0575439dd9373f0f4c15"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000800.png",
+      "id": 78505,
+      "sha256": "b7f1a3c56b4828adc21bdf8ceb56a81b60eccf152d3902d572900ce3c3888c96"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000800.png",
+      "id": 77858,
+      "sha256": "e19940d1b7e21d44586e62ad7ce47399680b24df9856e8af2ec71a94445344f5"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000800.png",
+      "id": 77926,
+      "sha256": "bd723a4051556ace38e16e0ba690a1ac160026696edd7f98925c1c5744b44778"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000800.png",
+      "id": 78194,
+      "sha256": "77751e7963d6ef787d30d9ef501b9d681ad190b343e58769c0674903a8082611"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000800.png",
+      "id": 78066,
+      "sha256": "83a503ac9ec934383f53dfbde634c73c93bc9207fd1ce2c4c9bda96b2d3f5b6c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000800.png",
+      "id": 78058,
+      "sha256": "ec2fa6ab66b177877b97e70054bea20d9fe1f546d6d3f0c704241b524fc328d8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000800.png",
+      "id": 78837,
+      "sha256": "258579f96efaf47cf6827fbb4f06046905de82cd1288bde5b7aaf3cfa386951b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000800.png",
+      "id": 78599,
+      "sha256": "7de808dafe2ec6f80bba6c905b9ebfa00d637ec0f10d3214ec01ccf7a14c6519"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000800.png",
+      "id": 78432,
+      "sha256": "99e52c892fc4ac55de7bc43d2a4eeaee4dcb1f193b1c49d33d77568e1307a3a4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000800.png",
+      "id": 78017,
+      "sha256": "ae5a8ba2b1e1f421873ac104ce46c09e0e02c7e0b308ace013c78c0869ce21b4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000800.png",
+      "id": 78084,
+      "sha256": "728901d451528bb51bfcc2ff87cfee63e709da14d2f10b1480a92071ca6fc9ef"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000800.png",
+      "id": 78005,
+      "sha256": "0a2b334a5df442de3ebc4e0ac7b2cc14c8530e9550d4d53142bd38cd05bd6dea"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000800.png",
+      "id": 78001,
+      "sha256": "d34ef931a102016cfe2d9967a5ff14f3ae40ea87a61f1b1f0935286589c44555"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000800.png",
+      "id": 77998,
+      "sha256": "ef64e880133968dbf04d93a0332ae74169de6b1d65539f7496d1563a56ee6362"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000800.png",
+      "id": 78856,
+      "sha256": "30ed0bda05b2b69eaf72aeed8b9ee75b4cd6d44082e68aa025c67dc0a0c010c1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000800.png",
+      "id": 78369,
+      "sha256": "871c4761e05358e3654b99a112d8a3f75025f7574850a70dc8d980fa598b94ce"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Labels\\000900.png",
+      "id": 78052,
+      "sha256": "f7bb60b9e3ef6c13e3f2bc8b4a778908642d70e4ec47ab55b0c74e925db77b9d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Labels\\000900.png",
+      "id": 77936,
+      "sha256": "7ae58d8e807e23e73dbfd4ebbd4e2fa3da9cad54de27d1bf1fb04d21d4f72762"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Images\\000900.png",
+      "id": 78803,
+      "sha256": "f2d8b628441932130bd456bacd0cfc71ec0812aea35f9da1081092b2ba870c8a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Labels\\000900.png",
+      "id": 78266,
+      "sha256": "1dec9ec4527a9be4e542814272c846705a606073e36cc6c1b4b1b65ea0e173f0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Images\\000900.png",
+      "id": 77928,
+      "sha256": "3af7152776f2e4076f3cd40d4548c5cb7321423c9dac1ab8f6e70d8497e9e7a1"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Labels\\000900.png",
+      "id": 78500,
+      "sha256": "0e25823ca3aea10f37dd061573ab2da372ceee5e5eaec0e2e26349c5389b6a74"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq17\\Images\\000900.png",
+      "id": 78389,
+      "sha256": "99c62b13b6d589213919340f653eb4c1e17b3fa48311653a61b75113b2602323"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Images\\000900.png",
+      "id": 78367,
+      "sha256": "1e8a8b192c16055c14b07c029a49a8e75c0b22a135d047f8ff35da16a8619cbb"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Labels\\000900.png",
+      "id": 78075,
+      "sha256": "215b64008c095c8668f6ae9fd0ce8b1f5189e3bc0385295bf6c2db047d9b43ac"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Images\\000900.png",
+      "id": 78337,
+      "sha256": "b7df8e48d576a335bc9f11a6f3fca66f1526e828bc3fd7493f1b88b73f6ec4ae"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Labels\\000900.png",
+      "id": 78035,
+      "sha256": "6a912313f56eecdef2fb9ad624a6cc3cd3fa5bb1e2cef5ea5cb4081518db4a64"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Labels\\000900.png",
+      "id": 77900,
+      "sha256": "e4941b5e4842003fbc2f7ea8f4da15aa862c292aa7844c2d09eb07153fa509df"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Labels\\000900.png",
+      "id": 78593,
+      "sha256": "fc9d31355cdf0f69de58f93da81fdf4a96c56507ac53d68c8c1d305900c4c8cd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Labels\\000900.png",
+      "id": 78729,
+      "sha256": "db7541fe8a064af5bac884d207555fe53c35158a71f14a907dd2c4f063d35ee4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Images\\000900.png",
+      "id": 78526,
+      "sha256": "f88b81c61a1fdfd42766a0a8aa8c8f1faea19c70344548fa8e7ca75c0b14f6af"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq19\\Images\\000900.png",
+      "id": 78795,
+      "sha256": "29be3c35cd0c0dd218503ae6ea834ea10c7daa5d32cc3770d65de08566710d2a"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Labels\\000900.png",
+      "id": 78743,
+      "sha256": "541d335dbc026cbaea13a03a0a3eda9098312925716f8d05231a3341cc86e416"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq11\\Labels\\000900.png",
+      "id": 78753,
+      "sha256": "283c5f481cc47d0709fce310b03d5e2c1654ae46da51a2163aa05c129c916149"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Images\\000900.png",
+      "id": 77972,
+      "sha256": "eaf384b2a10101b9976a6233ba7925e18d1abfb3ad783889a62ac3810362e6ad"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq1\\Images\\000900.png",
+      "id": 78519,
+      "sha256": "386eedb12dff55b09bbbade18ed4c1294b563cb91951f4232d8df12072563f47"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Labels\\000900.png",
+      "id": 78852,
+      "sha256": "9058a54506670d63e935e2cb571765a012a47df205fcfe9197ca7239fe15ee4c"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq10\\Images\\000900.png",
+      "id": 77850,
+      "sha256": "18e63eba26b7b9f719a65682e94a6b735ab8a304eeb639d2c18b6a1d8aeb811e"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Labels\\000900.png",
+      "id": 77961,
+      "sha256": "b9f84c8e18404aa04e3c47281019730916054f45ef9b2d4b63c6327b7376cf37"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq4\\Labels\\000900.png",
+      "id": 78864,
+      "sha256": "39b65c6cc75322d2da26b3c8cbd01b50f0cb701e8187abe44890894e9375ada0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Images\\000900.png",
+      "id": 78863,
+      "sha256": "db4cc486e378fc11c3190f7b3dc22ae50c0b472287a54ab8fd3d52e5ca996049"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Labels\\000900.png",
+      "id": 78870,
+      "sha256": "caa106667b738a69fb18a135cb29fc04d415722a2b8409f170446d355ccf37bb"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Images\\000900.png",
+      "id": 78875,
+      "sha256": "1057724de7c4c9d500bb36811152166e2421d6829d7f6b20f9a4fbf372477560"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq32\\Labels\\000900.png",
+      "id": 78571,
+      "sha256": "1f3505019f1a8f3d2d0404e48d324278edb977151a50ae96fe4558d9a833ad1b"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Images\\000900.png",
+      "id": 78474,
+      "sha256": "8c396e7df7c69e605d0eff8e025db1d3aac05d22900ff9807f0b340adb7c4fdd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq8\\Images\\000900.png",
+      "id": 78499,
+      "sha256": "0a13c2254c6b902ad84a211502c81aff307a0320202f69abd9eb8d35d46cd3d4"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq33\\Images\\000900.png",
+      "id": 78378,
+      "sha256": "c7d3a24a1b51a9fc7286f6e6dd1590aaf71b2f5f4e53d6583a6feb32aa2ea71f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq6\\Images\\000900.png",
+      "id": 78831,
+      "sha256": "4780d1ba7a902427b8c6ec43080470605d7da83113e36b1d64f9b09b123cebfd"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Images\\000900.png",
+      "id": 78229,
+      "sha256": "fc0b640a9894c30ac0b1f28e6a839e332997a8df119888987987a7feb19d90f2"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq37\\Images\\000900.png",
+      "id": 77914,
+      "sha256": "cdf995322564d9d258c1f4c5dace3f197e44a8db793b0931f494978c4aec3bd6"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq14\\Labels\\000900.png",
+      "id": 78254,
+      "sha256": "163ea5235846122e7e38f91ae65b880d68551596534527ab5ed0974d546f908d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Labels\\000900.png",
+      "id": 78240,
+      "sha256": "4a241190b89c5c59fbba58022b8ff7f20d872d8e1354d24d72975291c88648b3"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq36\\Images\\000900.png",
+      "id": 78285,
+      "sha256": "ebaecb96ed82d1dbb121cf951bc1a5b745d143bb336e8513a7ccc9fdc4253171"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq13\\Images\\000900.png",
+      "id": 77908,
+      "sha256": "02e96ff3ee73065d3845a9231440e92e781c7442370a8a4afd096d3a26ce14d8"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Labels\\000900.png",
+      "id": 78069,
+      "sha256": "d0531f03c46207907efafdd0dc245fab483c9969649cb0ea8dd402ed5113f6d0"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Labels\\000900.png",
+      "id": 78253,
+      "sha256": "a2d8478c22e72ba01b681cf7fc3cba521e96bf55f55a35fbe99a50cdeb3ab86d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq2\\Labels\\000900.png",
+      "id": 78057,
+      "sha256": "0b294919cc1c35b28205b83dd87b3f30aebc606f2c9d6386af689f3e7842310d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq20\\Labels\\000900.png",
+      "id": 78396,
+      "sha256": "714f8e0ccc15bd6166cd4c80e2c96f8c5e4c5956fb9ffe9453e5401141ff73b6"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq15\\Images\\000900.png",
+      "id": 78267,
+      "sha256": "06c5c0f8ed9cbe1d372edac845e13cb1f7051f87c0575c71446baf2fbc0e1a24"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq12\\Labels\\000900.png",
+      "id": 78564,
+      "sha256": "655344832deff94ced31bfb4c69c7ccba68197a99f47c87330b2e6dd4c282fee"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq18\\Images\\000900.png",
+      "id": 78560,
+      "sha256": "687920dab8402537ddc1c0a7f485c8c8e197da9caf5dc4a8375dfdcbc773679f"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Images\\000900.png",
+      "id": 78273,
+      "sha256": "8cc2bbb19b7b1543f75f22863f9aa06dd649e8094263dd4701385b4666044051"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq34\\Labels\\000900.png",
+      "id": 78065,
+      "sha256": "8fd5d7bc7a77746eff1f87717da962965d375b17b0dcc0493c85394effabbfee"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq35\\Images\\000900.png",
+      "id": 78354,
+      "sha256": "17945335f2cb9663f0c91276d156bf1d90d95b91eea550dd8ade287f80edabef"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\val\\seq16\\Labels\\000900.png",
+      "id": 77964,
+      "sha256": "55dcfb8832c7e253d655048fe60d75c6b3cc7b935d84ae2e97df6712e7158815"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq3\\Images\\000900.png",
+      "id": 78321,
+      "sha256": "3527d635857058ea0d319b5025bc4f80249890fc716cc408150a146ebf23f2a6"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq9\\Labels\\000900.png",
+      "id": 77991,
+      "sha256": "fa3e84a6a7f59e499c7204e014f34d460ab4d524351e20084ecbffe2bed1d736"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq7\\Images\\000900.png",
+      "id": 78390,
+      "sha256": "a3cd5499cc11c1dd059ac8234ba1f6bd51b999ed805a963896cb5ecebfdb199d"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq31\\Labels\\000900.png",
+      "id": 78765,
+      "sha256": "a2f63049432688be2c3932ea3f3f6d1fbcc6ed2e2280eb6d4ed29d30b91b9f76"
+    },
+    {
+      "path": "data\\uavid\\UAVid-v1\\train\\seq5\\Images\\000900.png",
+      "id": 78416,
+      "sha256": "24451432140557ffd8f0dd369e218c294e8d412dc8ec1d95f2d0cf7421524819"
+    }
+  ],
+  "license_note": "Archive metadata says CC-BY-SA; embedded readme and official website say CC-BY-NC-SA. Follow stricter NC-SA terms."
+}

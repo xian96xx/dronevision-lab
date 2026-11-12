@@ -1,0 +1,30 @@
+{
+  "DET_train_val_exact_encoded_image_overlap": 0,
+  "MOT_selected_clips": [
+    {
+      "sequence": "uav0000086_00000_v",
+      "frames": 120,
+      "exact_encoded_image_matches_DET_train": 0,
+      "exact_encoded_image_matches_DET_val": 0,
+      "DET_train_same_leading_flight_identifier": 0,
+      "DET_val_same_leading_flight_identifier": 5
+    },
+    {
+      "sequence": "uav0000117_02622_v",
+      "frames": 120,
+      "exact_encoded_image_matches_DET_train": 0,
+      "exact_encoded_image_matches_DET_val": 0,
+      "DET_train_same_leading_flight_identifier": 0,
+      "DET_val_same_leading_flight_identifier": 5
+    },
+    {
+      "sequence": "uav0000137_00458_v",
+      "frames": 120,
+      "exact_encoded_image_matches_DET_train": 0,
+      "exact_encoded_image_matches_DET_val": 0,
+      "DET_train_same_leading_flight_identifier": 6,
+      "DET_val_same_leading_flight_identifier": 0
+    }
+  ],
+  "limitations": "SHA256 only detects exact encoded files; naming-based flight identifier matches indicate potentially shared scenes, not proof of identical frames. DET-trained MOT evaluation is a local annotation diagnostic, not an official VisDrone MOT challenge submission or guaranteed unseen-scene benchmark."
+}

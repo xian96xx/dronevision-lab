@@ -1,0 +1,82 @@
+{
+  "reference": "original public labels, not newly audited perfect ground truth",
+  "noise_seed": 42,
+  "variants": {
+    "clean": {
+      "images": 256,
+      "original_boxes": 14271,
+      "retained_boxes": 14271,
+      "removed_fraction": 0.0,
+      "class_counts": [
+        3431,
+        1054,
+        412,
+        6087,
+        877,
+        525,
+        209,
+        130,
+        199,
+        1347
+      ],
+      "paired_box_mean_IoU": 1.0,
+      "paired_IoU_quantiles": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_center_error_pixels": 0.0
+    },
+    "shift": {
+      "images": 256,
+      "original_boxes": 14271,
+      "retained_boxes": 14271,
+      "removed_fraction": 0.0,
+      "class_counts": [
+        3431,
+        1054,
+        412,
+        6087,
+        877,
+        525,
+        209,
+        130,
+        199,
+        1347
+      ],
+      "paired_box_mean_IoU": 0.6904434160517111,
+      "paired_IoU_quantiles": [
+        0.4707828691975211,
+        0.6103170388516936,
+        0.6798423611829216,
+        0.7626236827395603,
+        1.0
+      ],
+      "mean_center_error_pixels": 6.0095727321759105
+    },
+    "drop": {
+      "images": 256,
+      "original_boxes": 14271,
+      "retained_boxes": 9967,
+      "removed_fraction": 0.3015906383575082,
+      "class_counts": [
+        2409,
+        724,
+        284,
+        4292,
+        592,
+        362,
+        132,
+        92,
+        151,
+        929
+      ],
+      "paired_box_mean_IoU": null,
+      "paired_IoU_quantiles": null,
+      "mean_center_error_pixels": null
+    }
+  },
+  "interpretation": "Localization IoU and retained-label coverage are different quality dimensions. Do not collapse them into one unsupported quality score."
+}

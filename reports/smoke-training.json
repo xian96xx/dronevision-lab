@@ -1,0 +1,102 @@
+{
+  "command": [
+    "scripts\\train_det.py",
+    "--data",
+    "smoke",
+    "--name",
+    "smoke",
+    "--epochs",
+    "2",
+    "--batch",
+    "8"
+  ],
+  "git": "13afddc1f67849ba26b00749d0806cd61b314d6c",
+  "initial_weight_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "data_config_sha256": "9866ffaf966c78a127edb566e9c0335684a9ddbccd0c810d770cbd392eead848",
+  "torch": "2.9.1+cu128",
+  "ultralytics": "8.4.14",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "seed": 42,
+  "status": "completed",
+  "seconds": 37.864625800000795,
+  "peak_allocated_bytes": 1773579264,
+  "peak_reserved_bytes": 2294284288,
+  "backbone_parameter_max_abs_delta": 0.0001220703125,
+  "checkpoints": {
+    "best.pt": "ef54bb60414b1dcdb06dd8002a513491402a447da99254f13a761d08c3a1af67",
+    "epoch0.pt": "6f1129334b7a706afb14a3d9cb4ca7df28076fa7116f1a2a3d5876f73fa164ce",
+    "last.pt": "9f9aada62c2d5ef2f60f4a38268f309a6f88d695eac960b8185443c8319b911f"
+  },
+  "validation_metrics": {
+    "metrics/precision(B)": 0.004115226337448559,
+    "metrics/recall(B)": 0.0003418803418803419,
+    "metrics/mAP50(B)": 0.0021359167809785096,
+    "metrics/mAP50-95(B)": 0.0012815500685871056,
+    "fitness": 0.0012815500685871056
+  },
+  "per_class": [
+    {
+      "class": "pedestrian",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    {
+      "class": "people",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    {
+      "class": "bicycle",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    {
+      "class": "car",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    {
+      "class": "van",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    {
+      "class": "truck",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    {
+      "class": "tricycle",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    {
+      "class": "awning-tricycle",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.0,
+      "ap50_95": 0.0
+    },
+    {
+      "class": "motor",
+      "precision": 0.037037037037037035,
+      "recall": 0.003076923076923077,
+      "ap50": 0.019223251028806586,
+      "ap50_95": 0.01153395061728395
+    }
+  ]
+}

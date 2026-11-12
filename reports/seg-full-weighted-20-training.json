@@ -1,0 +1,160 @@
+{
+  "command": {
+    "action": "train",
+    "name": "seg-full-weighted-20",
+    "variant": "clean",
+    "epochs": 20,
+    "batch": 8,
+    "seed": 42,
+    "subset": 0,
+    "class_weighting": "inverse-sqrt",
+    "resume": false
+  },
+  "git": "7c96ed3adf343ac01533c0c5bdb8f792936bf19c",
+  "initial_state_sha256": "d9bdcef8680833a62ef27be4ac3de477432596b2dfecf700ab501c9b019b53d3",
+  "source": {
+    "repository": "nvidia/mit-b0",
+    "revision": "80983a413c30d36a39c20203974ae7807835e2b4",
+    "sha256": {
+      "config.json": "e2378ac7c7a6981d6bdd1d9ccf29b611264c382afce89c561f39c9291164ff91",
+      "preprocessor_config.json": "d96ab2cb112985c19d5ea32f1d1f2369104fc78b1379f5ce26e33ca8646202a7",
+      "pytorch_model.bin": "4af8348c2a802bf76115d34797ff5ce1d9f110bb8593c22d9b66d8bd7fa227fc",
+      "README.md": "70dd05617d227fea8bab2dba202dbccd2a250fbb8279798b9005eb231c87556e"
+    }
+  },
+  "seed": 42,
+  "training_patches": 800,
+  "validation_images": 70,
+  "optimizer": "AdamW lr=6e-5 wd=.01, constant LR",
+  "crop_policy": "native1024 random fixed crops resized512",
+  "validation_schedule": "each epoch",
+  "evaluation": "all70 val images; max1024 RGB input maintaining aspect ratio; logits bilinear upsample to native mask; 8 valid classes incl clutter",
+  "implementation_sha256": "50f3c292bdadc7fd5ef284e686885b9640ed34b5fa5ca3b0502722403b615cd0",
+  "training_data_sha256": "01a9600ac605390569c08aec57ab0053a945a75da2bed0ebf5545c1e6936f4e8",
+  "train_pixel_counts": {
+    "clutter": 34116646,
+    "building": 49233953,
+    "road": 33988831,
+    "tree": 55741995,
+    "low-vegetation": 30788359,
+    "moving-car": 2642563,
+    "static-car": 2887723,
+    "human": 315130
+  },
+  "class_weighting": "inverse-sqrt",
+  "class_weights": [
+    0.3841332793235779,
+    0.3197663426399231,
+    0.38485488295555115,
+    0.3005203306674957,
+    0.40436339378356934,
+    1.3802330493927002,
+    1.3203448057174683,
+    3.505783796310425
+  ],
+  "weight_rule": "sqrt((1/8)/train_frequency), clip [.25,8], normalize mean=1; no val statistics",
+  "status": "completed",
+  "seconds": 1928.6942196999953,
+  "peak_allocated_bytes": 2975217152,
+  "peak_reserved_bytes": 6773800960,
+  "best_mIoU": 0.5674827380433279,
+  "encoder_max_abs_delta": 0.004403681494295597,
+  "best_validation": {
+    "mIoU": 0.5674827380433279,
+    "pixel_accuracy": 0.8249112704555684,
+    "per_class_IoU": {
+      "clutter": 0.5118417352298434,
+      "building": 0.8576682675132801,
+      "road": 0.6855172557187348,
+      "tree": 0.7176912050923149,
+      "low-vegetation": 0.6362417639574603,
+      "moving-car": 0.5239862093222037,
+      "static-car": 0.42940803823614354,
+      "human": 0.17750742927664276
+    },
+    "confusion_matrix": [
+      [
+        64251103,
+        11843865,
+        8129977,
+        4552441,
+        4710398,
+        140114,
+        1760410,
+        1143804
+      ],
+      [
+        7959352,
+        191118336,
+        128927,
+        2660624,
+        638004,
+        6324,
+        326647,
+        65615
+      ],
+      [
+        6237983,
+        1474590,
+        49718728,
+        1111553,
+        240847,
+        732642,
+        472159,
+        721080
+      ],
+      [
+        7678557,
+        4429531,
+        1823625,
+        115396483,
+        10800244,
+        71034,
+        307671,
+        126863
+      ],
+      [
+        5948680,
+        1567912,
+        961806,
+        11456257,
+        64249387,
+        11459,
+        265489,
+        69199
+      ],
+      [
+        344407,
+        167278,
+        507709,
+        140542,
+        18238,
+        3203036,
+        439797,
+        74652
+      ],
+      [
+        594692,
+        382903,
+        165991,
+        210330,
+        24408,
+        249909,
+        4078530,
+        176986
+      ],
+      [
+        233455,
+        64891,
+        99701,
+        22732,
+        20334,
+        5684,
+        42107,
+        618768
+      ]
+    ]
+  },
+  "best_weights_sha256": "c082405300dda6e30adc9ef473a823f54beb0e354f853b76d97853020d341ad0",
+  "checkpoint_sha256": "c57079d4d145022200ef9d10e1425eb08bb903bf402bb147fdf40d2f849703c5"
+}

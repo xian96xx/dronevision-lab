@@ -1,0 +1,9 @@
+{
+  "status": "intermediate checkpoint visualization, NOT final model evaluation",
+  "source_checkpoint_epoch": 34,
+  "weight_sha256": "9651d838139a3341c74b6201ced137a8a2e63809615362449e45cc7177f9c075",
+  "image": "0000024_00000_d_0000012.jpg",
+  "predictions_conf025": 6,
+  "device": "cpu",
+  "output": "runs/interim-demo/prediction.jpg"
+}

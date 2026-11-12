@@ -1,0 +1,6 @@
+{
+  "split": "train",
+  "url": "https://github.com/ultralytics/assets/releases/download/v0.0.0/VisDrone2019-DET-train.zip",
+  "bytes": 1549875511,
+  "sha256": "86a77eba93137bfc16e4993860de9245b0675c0dba0d3ab98fb458699e256f84"
+}

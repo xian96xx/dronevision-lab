@@ -1,0 +1,7 @@
+{
+  "frozen_execution_sources": {
+    "reproducibility\\refinement-20261107\\run_refinement.py": "c11e81f0c6769a7909e8934a7f36c533512edae6657c0231d76ce5ad8c9b3666",
+    "reproducibility\\refinement-20261107\\segmentation.py": "50f3c292bdadc7fd5ef284e686885b9640ed34b5fa5ca3b0502722403b615cd0"
+  },
+  "current_trainer_includes_later_resume_best_selection_fix": true
+}

@@ -1,0 +1,156 @@
+{
+  "weights": "models/yolo26n.pt",
+  "weights_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "ontology": "common",
+  "end_to_end_head": true,
+  "prediction_batch_size": 8,
+  "split": "test-dev",
+  "images": 1610,
+  "classes": [
+    "human",
+    "bicycle",
+    "car",
+    "truck",
+    "bus",
+    "motorcycle"
+  ],
+  "prediction_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "7": 3,
+    "5": 4,
+    "3": 5
+  },
+  "gt_class_mapping": {
+    "0": 0,
+    "1": 0,
+    "2": 1,
+    "3": 2,
+    "5": 3,
+    "8": 4,
+    "9": 5
+  },
+  "mAP50": 0.07774892208772514,
+  "mAP50_95": 0.04089570552272251,
+  "AP_small_native_area_lt1024": 0.012966134215148837,
+  "micro_precision_conf025_iou050": 0.7833362691562445,
+  "micro_recall_conf025_iou050": 0.0652033664701915,
+  "per_class": [
+    {
+      "class": "human",
+      "AP50": 0.08292137787947289,
+      "AP50_95": 0.03610396982460707,
+      "precision_conf025_iou050": 0.8166666666666667,
+      "recall_conf025_iou050": 0.028631947995033234,
+      "tp": 784,
+      "fp": 176,
+      "fn": 26598
+    },
+    {
+      "class": "bicycle",
+      "AP50": 0.014674835748019432,
+      "AP50_95": 0.005617404078068812,
+      "precision_conf025_iou050": 0.5,
+      "recall_conf025_iou050": 0.0007680491551459293,
+      "tp": 1,
+      "fp": 1,
+      "fn": 1301
+    },
+    {
+      "class": "car",
+      "AP50": 0.25053128161746124,
+      "AP50_95": 0.13796237086013374,
+      "precision_conf025_iou050": 0.8165350673478867,
+      "recall_conf025_iou050": 0.12524043599059628,
+      "tp": 3516,
+      "fp": 790,
+      "fn": 24558
+    },
+    {
+      "class": "truck",
+      "AP50": 0.05199291137977994,
+      "AP50_95": 0.027251063535856185,
+      "precision_conf025_iou050": 0.3249097472924188,
+      "recall_conf025_iou050": 0.03384731101918014,
+      "tp": 90,
+      "fp": 187,
+      "fn": 2569
+    },
+    {
+      "class": "bus",
+      "AP50": 0.042875473855893916,
+      "AP50_95": 0.030295005859369433,
+      "precision_conf025_iou050": 0.4215686274509804,
+      "recall_conf025_iou050": 0.014625850340136054,
+      "tp": 43,
+      "fp": 59,
+      "fn": 2897
+    },
+    {
+      "class": "motorcycle",
+      "AP50": 0.023497652045723436,
+      "AP50_95": 0.008144418978299815,
+      "precision_conf025_iou050": 0.43333333333333335,
+      "recall_conf025_iou050": 0.0022241231822070144,
+      "tp": 13,
+      "fp": 17,
+      "fn": 5832
+    }
+  ],
+  "protocol": "local COCO-style 101-point AP; IoU .50:.95; maxDet=500; img=640; conf=.001; NMS iou=.7; ignored/unsupported GT represented as per-category crowd boxes; P/R greedy conf=.25 IoU=.5 with ignored-region IoA=.5; NOT official VisDrone score",
+  "limitations": [
+    "COCO human merges pedestrian/people; shared ontology only, not a 10-class ranking",
+    "Excluded GT categories serve as crowd ignore boxes in common evaluation",
+    "AP crowd matching follows COCO IoA thresholds, unlike official VisDrone region logic"
+  ],
+  "error_cases": [
+    {
+      "image_id": 459,
+      "image": "9999938_00000_d_0000207.jpg",
+      "FP": 1,
+      "FN": 443,
+      "TP": 1,
+      "small_FN_native_area_lt1024": 437,
+      "localization_near_misses": 0,
+      "selection_reason": "FN",
+      "visualization": "error-FN-9999938_00000_d_0000207.jpg"
+    },
+    {
+      "image_id": 195,
+      "image": "0000314_01908_d_0000146.jpg",
+      "FP": 8,
+      "FN": 32,
+      "TP": 10,
+      "small_FN_native_area_lt1024": 21,
+      "localization_near_misses": 0,
+      "selection_reason": "FP",
+      "visualization": "error-FP-0000314_01908_d_0000146.jpg"
+    },
+    {
+      "image_id": 36,
+      "image": "0000063_08995_d_0000010.jpg",
+      "FP": 3,
+      "FN": 78,
+      "TP": 5,
+      "small_FN_native_area_lt1024": 77,
+      "localization_near_misses": 3,
+      "selection_reason": "localization_near_misses",
+      "visualization": "error-localization_near_misses-0000063_08995_d_0000010.jpg"
+    },
+    {
+      "image_id": 460,
+      "image": "9999938_00000_d_0000208.jpg",
+      "FP": 0,
+      "FN": 372,
+      "TP": 1,
+      "small_FN_native_area_lt1024": 362,
+      "localization_near_misses": 0,
+      "selection_reason": "small_FN_native_area_lt1024",
+      "visualization": "error-small_FN_native_area_lt1024-9999938_00000_d_0000208.jpg"
+    }
+  ],
+  "evaluation_seconds": 104.93461209999805,
+  "peak_cuda_allocated_bytes": 286261248,
+  "peak_cuda_reserved_bytes": 538968064
+}

@@ -1,0 +1,7 @@
+{
+  "git_source_snapshot": "60819d7f36e13ce7f3d48ad68d25094ab7f9218b",
+  "evaluator_sha256": "103e8cf802a59ab06e58aad6d9c0018531404d446e9f23726fd1be13742bc36b",
+  "case_analysis_sha256": "db22c85d004216e59ca3f396d0ea6b15b1b5eb0ff4be561283d123d5f305f674",
+  "loader": "directory source, batch8; same for all compared models",
+  "note": "Source snapshot captured during bounded reruns; no evaluator source edits between invocation and snapshot."
+}

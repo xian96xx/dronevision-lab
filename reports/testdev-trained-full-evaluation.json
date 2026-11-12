@@ -1,0 +1,207 @@
+{
+  "weights": "runs/det-full-50/weights/best.pt",
+  "weights_sha256": "de5a0c292106041f44e88664aab625fefbe2e91eb9a1d3cecb5c26eca2af5f06",
+  "ontology": "visdrone",
+  "end_to_end_head": true,
+  "prediction_batch_size": 8,
+  "split": "test-dev",
+  "images": 1610,
+  "classes": [
+    "pedestrian",
+    "people",
+    "bicycle",
+    "car",
+    "van",
+    "truck",
+    "tricycle",
+    "awning-tricycle",
+    "bus",
+    "motor"
+  ],
+  "prediction_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "gt_class_mapping": {
+    "0": 0,
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9
+  },
+  "mAP50": 0.25144949952087875,
+  "mAP50_95": 0.1359937613591422,
+  "AP_small_native_area_lt1024": 0.05942301167923931,
+  "micro_precision_conf025_iou050": 0.6500089466015695,
+  "micro_recall_conf025_iou050": 0.3385928470613299,
+  "per_class": [
+    {
+      "class": "pedestrian",
+      "AP50": 0.21827236632577238,
+      "AP50_95": 0.08009235299706716,
+      "precision_conf025_iou050": 0.5938189845474614,
+      "recall_conf025_iou050": 0.1792821098733695,
+      "tp": 3766,
+      "fp": 2576,
+      "fn": 17240
+    },
+    {
+      "class": "people",
+      "AP50": 0.1236882963358679,
+      "AP50_95": 0.04001545554210817,
+      "precision_conf025_iou050": 0.6104746317512275,
+      "recall_conf025_iou050": 0.058500627352572145,
+      "tp": 373,
+      "fp": 238,
+      "fn": 6003
+    },
+    {
+      "class": "bicycle",
+      "AP50": 0.0580014309351545,
+      "AP50_95": 0.023073210952328504,
+      "precision_conf025_iou050": 0.3448275862068966,
+      "recall_conf025_iou050": 0.02304147465437788,
+      "tp": 30,
+      "fp": 57,
+      "fn": 1272
+    },
+    {
+      "class": "car",
+      "AP50": 0.6360579238492572,
+      "AP50_95": 0.3770902850914694,
+      "precision_conf025_iou050": 0.7134221094905939,
+      "recall_conf025_iou050": 0.6011255966374581,
+      "tp": 16876,
+      "fp": 6779,
+      "fn": 11198
+    },
+    {
+      "class": "van",
+      "AP50": 0.2732086237739853,
+      "AP50_95": 0.16812916090756802,
+      "precision_conf025_iou050": 0.43684681994625263,
+      "recall_conf025_iou050": 0.2535089239299948,
+      "tp": 1463,
+      "fp": 1886,
+      "fn": 4308
+    },
+    {
+      "class": "truck",
+      "AP50": 0.28252342942555936,
+      "AP50_95": 0.16939394216818277,
+      "precision_conf025_iou050": 0.5115413253909159,
+      "recall_conf025_iou050": 0.2583678074464084,
+      "tp": 687,
+      "fp": 656,
+      "fn": 1972
+    },
+    {
+      "class": "tricycle",
+      "AP50": 0.12213904450084358,
+      "AP50_95": 0.0551380892517308,
+      "precision_conf025_iou050": 0.3473053892215569,
+      "recall_conf025_iou050": 0.10943396226415095,
+      "tp": 58,
+      "fp": 109,
+      "fn": 472
+    },
+    {
+      "class": "awning-tricycle",
+      "AP50": 0.12899141833556507,
+      "AP50_95": 0.06518875005142374,
+      "precision_conf025_iou050": 0.4424778761061947,
+      "recall_conf025_iou050": 0.08347245409015025,
+      "tp": 50,
+      "fp": 63,
+      "fn": 549
+    },
+    {
+      "class": "bus",
+      "AP50": 0.4491738918880544,
+      "AP50_95": 0.29835948142403673,
+      "precision_conf025_iou050": 0.6970059880239521,
+      "recall_conf025_iou050": 0.39591836734693875,
+      "tp": 1164,
+      "fp": 506,
+      "fn": 1776
+    },
+    {
+      "class": "motor",
+      "AP50": 0.22243856983872737,
+      "AP50_95": 0.0834568852055069,
+      "precision_conf025_iou050": 0.5392376681614349,
+      "recall_conf025_iou050": 0.16458511548331908,
+      "tp": 962,
+      "fp": 822,
+      "fn": 4883
+    }
+  ],
+  "protocol": "local COCO-style 101-point AP; IoU .50:.95; maxDet=500; img=640; conf=.001; NMS iou=.7; ignored/unsupported GT represented as per-category crowd boxes; P/R greedy conf=.25 IoU=.5 with ignored-region IoA=.5; NOT official VisDrone score",
+  "limitations": [
+    "COCO human merges pedestrian/people; shared ontology only, not a 10-class ranking",
+    "Excluded GT categories serve as crowd ignore boxes in common evaluation",
+    "AP crowd matching follows COCO IoA thresholds, unlike official VisDrone region logic"
+  ],
+  "error_cases": [
+    {
+      "image_id": 459,
+      "image": "9999938_00000_d_0000207.jpg",
+      "FP": 24,
+      "FN": 439,
+      "TP": 22,
+      "small_FN_native_area_lt1024": 434,
+      "localization_near_misses": 10,
+      "selection_reason": "FN",
+      "visualization": "error-FN-9999938_00000_d_0000207.jpg"
+    },
+    {
+      "image_id": 41,
+      "image": "0000066_01097_d_0000002.jpg",
+      "FP": 75,
+      "FN": 128,
+      "TP": 147,
+      "small_FN_native_area_lt1024": 117,
+      "localization_near_misses": 42,
+      "selection_reason": "FP",
+      "visualization": "error-FP-0000066_01097_d_0000002.jpg"
+    },
+    {
+      "image_id": 28,
+      "image": "0000063_00500_d_0000001.jpg",
+      "FP": 63,
+      "FN": 224,
+      "TP": 69,
+      "small_FN_native_area_lt1024": 222,
+      "localization_near_misses": 39,
+      "selection_reason": "localization_near_misses",
+      "visualization": "error-localization_near_misses-0000063_00500_d_0000001.jpg"
+    },
+    {
+      "image_id": 460,
+      "image": "9999938_00000_d_0000208.jpg",
+      "FP": 24,
+      "FN": 375,
+      "TP": 25,
+      "small_FN_native_area_lt1024": 370,
+      "localization_near_misses": 13,
+      "selection_reason": "small_FN_native_area_lt1024",
+      "visualization": "error-small_FN_native_area_lt1024-9999938_00000_d_0000208.jpg"
+    }
+  ],
+  "evaluation_seconds": 106.65269569999873,
+  "peak_cuda_allocated_bytes": 268407296,
+  "peak_cuda_reserved_bytes": 486539264
+}

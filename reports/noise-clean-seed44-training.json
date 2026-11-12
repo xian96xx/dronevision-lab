@@ -1,0 +1,118 @@
+{
+  "command": [
+    "scripts/train_det.py",
+    "--data",
+    "noise-clean",
+    "--name",
+    "noise-clean-seed44",
+    "--epochs",
+    "20",
+    "--batch",
+    "16",
+    "--seed",
+    "44",
+    "--final-val-only"
+  ],
+  "git": "546c4b2e682c1448baefb5a0827c7f68e1d0cbd9",
+  "initial_weight_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "data_config_sha256": "011f2a2df0a19c5b2e41497de515b715a19c4d365a4b64040937b2cb08eb1ba8",
+  "torch": "2.9.1+cu128",
+  "ultralytics": "8.4.14",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "seed": 44,
+  "status": "completed",
+  "training_image_count": 256,
+  "training_labels_sha256": "41e062e16e5387a133ba8b11e39de1c5b2ffbdae9d9238821680929b4c173b73",
+  "clean_validation_manifest_sha256": "5db25b9e4188f9fb9a66dc24b7f3a7b7aa62a2bc640503bd928337036bf8efe7",
+  "seconds": 101.73504049999974,
+  "peak_allocated_bytes": 3505858560,
+  "peak_reserved_bytes": 6129975296,
+  "backbone_parameter_max_abs_delta": 0.021453857421875,
+  "checkpoints": {
+    "best.pt": "d313d7c57c70d9646587c5a41d67edc8fb0b4a82d0aacfd2c74cabac651eef8b",
+    "epoch0.pt": "7f2ce45c7f59d056ac494db09c91ba46935535e2a6b37402d313b2f4da6dbece",
+    "epoch10.pt": "6e09333c9574dab3ebaf80d5990044922064dcba023f1fc8bce0cbabb9d6b450",
+    "epoch15.pt": "7ad62ef6d398c3c65474740766314c51fee4e0028352830cac4583f1584e18b9",
+    "epoch5.pt": "179b8d55446d8e68ba4a18ef90d66adc531808b07993aac7b41292a8c6d4a5e0",
+    "last.pt": "e081e33b4bd4273a8ba8c3dd1f0c369fa9b7ae9445d1b1e600f90c10d455ab4d"
+  },
+  "validation_metrics": {
+    "metrics/precision(B)": 0.32219786028788655,
+    "metrics/recall(B)": 0.1309906259858782,
+    "metrics/mAP50(B)": 0.08973912326779102,
+    "metrics/mAP50-95(B)": 0.0457037629795265,
+    "fitness": 0.0457037629795265
+  },
+  "per_class": [
+    {
+      "class": "pedestrian",
+      "precision": 0.15025245406771004,
+      "recall": 0.29364540931705113,
+      "ap50": 0.11912839054119595,
+      "ap50_95": 0.04180843016120335
+    },
+    {
+      "class": "people",
+      "precision": 0.19756457949204453,
+      "recall": 0.053901169462145064,
+      "ap50": 0.08033994826385583,
+      "ap50_95": 0.028663672439436922
+    },
+    {
+      "class": "bicycle",
+      "precision": 1.0,
+      "recall": 0.0,
+      "ap50": 0.009508721452771447,
+      "ap50_95": 0.0025365974809220923
+    },
+    {
+      "class": "car",
+      "precision": 0.2935652692493352,
+      "recall": 0.6295506257110353,
+      "ap50": 0.45868283602616894,
+      "ap50_95": 0.27205873206773934
+    },
+    {
+      "class": "van",
+      "precision": 0.1379874265228284,
+      "recall": 0.08658227848101266,
+      "ap50": 0.05920388902435081,
+      "ap50_95": 0.03711137393948451
+    },
+    {
+      "class": "truck",
+      "precision": 0.1253040621006859,
+      "recall": 0.052,
+      "ap50": 0.037197468376772354,
+      "ap50_95": 0.023594696877712967
+    },
+    {
+      "class": "tricycle",
+      "precision": 0.0,
+      "recall": 0.0,
+      "ap50": 0.01312807052970101,
+      "ap50_95": 0.00587003745511812
+    },
+    {
+      "class": "awning-tricycle",
+      "precision": 1.0,
+      "recall": 0.0,
+      "ap50": 0.00999879598974009,
+      "ap50_95": 0.004588258178898691
+    },
+    {
+      "class": "bus",
+      "precision": 0.10407920492331413,
+      "recall": 0.05976095617529881,
+      "ap50": 0.01984981792058257,
+      "ap50_95": 0.013793717555091765
+    },
+    {
+      "class": "motor",
+      "precision": 0.21322560652294756,
+      "recall": 0.13446582071223906,
+      "ap50": 0.09035329455277115,
+      "ap50_95": 0.027012113639657213
+    }
+  ]
+}

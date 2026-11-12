@@ -1,0 +1,280 @@
+{
+  "created_utc": "2026-11-06T17:48:50.550496+00:00",
+  "completed_noise_runs": 9,
+  "target_noise_runs": 9,
+  "noise_rows": [
+    {
+      "name": "seg-noise-clean",
+      "seed": 42,
+      "variant": "clean",
+      "mIoU": 0.3755526620887806,
+      "pixel_accuracy": 0.7367587652847437,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.38935935168740027,
+        "building": 0.8033340240722031,
+        "road": 0.5094571178542717,
+        "tree": 0.5628477280515957,
+        "low-vegetation": 0.5424324650587611,
+        "moving-car": 0.014509285808786904,
+        "static-car": 0.18248132417722548,
+        "human": 0.0
+      },
+      "seconds": 236.5152141999988
+    },
+    {
+      "name": "seg-noise-boundary",
+      "seed": 42,
+      "variant": "boundary",
+      "mIoU": 0.3720066570786391,
+      "pixel_accuracy": 0.736498090746635,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.3919036005857569,
+        "building": 0.80113340871875,
+        "road": 0.5033984311186249,
+        "tree": 0.5666112547451204,
+        "low-vegetation": 0.5441418301983022,
+        "moving-car": 0.00536975066961323,
+        "static-car": 0.1634949805929453,
+        "human": 0.0
+      },
+      "seconds": 236.41374019999967
+    },
+    {
+      "name": "seg-noise-wrong",
+      "seed": 42,
+      "variant": "wrong",
+      "mIoU": 0.37948843058375065,
+      "pixel_accuracy": 0.7440590204100223,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.3945601471398494,
+        "building": 0.8027992528782544,
+        "road": 0.49136872375904944,
+        "tree": 0.602682283480627,
+        "low-vegetation": 0.5563356208109541,
+        "moving-car": 0.01974722833095661,
+        "static-car": 0.16841418827031399,
+        "human": 0.0
+      },
+      "seconds": 235.9418072999979
+    },
+    {
+      "name": "seg-noise-clean-seed43",
+      "seed": 43,
+      "variant": "clean",
+      "mIoU": 0.3952168451551157,
+      "pixel_accuracy": 0.7563513736175411,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.4218964710301696,
+        "building": 0.8128402278260803,
+        "road": 0.5147232940745798,
+        "tree": 0.6146114269400229,
+        "low-vegetation": 0.5530457227163514,
+        "moving-car": 0.04105871236576333,
+        "static-car": 0.20355890628795795,
+        "human": 0.0
+      },
+      "seconds": 230.8982249000037
+    },
+    {
+      "name": "seg-noise-boundary-seed43",
+      "seed": 43,
+      "variant": "boundary",
+      "mIoU": 0.38655882229520183,
+      "pixel_accuracy": 0.7517466269075789,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.41656477144495185,
+        "building": 0.8061051936345398,
+        "road": 0.4751803154455546,
+        "tree": 0.6184588806798921,
+        "low-vegetation": 0.5559097569411925,
+        "moving-car": 0.039844541507000474,
+        "static-car": 0.18040711870848336,
+        "human": 0.0
+      },
+      "seconds": 226.7538465999969
+    },
+    {
+      "name": "seg-noise-wrong-seed43",
+      "seed": 43,
+      "variant": "wrong",
+      "mIoU": 0.38719512495786823,
+      "pixel_accuracy": 0.7489362669056499,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.4175297974019583,
+        "building": 0.8065307725298897,
+        "road": 0.4757806866078261,
+        "tree": 0.6345120856769347,
+        "low-vegetation": 0.5512917433045563,
+        "moving-car": 0.05718894051891193,
+        "static-car": 0.15472697362286855,
+        "human": 0.0
+      },
+      "seconds": 228.60312749999866
+    },
+    {
+      "name": "seg-noise-clean-seed44",
+      "seed": 44,
+      "variant": "clean",
+      "mIoU": 0.39624852507613195,
+      "pixel_accuracy": 0.744279267738876,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.38022351405084803,
+        "building": 0.7705188147033538,
+        "road": 0.5142954370810495,
+        "tree": 0.6252978527633903,
+        "low-vegetation": 0.5064360543039232,
+        "moving-car": 0.1131422775128543,
+        "static-car": 0.26007425019363656,
+        "human": 0.0
+      },
+      "seconds": 230.7170971000014
+    },
+    {
+      "name": "seg-noise-boundary-seed44",
+      "seed": 44,
+      "variant": "boundary",
+      "mIoU": 0.3871223398677496,
+      "pixel_accuracy": 0.7380388274016204,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.3774413841113361,
+        "building": 0.7669109305018919,
+        "road": 0.5113539045219396,
+        "tree": 0.6174674026291866,
+        "low-vegetation": 0.48323159526906817,
+        "moving-car": 0.0980922353485775,
+        "static-car": 0.24248126655999686,
+        "human": 0.0
+      },
+      "seconds": 231.99797920000128
+    },
+    {
+      "name": "seg-noise-wrong-seed44",
+      "seed": 44,
+      "variant": "wrong",
+      "mIoU": 0.39946314621779033,
+      "pixel_accuracy": 0.7453387158136145,
+      "human_IoU": 0.0,
+      "per_class_IoU": {
+        "clutter": 0.3912165946123914,
+        "building": 0.7861605497325116,
+        "road": 0.5091375430853136,
+        "tree": 0.6191296217124077,
+        "low-vegetation": 0.5120891878643176,
+        "moving-car": 0.12933256256929768,
+        "static-car": 0.248639110166083,
+        "human": 0.0
+      },
+      "seconds": 230.37656469999638
+    }
+  ],
+  "protocol_checks": [
+    {
+      "seed": 42,
+      "same_initial_weights": true,
+      "same_budget": true,
+      "same_training_inputs": null,
+      "per_file_input_fingerprint_available": false
+    },
+    {
+      "seed": 43,
+      "same_initial_weights": true,
+      "same_budget": true,
+      "same_training_inputs": true,
+      "per_file_input_fingerprint_available": true
+    },
+    {
+      "seed": 44,
+      "same_initial_weights": true,
+      "same_budget": true,
+      "same_training_inputs": true,
+      "per_file_input_fingerprint_available": true
+    }
+  ],
+  "paired_differences": [
+    {
+      "variant": "boundary",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n": 3,
+      "delta_mIoU_mean": -0.007110071026145896,
+      "paired_deltas": [
+        -0.003546005010141462,
+        -0.00865802285991385,
+        -0.009126185208382376
+      ],
+      "exploratory_t95": [
+        -0.01479955827787725,
+        0.0005794162255854567
+      ]
+    },
+    {
+      "variant": "wrong",
+      "seeds": [
+        42,
+        43,
+        44
+      ],
+      "n": 3,
+      "delta_mIoU_mean": -0.00029044352020633307,
+      "paired_deltas": [
+        0.003935768494970071,
+        -0.00802172019724745,
+        0.0032146211416583803
+      ],
+      "exploratory_t95": [
+        -0.0169470439947765,
+        0.01636615695436383
+      ]
+    }
+  ],
+  "weighted_comparison": {
+    "status": "completed",
+    "same_initial_weights": true,
+    "same_crops_and_budget": true,
+    "baseline_mIoU": 0.5466244357332288,
+    "weighted_mIoU": 0.5674827380433279,
+    "baseline_human_IoU": 0.0,
+    "weighted_human_IoU": 0.17750742927664276,
+    "delta_mIoU": 0.02085830231009911,
+    "baseline_pixel_accuracy": 0.8301473232944316,
+    "weighted_pixel_accuracy": 0.8249112704555684,
+    "per_class_IoU": {
+      "clutter": 0.5118417352298434,
+      "building": 0.8576682675132801,
+      "road": 0.6855172557187348,
+      "tree": 0.7176912050923149,
+      "low-vegetation": 0.6362417639574603,
+      "moving-car": 0.5239862093222037,
+      "static-car": 0.42940803823614354,
+      "human": 0.17750742927664276
+    },
+    "class_weights": [
+      0.3841332793235779,
+      0.3197663426399231,
+      0.38485488295555115,
+      0.3005203306674957,
+      0.40436339378356934,
+      1.3802330493927002,
+      1.3203448057174683,
+      3.505783796310425
+    ]
+  },
+  "limitations": [
+    "Three training seeds share one fixed corruption realization and one validation set.",
+    "t intervals with only 2-3 seeds are exploratory; they do not establish generalization.",
+    "Seed42 legacy runs lack per-file training-input fingerprints; selection policy and manifests are retained.",
+    "Class weighting is a single-seed development experiment, not a blind test result.",
+    "No company or user-supplied sequence entered training."
+  ]
+}

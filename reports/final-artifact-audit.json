@@ -1,0 +1,326 @@
+{
+  "audited_utc": "2026-11-06T01:19:12.454071+00:00",
+  "models": [
+    {
+      "run": "det-full-50",
+      "type": "detector",
+      "best": "runs\\det-full-50\\weights\\best.pt",
+      "best_sha256": "de5a0c292106041f44e88664aab625fefbe2e91eb9a1d3cecb5c26eca2af5f06",
+      "last_sha256": "7c63817d3b7087b4aa627aa9bd3116478e1aa7baf0d9666142e440b09c273620",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-clean-seed42",
+      "type": "detector",
+      "best": "runs\\noise-clean-seed42\\weights\\best.pt",
+      "best_sha256": "1c95918615e8cd7803a928be7813ad27f753af32d40f50400a1721692480bbae",
+      "last_sha256": "4e753c31e0963d3e03b1004fccdbe3b7ce01d4770381abe3de55d412eba35fcf",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-clean-seed43",
+      "type": "detector",
+      "best": "runs\\noise-clean-seed43\\weights\\best.pt",
+      "best_sha256": "73fbc2fc5f825efbb8258754da074114d944ce495f927fa00f27ca518d492fac",
+      "last_sha256": "30488bda127470bd374b27cae722e127d7165e1d8b74ed6dc09b523f7243acfd",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-clean-seed44",
+      "type": "detector",
+      "best": "runs\\noise-clean-seed44\\weights\\best.pt",
+      "best_sha256": "d313d7c57c70d9646587c5a41d67edc8fb0b4a82d0aacfd2c74cabac651eef8b",
+      "last_sha256": "e081e33b4bd4273a8ba8c3dd1f0c369fa9b7ae9445d1b1e600f90c10d455ab4d",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-drop-seed42",
+      "type": "detector",
+      "best": "runs\\noise-drop-seed42\\weights\\best.pt",
+      "best_sha256": "b998da140a78ebe8c313db70c9aee57c99204744972595f4816b885c67a6f291",
+      "last_sha256": "86abbeabc11bb79e990f5a9f438dd49e161151a1066ae1e55187091cf9ca1529",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-drop-seed43",
+      "type": "detector",
+      "best": "runs\\noise-drop-seed43\\weights\\best.pt",
+      "best_sha256": "8564220068ff2bc8865b9770864ce78185e7472d4a40656ed365950eeb883b1e",
+      "last_sha256": "aeda79be247c1451c6d00edf2984318398f676793f1bd05f3d6c2148f892bdc9",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-drop-seed44",
+      "type": "detector",
+      "best": "runs\\noise-drop-seed44\\weights\\best.pt",
+      "best_sha256": "1836497516d314e588b37235492a57c42128599501caa10399123b801b754431",
+      "last_sha256": "fe2227b34eaf3708be66085f95eb6befdfec1c128c34ae3439e957058374f355",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-shift-seed42",
+      "type": "detector",
+      "best": "runs\\noise-shift-seed42\\weights\\best.pt",
+      "best_sha256": "a49cb6895b77a04d8162d500cce9c423aa6d40490631ad0223eaf7caf66e8870",
+      "last_sha256": "f26eec72258d5af65385ab750cac957d3c51b63b7b9f059010a49a3597e58f62",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-shift-seed43",
+      "type": "detector",
+      "best": "runs\\noise-shift-seed43\\weights\\best.pt",
+      "best_sha256": "e139f2b203712340722209c40d4d0f79ed1fed2be0efb0916e6f4340d64a02cd",
+      "last_sha256": "d7872f0ba783dc9cc65b44928ca508daa19e4a89af83e457137288d096516203",
+      "best_reloaded": true
+    },
+    {
+      "run": "noise-shift-seed44",
+      "type": "detector",
+      "best": "runs\\noise-shift-seed44\\weights\\best.pt",
+      "best_sha256": "8467e349d7691d297b849c1195bf70baf9f18b2c4070462071fae8e64906d0b0",
+      "last_sha256": "0f8aa3fdfebf76d34401dc084b05e7cb89c13d786d9b50254b3288818168cebc",
+      "best_reloaded": true
+    },
+    {
+      "run": "smoke",
+      "type": "detector",
+      "best": "runs\\smoke\\weights\\best.pt",
+      "best_sha256": "ef54bb60414b1dcdb06dd8002a513491402a447da99254f13a761d08c3a1af67",
+      "last_sha256": "9f9aada62c2d5ef2f60f4a38268f309a6f88d695eac960b8185443c8319b911f",
+      "best_reloaded": true
+    },
+    {
+      "run": "seg-full-20",
+      "type": "segmentation",
+      "best": "runs\\seg-full-20\\best\\model.safetensors",
+      "best_sha256": "2face15ff32c58498abd81a1e32c4365fe483c6d039019ca7047383139a0ae2e",
+      "last_sha256": "d95f585342ea05dbd747c445d58765c4bb07c48893206f0d92f7bc705a912bfd",
+      "best_reloaded": true,
+      "mIoU_recomputed_from_confusion_matrix": 0.5466244357332288
+    },
+    {
+      "run": "seg-noise-clean",
+      "type": "segmentation",
+      "best": "runs\\seg-noise-clean\\best\\model.safetensors",
+      "best_sha256": "334f8ed013e42260d3443ecbb93b442f9c54b085ee300ffbedc14c62ce56b468",
+      "last_sha256": "15c1766cc4e872ae3dd75b6c290f78a98d64ac6f1f3f6b369b5dd4e7c5cfbb65",
+      "best_reloaded": true,
+      "mIoU_recomputed_from_confusion_matrix": 0.3755526620887806
+    },
+    {
+      "run": "seg-noise-boundary",
+      "type": "segmentation",
+      "best": "runs\\seg-noise-boundary\\best\\model.safetensors",
+      "best_sha256": "3275cd62f3bf695573e4ed31be1ce8328dd68d4a8b12bcb9d2bcf9af34fa3e3d",
+      "last_sha256": "8ab7c8b08a6ee739ace9c0e1bfc3e2ba2ec35e1d98ad7aed8afcfa7c747f9a18",
+      "best_reloaded": true,
+      "mIoU_recomputed_from_confusion_matrix": 0.3720066570786391
+    },
+    {
+      "run": "seg-noise-wrong",
+      "type": "segmentation",
+      "best": "runs\\seg-noise-wrong\\best\\model.safetensors",
+      "best_sha256": "ae5260146b13908b74bc51e3fc20fd8536f39cdf7eb98a8f9bc10d7b704b1f95",
+      "last_sha256": "d603e405d3b08ddd114c3f9c7744f324cd1fe6b2ec439d2f72ed962b9ea70cad",
+      "best_reloaded": true,
+      "mIoU_recomputed_from_confusion_matrix": 0.37948843058375065
+    }
+  ],
+  "videos": [
+    {
+      "path": "runs\\video\\comparison-uav0000086_00000_v.mp4",
+      "decoded_frames": 120,
+      "fps": 15.0,
+      "shape": [
+        800,
+        1280,
+        3
+      ],
+      "sha256": "31ab32cb3ede65073756b3083c97ebaf7583bd4b3c2bf0236bc55d91e93d493b"
+    },
+    {
+      "path": "runs\\video\\comparison-uav0000117_02622_v.mp4",
+      "decoded_frames": 120,
+      "fps": 15.0,
+      "shape": [
+        800,
+        1280,
+        3
+      ],
+      "sha256": "b57c3dafd4119da249bfa8684619c98c1f7e19de6b2ddb649a2aba21027c2b2f"
+    },
+    {
+      "path": "runs\\video\\comparison-uav0000137_00458_v.mp4",
+      "decoded_frames": 120,
+      "fps": 15.0,
+      "shape": [
+        800,
+        1280,
+        3
+      ],
+      "sha256": "df2abdcda1d88977d7e462782a025fdb4f0c912a1546198a62a81cd696f6310a"
+    },
+    {
+      "path": "runs\\video\\SAM2-uav0000086_00000_v.mp4",
+      "decoded_frames": 120,
+      "fps": 15.0,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "sha256": "437ba3e7d20061bdf304a3c119d01237eef3bf56870f0a9c064fee3428ad7c99"
+    },
+    {
+      "path": "runs\\video\\SAM2-uav0000117_02622_v.mp4",
+      "decoded_frames": 120,
+      "fps": 15.0,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "sha256": "6d529f5fb946ed22520c5e9bbd6b8eed91ca17c12599c881a7ab003a2efd0284"
+    },
+    {
+      "path": "runs\\video\\SAM2-uav0000137_00458_v.mp4",
+      "decoded_frames": 120,
+      "fps": 15.0,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "sha256": "ef06a6e85ae4a908d80a218686a8758fa38292dab85a9a90f337df90f6857a10"
+    }
+  ],
+  "video_cases": [
+    {
+      "sequence": "uav0000086_00000_v",
+      "method": "linear",
+      "target_id": "1",
+      "frame_index": 28,
+      "iou": 0.0,
+      "gt_xyxy": [
+        237.0,
+        283.0,
+        260.0,
+        331.0
+      ],
+      "pred_xyxy": [
+        260.7647058823529,
+        277.6470588235294,
+        283.0,
+        323.5882352941177
+      ],
+      "image": "runs\\video\\cases\\uav0000086_00000_v-linear-worst.jpg",
+      "selection": "minimum bbox IoU over all selected tracks and interior frames; ties resolved by ID/frame"
+    },
+    {
+      "sequence": "uav0000086_00000_v",
+      "method": "sam2",
+      "target_id": "1",
+      "frame_index": 43,
+      "iou": 0.06371986222732491,
+      "gt_xyxy": [
+        227.0,
+        280.0,
+        250.0,
+        330.0
+      ],
+      "pred_xyxy": [
+        247,
+        285,
+        266,
+        322
+      ],
+      "image": "runs\\video\\cases\\uav0000086_00000_v-sam2-worst.jpg",
+      "selection": "minimum bbox IoU over all selected tracks and interior frames; ties resolved by ID/frame"
+    },
+    {
+      "sequence": "uav0000117_02622_v",
+      "method": "linear",
+      "target_id": "0",
+      "frame_index": 1,
+      "iou": 0.0,
+      "gt_xyxy": [
+        1733.0,
+        601.0,
+        1771.0,
+        693.0
+      ],
+      "pred_xyxy": [
+        1649.4285714285713,
+        600.8991596638656,
+        1688.420168067227,
+        693.890756302521
+      ],
+      "image": "runs\\video\\cases\\uav0000117_02622_v-linear-worst.jpg",
+      "selection": "minimum bbox IoU over all selected tracks and interior frames; ties resolved by ID/frame"
+    },
+    {
+      "sequence": "uav0000117_02622_v",
+      "method": "sam2",
+      "target_id": "0",
+      "frame_index": 71,
+      "iou": 0.0,
+      "gt_xyxy": [
+        1787.0,
+        799.0,
+        1825.0,
+        891.0
+      ],
+      "pred_xyxy": [
+        1755,
+        786,
+        1779,
+        859
+      ],
+      "image": "runs\\video\\cases\\uav0000117_02622_v-sam2-worst.jpg",
+      "selection": "minimum bbox IoU over all selected tracks and interior frames; ties resolved by ID/frame"
+    },
+    {
+      "sequence": "uav0000137_00458_v",
+      "method": "linear",
+      "target_id": "76",
+      "frame_index": 76,
+      "iou": 0.0,
+      "gt_xyxy": [
+        2298.0,
+        819.0,
+        2353.0,
+        930.0
+      ],
+      "pred_xyxy": [
+        2239.731092436975,
+        829.3781512605042,
+        2295.09243697479,
+        940.0168067226891
+      ],
+      "image": "runs\\video\\cases\\uav0000137_00458_v-linear-worst.jpg",
+      "selection": "minimum bbox IoU over all selected tracks and interior frames; ties resolved by ID/frame"
+    },
+    {
+      "sequence": "uav0000137_00458_v",
+      "method": "sam2",
+      "target_id": "76",
+      "frame_index": 57,
+      "iou": 0.0,
+      "gt_xyxy": [
+        2359.0,
+        776.0,
+        2414.0,
+        887.0
+      ],
+      "pred_xyxy": null,
+      "image": "runs\\video\\cases\\uav0000137_00458_v-sam2-worst.jpg",
+      "selection": "minimum bbox IoU over all selected tracks and interior frames; ties resolved by ID/frame"
+    }
+  ],
+  "segmentation_noise_shared_initial_sha256": "d9bdcef8680833a62ef27be4ac3de477432596b2dfecf700ab501c9b019b53d3",
+  "standalone_cpu_inference": {
+    "detector": true,
+    "segmentation": true
+  },
+  "status": "passed"
+}

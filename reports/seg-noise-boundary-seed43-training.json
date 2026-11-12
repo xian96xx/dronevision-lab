@@ -1,0 +1,151 @@
+{
+  "command": {
+    "action": "train",
+    "name": "seg-noise-boundary-seed43",
+    "variant": "boundary",
+    "epochs": 10,
+    "batch": 8,
+    "seed": 43,
+    "subset": 40,
+    "class_weighting": "none",
+    "resume": false
+  },
+  "git": "7c96ed3adf343ac01533c0c5bdb8f792936bf19c",
+  "initial_state_sha256": "0898ef572ce5bef680830453355e6401dbb854a4aab361a4730fc9b6471a3b6c",
+  "source": {
+    "repository": "nvidia/mit-b0",
+    "revision": "80983a413c30d36a39c20203974ae7807835e2b4",
+    "sha256": {
+      "config.json": "e2378ac7c7a6981d6bdd1d9ccf29b611264c382afce89c561f39c9291164ff91",
+      "preprocessor_config.json": "d96ab2cb112985c19d5ea32f1d1f2369104fc78b1379f5ce26e33ca8646202a7",
+      "pytorch_model.bin": "4af8348c2a802bf76115d34797ff5ce1d9f110bb8593c22d9b66d8bd7fa227fc",
+      "README.md": "70dd05617d227fea8bab2dba202dbccd2a250fbb8279798b9005eb231c87556e"
+    }
+  },
+  "seed": 43,
+  "training_patches": 160,
+  "validation_images": 70,
+  "optimizer": "AdamW lr=6e-5 wd=.01, constant LR",
+  "crop_policy": "native1024 random fixed crops resized512",
+  "validation_schedule": "final epoch only; identical across all three noise conditions",
+  "evaluation": "all70 val images; max1024 RGB input maintaining aspect ratio; logits bilinear upsample to native mask; 8 valid classes incl clutter",
+  "implementation_sha256": "50f3c292bdadc7fd5ef284e686885b9640ed34b5fa5ca3b0502722403b615cd0",
+  "training_data_sha256": "106d1d3c0ee3587e3dd18c289307271919832362a60541386a025d9ca84fada9",
+  "train_pixel_counts": {
+    "clutter": 6883826,
+    "building": 11477150,
+    "road": 7646961,
+    "tree": 10670490,
+    "low-vegetation": 3969495,
+    "moving-car": 546347,
+    "static-car": 682752,
+    "human": 66019
+  },
+  "class_weighting": "none",
+  "class_weights": null,
+  "weight_rule": "sqrt((1/8)/train_frequency), clip [.25,8], normalize mean=1; no val statistics",
+  "status": "completed",
+  "seconds": 226.7538465999969,
+  "peak_allocated_bytes": 2941662208,
+  "peak_reserved_bytes": 6773800960,
+  "best_mIoU": 0.38655882229520183,
+  "encoder_max_abs_delta": 0.001934077125042677,
+  "best_validation": {
+    "mIoU": 0.38655882229520183,
+    "pixel_accuracy": 0.7517466269075789,
+    "per_class_IoU": {
+      "clutter": 0.41656477144495185,
+      "building": 0.8061051936345398,
+      "road": 0.4751803154455546,
+      "tree": 0.6184588806798921,
+      "low-vegetation": 0.5559097569411925,
+      "moving-car": 0.039844541507000474,
+      "static-car": 0.18040711870848336,
+      "human": 0.0
+    },
+    "confusion_matrix": [
+      [
+        66809180,
+        14382234,
+        3023481,
+        5091253,
+        7072617,
+        1808,
+        151539,
+        0
+      ],
+      [
+        11580156,
+        186453176,
+        47818,
+        3464630,
+        1340337,
+        0,
+        17712,
+        0
+      ],
+      [
+        23001629,
+        2757077,
+        32400147,
+        1942823,
+        527143,
+        10730,
+        70033,
+        0
+      ],
+      [
+        14537503,
+        7246274,
+        575073,
+        99369666,
+        18899991,
+        18,
+        5483,
+        0
+      ],
+      [
+        9898174,
+        2694086,
+        676040,
+        8665563,
+        62574393,
+        243,
+        21690,
+        0
+      ],
+      [
+        1042108,
+        536878,
+        2546583,
+        304593,
+        117855,
+        196759,
+        150883,
+        0
+      ],
+      [
+        3011198,
+        665702,
+        466635,
+        515606,
+        57540,
+        29709,
+        1137359,
+        0
+      ],
+      [
+        778373,
+        115216,
+        139740,
+        54560,
+        16470,
+        0,
+        3313,
+        0
+      ]
+    ]
+  },
+  "best_weights_sha256": "a4a425346b2a170a2f118ca1963933645f91df1586abcb8126096bc3ce0a5eb5",
+  "checkpoint_sha256": "0ba7e39e056c20cb2b5cdc1c7d5ecf382cacf6ac7630b43cfcc249878b227824"
+}

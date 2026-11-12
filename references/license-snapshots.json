@@ -1,0 +1,14 @@
+{
+  "SegFormer-LICENSE.txt": {
+    "source": "https://raw.githubusercontent.com/NVlabs/SegFormer/master/LICENSE",
+    "sha256": "f549820c06519e3105e5174a2fd7285224ffd2268a7f879a843b1a255fd04a61"
+  },
+  "SAM2-LICENSE.txt": {
+    "source": "https://raw.githubusercontent.com/facebookresearch/sam2/main/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "Ultralytics-LICENSE.txt": {
+    "source": "https://raw.githubusercontent.com/ultralytics/ultralytics/main/LICENSE",
+    "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+  }
+}

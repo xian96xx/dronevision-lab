@@ -1,0 +1,33 @@
+{
+  "python": "3.12.10",
+  "torch": "2.9.1+cu128",
+  "cuda_runtime": "12.8",
+  "cudnn": 91002,
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "capability": [
+    12,
+    0
+  ],
+  "compiled_architectures": [
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "device_total_bytes": 17102864384,
+  "losses": [
+    0.20465925335884094,
+    0.20338395237922668,
+    0.20211859047412872,
+    0.2008630633354187,
+    0.19961729645729065
+  ],
+  "max_parameter_delta": 0.0005329661071300507,
+  "seconds": 0.7480328000001464,
+  "peak_allocated_bytes": 71566336,
+  "checkpoint_sha256": "561d18904e4851efed6eaa983cab2ac9f3533618f9dae7168bbf2df3b8df7d28",
+  "nvidia_smi": "name, driver_version, memory.total [MiB]\nNVIDIA GeForce RTX 5060 Ti, 581.80, 16311 MiB\n"
+}

@@ -1,0 +1,44 @@
+{
+  "completed_training_runs": 9,
+  "checkpoint_hashes_verified": 9,
+  "same_initial_source_weights": true,
+  "same_clean_validation_manifest": true,
+  "fixed_label_realization_within_variant": true,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "noise_generation_seed": 42,
+  "statistics": {
+    "clean": {
+      "mean_AP50_95": 0.042529742002232356,
+      "sample_sd": 0.0016024379395050792,
+      "mean_P": 0.5821943447206491,
+      "mean_R": 0.16290409969297454
+    },
+    "shift": {
+      "mean_AP50_95": 0.025017060923070895,
+      "sample_sd": 0.0008226610820549552,
+      "mean_P": 0.5928169074312748,
+      "mean_R": 0.051600918496349235,
+      "paired_delta": -0.017512681079161454,
+      "paired_95pct_t_interval": [
+        -0.022165125000323777,
+        -0.012860237157999131
+      ]
+    },
+    "drop": {
+      "mean_AP50_95": 0.039919676873034195,
+      "sample_sd": 0.0011169303648754492,
+      "mean_P": 0.7116217154005811,
+      "mean_R": 0.09485968850245534,
+      "paired_delta": -0.0026100651291981517,
+      "paired_95pct_t_interval": [
+        -0.0038706580363605664,
+        -0.0013494722220357372
+      ]
+    }
+  },
+  "scope": "Exploratory marginal intervals; only training randomness, not corruption-draw/dataset variability; limited256-image20-epoch budget."
+}

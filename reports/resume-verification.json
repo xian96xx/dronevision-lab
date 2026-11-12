@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "scope": "One-epoch continuation of a copied 10-epoch checkpoint; not an independent noise condition.",
+  "command": [
+    ".venv\\Scripts\\python.exe",
+    "-u",
+    "scripts/segmentation.py",
+    "train",
+    "--name",
+    "seg-resume-verification",
+    "--subset",
+    "40",
+    "--epochs",
+    "11",
+    "--seed",
+    "43",
+    "--resume"
+  ],
+  "source_run": "seg-noise-clean-seed43",
+  "source_hashes": {
+    "last.pt": "431cd3b10f40daa6c33c9966e2a0e5f5a4115fd914ae7117e1b4719af4b2d217",
+    "best/model.safetensors": "162912255fd639202da85dde01af31b63edf54fed7d9f66dd9da1ea2ed021c4c",
+    "history.json": "3af38eef73f155d292a76e02ce3550a48ab321263da06026000a27484230bf48"
+  },
+  "source_unchanged": true,
+  "epoch_before": 10,
+  "epoch_after": 11,
+  "encoder_additional_max_abs_delta": 0.0006005670875310898,
+  "checkpoint_has_optimizer_scaler_rng": true,
+  "note": "Successful continuation and preserved source evidence; CUDA nondeterminism prevents a bitwise-equivalence claim."
+}

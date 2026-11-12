@@ -1,0 +1,162 @@
+{
+  "train": {
+    "counts": {
+      "raw_boxes": 353550,
+      "ignored_boxes": 10345,
+      "images": 6471,
+      "valid_boxes": 343204,
+      "empty_labels": 0,
+      "invalid_boxes": 1
+    },
+    "classes": {
+      "car": 144866,
+      "people": 27059,
+      "van": 24956,
+      "truck": 12875,
+      "motor": 29647,
+      "bicycle": 10480,
+      "tricycle": 4812,
+      "awning-tricycle": 3246,
+      "pedestrian": 79337,
+      "bus": 5926
+    },
+    "small_area_lt_32_squared_native_ratio": 0.6046666122772462,
+    "small_area_lt_32_squared_at_640_ratio": 0.9054469062132143,
+    "box_width_height_area_quantiles": [
+      [
+        2.0,
+        1.0,
+        3.0
+      ],
+      [
+        13.0,
+        17.0,
+        243.0
+      ],
+      [
+        25.0,
+        27.0,
+        680.0
+      ],
+      [
+        49.0,
+        46.0,
+        2025.0
+      ],
+      [
+        983.0,
+        790.0,
+        328640.0
+      ]
+    ],
+    "anomalies": [
+      {
+        "image": "9999985_00000_d_0000020.jpg",
+        "line": 12,
+        "reason": "nonpositive/clipped area"
+      }
+    ]
+  },
+  "val": {
+    "counts": {
+      "raw_boxes": 40169,
+      "ignored_boxes": 1410,
+      "images": 548,
+      "valid_boxes": 38759,
+      "empty_labels": 0
+    },
+    "classes": {
+      "car": 14064,
+      "motor": 4886,
+      "people": 5125,
+      "pedestrian": 8844,
+      "awning-tricycle": 532,
+      "tricycle": 1045,
+      "bicycle": 1287,
+      "truck": 750,
+      "van": 1975,
+      "bus": 251
+    },
+    "small_area_lt_32_squared_native_ratio": 0.6856472045202404,
+    "small_area_lt_32_squared_at_640_ratio": 0.924353053484352,
+    "box_width_height_area_quantiles": [
+      [
+        2.0,
+        2.0,
+        4.0
+      ],
+      [
+        11.0,
+        17.0,
+        200.0
+      ],
+      [
+        20.0,
+        25.0,
+        520.0
+      ],
+      [
+        40.0,
+        39.0,
+        1330.0
+      ],
+      [
+        580.0,
+        616.0,
+        355432.0
+      ]
+    ],
+    "anomalies": []
+  },
+  "test-dev": {
+    "counts": {
+      "raw_boxes": 77547,
+      "ignored_boxes": 2445,
+      "images": 1610,
+      "valid_boxes": 75102,
+      "empty_labels": 0
+    },
+    "classes": {
+      "car": 28074,
+      "pedestrian": 21006,
+      "truck": 2659,
+      "motor": 5845,
+      "van": 5771,
+      "awning-tricycle": 599,
+      "people": 6376,
+      "bicycle": 1302,
+      "tricycle": 530,
+      "bus": 2940
+    },
+    "small_area_lt_32_squared_native_ratio": 0.6766264546882906,
+    "small_area_lt_32_squared_at_640_ratio": 0.9319059412532289,
+    "box_width_height_area_quantiles": [
+      [
+        2.0,
+        1.0,
+        3.0
+      ],
+      [
+        10.0,
+        14.0,
+        144.0
+      ],
+      [
+        20.0,
+        23.0,
+        480.0
+      ],
+      [
+        39.0,
+        41.0,
+        1456.0
+      ],
+      [
+        830.0,
+        485.0,
+        300355.0
+      ]
+    ],
+    "anomalies": []
+  }
+}
